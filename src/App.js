@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Resources_header from './components/Resources_header/Resources_header';
+import Meet_opensea from './components/Meet_opensea/Meet_opensea';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Resources_header/>
+      <Meet_opensea/>
     </div>
   );
 }
