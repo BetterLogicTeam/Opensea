@@ -1,0 +1,11 @@
+@media only screen and (max-width:600px){
+    .parner_img{
+        width: 300px !important;
+    }
+}
+.coor{
+    background-color: #FBFDFF;
+}
+.none{
+    text-decoration: none;
+}

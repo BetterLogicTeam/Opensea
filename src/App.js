@@ -20,6 +20,12 @@ import Nextdg from "./components/Next_dg/Nextdg"
 import Nextdrop from './components/Next_dg/Nextdrop';
 import FAQ from './components/Next_dg/FAQ';
 import Minnt from './components/Next_dg/Minnt';
+import Partner from './components/Partner/Partner';
+import Why_patner from './components/Why_patner/Why_patner';
+import Faqs_partner from './components/Faqs_partner/Faqs_partner';
+import Gril_partner from './components/Gril_partner/Gril_partner';
+import Who_card_pro from './components/Who_card_pro/Who_card_pro';
+
 
 
 function App() {
@@ -33,7 +39,7 @@ function App() {
       {/* <Frist_open/> */}
       {/* <Ecsnft/> */}
       {/* <Simple_two_cards/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Navtr/>
         <Routes>
         <Route path="/" element={<Mainhome />} />
@@ -41,7 +47,16 @@ function App() {
         <Route path="/View_tab" element={< View_tab/>} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+        <Partner/>
+        <Why_patner/>
+
+        <Faqs_partner/>
+        <Gril_partner/>
+          <Who_card_pro/>
+        
+
     </div>
   );
 }

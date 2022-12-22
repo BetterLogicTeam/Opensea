@@ -64,6 +64,7 @@ function Ecsnft() {
                      </div>
 
                 </div>
+           
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
         <div className='main_box'>
