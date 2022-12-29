@@ -10,7 +10,7 @@ function Trending_main(props) {
        
                     <div className="trending_main">
                         <div class="sc-29427738-0 gIUWxk">
-                            <div role="" style={{ position: "relative", width: "100%", maxWidth: "100%", height: "371px", maxHeight: "371px" }}>
+                            <div role="" style={{ position: "relative", width: "100%", maxWidth: "100%", height: "320px", maxHeight: "320px" }}>
                                 <div className="col-md-3">
                                     <div role="gridcell" style={{ width: "100%", writingMode: "horizontal-tb", position: "absolute", top: "0px", left: "0px" }}>
                                         <div class="sc-29427738-0 sc-d1fcbabf-6 dVNeWL dIfFHE">
