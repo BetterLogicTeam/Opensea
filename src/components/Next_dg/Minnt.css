@@ -1,0 +1,30 @@
+
+.slmo_img{
+    width: 6%;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+.veri{
+    color: rgb(17, 136, 234);
+}
+
+.progresh {
+    display: flex;
+    height: 4px !important;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+@media only screen and (max-width:600px) {
+    .slmo_img{
+        width: 14%;
+        height: 40px;
+        border-radius: 6px;
+        margin-right: 0rem;
+    }
+    .ixd{
+        font-size: 14px;
+    }
+}

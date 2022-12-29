@@ -6,7 +6,7 @@ function Meet_opensea() {
   return (
     <div className='container'>
         <div className="row">
-            <div className="col-md-4 text-start">
+            <div className="col-md-4 text-start mt-2 mt-md-0">
                 <div>
                     <h2 className='artical_main_heading fw-bold'>Meet OpenSea</h2>
 
@@ -16,7 +16,7 @@ function Meet_opensea() {
                 </div>
             
             </div>
-            <div className="col-md-8">
+            <div className="col-md-8 mt-2 mt-md-0">
             <video autoPlay loop playsInline muted controls  className='w-100 r_sources_video'>
     <source src="r_vido.mp4" type="video/mp4" />
     {/* <source src="/video-example.mp4" type="video/mp4" /> */}
