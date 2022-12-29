@@ -56,9 +56,9 @@ export default function BasicTabs() {
         <div className='container-fluid'>
             <div className="row">
                 <div className="col-lg-12 col-md-12 mt-4"></div>
-                <Box sx={{ width: '100%' }}>
+                <Box sx={{ width: '100%' }} >
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" variant="scrollable">
+                        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" variant="scrollable" className="bx_scrol">
                             <Tab label="Mint" className='fw-bold ' {...a11yProps(0)} />
                             <Tab label="Roadmap" className='fw-bold ' {...a11yProps(1)} />
                             <Tab label="Team" className='fw-bold ' {...a11yProps(2)} />

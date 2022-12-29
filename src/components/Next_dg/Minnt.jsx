@@ -3,6 +3,9 @@ import "./Minnt.css"
 import { MdVerified } from 'react-icons/md';
 import msll from "../Assets/collection_logo_sml.avif"
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import Accordion from 'react-bootstrap/Accordion';
+import bldu_1 from '../Accets/narrative-1.avif'
+import bldu_2 from '../Accets/narrative-2.avif'
 
 function Minnt() {
     return (
@@ -25,20 +28,97 @@ function Minnt() {
                                 </div>
                                 <span className=''><ProgressBar variant="primary" now={80} className="progresh mt-2" /></span>
                             </div>
-                            <div className='mt-4 border'>
-                                <h5 className='fw-bold'>Public Mint</h5>
-                                <h6 className='fw-bold'>0.88 ETH</h6>
-                                <h6 className="text-muted">December 14 at 2:00 AM GMT+5</h6>
-                                <h6 className="text-muted">Limit 10 per wallet</h6>
+                            <div className='mt-4 border py-3 px-4 view_c_box '>
+                                <h5 className='fw-bold text-start'>Mint sold out</h5>
+                                {/* <h6 className='fw-bold'>0.88 ETH</h6> */}
+                                <h6 className="text-muted text-start">All items were minted</h6>
+                                <button className='btn btn-lg btn-primary view_c_butn mt-3'> <span className='fw-bold'>View collection</span></button>
                                 <div>
-                                    
                                 </div>
+                            </div>
+                            <div className='acrdians mb-5'>
+                                <Accordion defaultActiveKey="" >
+                                    <Accordion.Item eventKey="0" className='for_nobrd' >
+                                        <Accordion.Header>
+                                            <span className='truww'>
+                                                <span className='fr_foont fw-bold'>inBetweener Holders, DGFamily Holders</span>
+                                                <span className='text-muted mt-2 hdrt'>December 14 at 1:00 AM GMT+5</span>
+                                            </span>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <h6 className='text-start text-muted'>Price: 0.69 ETH</h6>
+                                            <h6 className='text-start text-muted'>Limit 2 per inBetweeners/DGFamily in your wallet</h6>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+
+                                    <Accordion.Item eventKey="1" className='for_nobrd'>
+                                        <Accordion.Header>
+                                            <span className='truww'>
+                                                <span className='fr_foont fw-bold'>Public Allowlist</span>
+                                                <span className='text-muted mt-2 hdrt'>December 14 at 1:30 AM GMT+5</span>
+                                            </span>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <h6 className='text-start text-muted'>Price: 0.78 ETH</h6>
+                                            <h6 className='text-start text-muted'>Limit 10 per wallet</h6>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+
+                                    <Accordion.Item eventKey="2" className='for_nobrd'>
+                                        <Accordion.Header>
+                                            <span className='truww'>
+                                                <span className='fr_foont fw-bold'>Public Mint</span>
+                                                <span className='text-muted mt-2 hdrt'>December 14 at 2:00 AM GMT+5</span>
+                                            </span>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <h6 className='text-start text-muted'>Price: 0.88 ETH</h6>
+                                            <h6 className='text-start text-muted'>Limit: 10 per wallet</h6>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6"></div>
                 </div>
             </div>
+
+            <div className="container-fluid my-3 p-0">
+                <img src={bldu_1} alt="#" className='bldu_pic' />
+
+                <div className="row my-4 mx-0">
+                    <div className="col-lg-7 text-start">
+                        <div className='arre_nawaz'>
+                            <h5>GP x DG</h5>
+                            <p>An exclusive GianPiero x Dolce&Gabbana collaboration nearly 10 years in the making, and we're excited to bring it to life through the inBetweeners x Dolce&Gabbana and UNXD Drip Collection. The Collection comprises of 2,000 digital collectibles designed by inBetweener’s own GianPiero.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <img src={bldu_2} alt="#" className='bldu_pic' />
+
+                <div className="row my-4 mx-0">
+                    <div className="col-lg-7 text-start">
+                        <div className='arre_nawaz'>
+                            <h5>GP x DG</h5>
+                            <p>An exclusive GianPiero x Dolce&Gabbana collaboration nearly 10 years in the making, and we're excited to bring it to life through the inBetweeners x Dolce&Gabbana and UNXD Drip Collection. The Collection comprises of 2,000 digital collectibles designed by inBetweener’s own GianPiero.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <img src={bldu_2} alt="#" className='bldu_pic' />
+
+                <div className="row my-4 mx-0">
+                    <div className="col-lg-7 text-start">
+                        <div className='arre_nawaz'>
+                            <h5>GP x DG</h5>
+                            <p>An exclusive GianPiero x Dolce&Gabbana collaboration nearly 10 years in the making, and we're excited to bring it to life through the inBetweeners x Dolce&Gabbana and UNXD Drip Collection. The Collection comprises of 2,000 digital collectibles designed by inBetweener’s own GianPiero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
