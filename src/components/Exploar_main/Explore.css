@@ -76,3 +76,9 @@
 .css-1aquho2-MuiTabs-indicator{
     background-color: rgb(53, 56, 64) !important;
 }
+@media only screen and (max-width: 600px) {
+    .ipKiCP{
+        font-size: 24px !important;
+    }
+    
+}

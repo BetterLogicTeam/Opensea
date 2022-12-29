@@ -25,6 +25,8 @@ import Why_patner from './components/Why_patner/Why_patner';
 import Faqs_partner from './components/Faqs_partner/Faqs_partner';
 import Gril_partner from './components/Gril_partner/Gril_partner';
 import Who_card_pro from './components/Who_card_pro/Who_card_pro';
+import Explore_main from './components/Exploar_main/Explore_main';
+import Explore_art from './components/Explore_art/Explore_art';
 
 
 
@@ -39,22 +41,25 @@ function App() {
       {/* <Frist_open/> */}
       {/* <Ecsnft/> */}
       {/* <Simple_two_cards/> */}
-      {/* <BrowserRouter>
+      <BrowserRouter>
       <Navtr/>
         <Routes>
         <Route path="/" element={<Mainhome />} />
         <Route path="/Drop" element={< Drops/>} />
         <Route path="/View_tab" element={< View_tab/>} />
+        <Route path="/Explore_main" element={< Explore_main/>} />
+        <Route path="/Explore_art" element={< Explore_art/>} />
+
         </Routes>
         <Footer/>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
-        <Partner/>
+        {/* <Partner/>
         <Why_patner/>
 
         <Faqs_partner/>
         <Gril_partner/>
-          <Who_card_pro/>
+          <Who_card_pro/> */}
         
 
     </div>

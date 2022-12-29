@@ -64,10 +64,10 @@ function Navtr() {
 
                 <li className='explr_l'>
                     <div className="explore">
-                    <button className="dropbtn text-white for_bol for_inhi">Explore</button>
+                    <Link to="/Explore_main"> <button className="dropbtn text-white for_bol for_inhi">Explore</button></Link>
                     <div className="explore-content text-start">
                       <a href="#" className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</a>
-                      <a href="#" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</a>
+                      <Link  to="/Explore_art" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</Link>
                       <a href="#" className='border-bottom'><span><img src={pic3} alt="" className='ffr_ppic me-3'/></span>Collectibles</a>
                       <a href="#" className='border-bottom'><span><img src={pic4} alt="" className='ffr_ppic me-3'/></span>Domain Names</a>
                       <a href="#" className='border-bottom'><span><img src={pic5} alt="" className='ffr_ppic me-3'/></span>Music</a>

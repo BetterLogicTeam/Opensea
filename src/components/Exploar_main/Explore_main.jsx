@@ -6,6 +6,31 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import "./Explore.css";
 import Trending_main from '../Trending_main/Trending_main';
+import goof1 from "../Assets/wilde.avif"
+import goof2 from "../Assets/wilde_small.avif"
+import goof3 from "../Assets/other.avif"
+import goof4 from "../Assets/other_small.avif"
+import goof5 from "../Assets/goof_small.avif"
+import goof6 from "../Assets/goof.avif"
+import goof7 from "../Assets/bored.avif"
+import goof8 from "../Assets/bored_small.avif"
+import goof9 from "../Assets/gimme.avif"
+import goof10 from "../Assets/gimme_small.avif"
+import goof11 from "../Assets/savage.avif"
+import goof12 from "../Assets/savage_small.avif"
+import goof13 from "../Assets/rext.webp"
+import goof14 from "../Assets/rext_small.avif"
+import Top_explore from '../Top_explore/Top_explore';
+import Art_explore from '../Art_explore/Art_explore';
+import Collectibles_explore from '../Collectibles_explore/Collectibles_explore';
+import Domain_explore from '../Domain_explore/Domain_explore';
+import Music_explore from '../Music_explore/Music_explore';
+import Photography_explore from '../Photography_explore/Photography_explore';
+import Sports_explore from '../Sports_explore/Sports_explore';
+import Trading_explore from '../Trading_explore/Trading_explore';
+import Utility_explore from '../Utility_explore/Utility_explore';
+import Virtual_explore from '../Virtual_explore/Virtual_explore';
+
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
 
@@ -58,9 +83,9 @@ function Explore_main() {
 
     return (
         <div>
-            <div className="explore_main">
+            <div className="explore_main px-2 px-md-4">
                 <div className="container-fluid">
-                    <div className="row">
+                    <div className="row mb-5 ">
                         <div class="sc-29427738-0 sc-e1213540-0 dVNeWL ktCeqg">
                             <div class="sc-29427738-0 sc-630fc9ab-0 SipyW jSPhMX">
                                 <div class="fresnel-container fresnel-lessThan-sm ">
@@ -73,9 +98,9 @@ function Explore_main() {
                     </div>
 
                     <div className="row tab_main">
-                        <Box sx={{ width: '100%' }}>
+                        <Box sx={{ width: '100%', padding:"" }}>
                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                                <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                                <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" variant='scrollable'>
                                     <Tab label="Trending" {...a11yProps(0)} />
                                     <Tab label="Top" {...a11yProps(1)} />
                                     <Tab label="Art" {...a11yProps(2)} />
@@ -98,7 +123,7 @@ function Explore_main() {
                                         </div>
                                         <div className="col-md-4">
 
-                                            <Trending_main url="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&w=2048" secondUrl="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&w=2048" title="Mutant Hound Collars" />
+                                            <Trending_main url={goof13} secondUrl={goof14} title="Mutant Hound Collars" />
                                         </div>
                                         <div className="col-md-4">
 
@@ -120,38 +145,72 @@ function Explore_main() {
                                             <Trending_main url="https://i.seadn.io/gcs/files/f1c896f15955b69e7b759bf8ea8a2118.png?auto=format&w=3840" secondUrl="https://i.seadn.io/gcs/files/2491ef33b7163325c3d80a1782d2b681.png?auto=format&w=256"  title="Wolf Game" />
                                         </div>
                                     </div>
+
+
+                                    <div className="row">
+                                        <div className="col-md-4">
+
+                                            <Trending_main  url={goof1} title="Trump Digital Trading Cards" secondUrl={goof2}  />
+                                        </div>
+                                        <div className="col-md-4">
+
+                                            <Trending_main url={goof3} secondUrl={goof4} title="Mutant Hound Collars" />
+                                        </div>
+                                        <div className="col-md-4">
+
+                                            <Trending_main url={goof6} secondUrl={goof5}  title="Wolf Game" />
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-md-4">
+
+                                            <Trending_main  url={goof7} title="Trump Digital Trading Cards" secondUrl=
+                                            {goof8} />
+                                        </div>
+                                        <div className="col-md-4">
+
+                                            <Trending_main url={goof9} secondUrl=
+                                            {goof10} title="Mutant Hound Collars" />
+                                        </div>
+                                        <div className="col-md-4">
+
+                                            <Trending_main url=
+                                            {goof11} secondUrl={goof12}  title="Wolf Game" />
+                                        </div>
+                                    </div>
                                 </div>
 
                             </TabPanel>
                             <TabPanel value={value} index={1}>
-                                Item Two
+                               
+                               <Top_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={2}>
-                                Item Three
+                               <Art_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={3}>
-                                Item One
+                             <Collectibles_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={4}>
-                                Item Two
+                           <Domain_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={5}>
-                                Item Three
+                              <Music_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={6}>
-                                Item One
+                             <Photography_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={7}>
-                                Item Two
+                             <Sports_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={8}>
-                                Item Three
+                                <Trading_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={9}>
-                                Item One
+                              <Utility_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={10}>
-                                Item Two
+                                <Virtual_explore/>
                             </TabPanel>
                         </Box>
                     </div>
