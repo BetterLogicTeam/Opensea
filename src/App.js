@@ -46,7 +46,7 @@ import R_partner_full from './components/R_partner_full/R_partner_full';
 function App() {
   return (
     <div className="App">
-      <Nextdg/>
+      {/* <Nextdg/> */}
       {/* <Drop_slider/> */}
       {/* <Minnt/> */}
       {/* <Nextdrop/> */}
