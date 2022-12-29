@@ -46,26 +46,3 @@ width: 25% !important;
     }
     
 }
-
-/* 29/12/22  */
-
-.line{
-    line-height: 30px;
-}
-.logo{
-    width: 10%;
-}
-
-.jj{
-    color: #808080 !important;
-}
-.borde{
-    border-radius: 20px;
-}
-.ff{
-    font-size: 11px;
-}
-.tt{
-    font-size: 2px !important;
-
-}

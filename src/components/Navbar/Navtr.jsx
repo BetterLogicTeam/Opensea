@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navtr.css"
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -12,6 +12,7 @@ import pic1 from "../Assets/allnfts-light.svg"
 import pic2 from "../Assets/art-light.svg"
 import pic3 from "../Assets/collectibles-light.svg"
 import pic4 from "../Assets/domain-names-light.svg"
+import Button from 'react-bootstrap/Button';
 import pic5 from "../Assets/music-light.svg"
 import pic6 from "../Assets/photography-category-light.svg"
 import pic7 from "../Assets/sports-light.svg"
@@ -27,9 +28,16 @@ import { IoMdSettings } from "react-icons/io";
 import { MdLanguage } from "react-icons/md";
 import { FaMoon } from "react-icons/fa";
 import { Link } from 'react-router-dom'
+import Profile_modal from '../Profile_modal/Profile_modal';
+import Wallet_offcanvas from '../Wallet_offcanvas/Wallet_offcanvas';
+import Wallet_ofcanvas_nav from '../Wallet_offcanvas_nav/Wallet_ofcanvas_nav';
 
 
 function Navtr() {
+  const [modalShow, setModalShow] = React.useState(false);
+  const handleShow = () => setShow(true);
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
   return (
     <div>
       <div className="container-fluid p-0 pil_er ">
@@ -93,14 +101,17 @@ function Navtr() {
                 </li>
                 <li>
                   <div className="resource">
+                  <Link to="/resources_main_page" className='text-decoration-none'>
                      <button className="resource-dropbtn text-white for_bol">Resources</button>
+                     </Link>
+                    
                       <div className="resource-content text-start">
                         <a href="#" className='border-bottom'>Learn</a>
                         <a href="#" className='border-bottom'>Help Center</a>
                         <a href="#" className='border-bottom'>Collectibles</a>
                         <a href="#" className='border-bottom'>Platform Status</a>
-                        <a href="#" className='border-bottom'>Partners</a>
-                        <a href="#" className='border-bottom'>Taxes</a>
+                       <Link to='/R_full_partner'> <a href="#" className='border-bottom'>Partners</a></Link>
+                        <Link to="/R_full_tax_page" className='text-decoration-none'>    <a href="#" className='border-bottom'>Taxes</a> </Link>
                         <a href="#" className='border-bottom'>Blog</a>
                         <a href="#" className='border-bottom'>Docs</a>
                         <a href="#">Newsletter</a>
@@ -117,8 +128,14 @@ function Navtr() {
                 <div className='accoutn'>
                   <li>
                     <div className="icon">
-                      <button className="icon-dropbtn text-white"><RiAccountCircleLine className='fs-2'/></button>
+                      <button className="icon-dropbtn text-white" onClick={() => setModalShow(true)}><RiAccountCircleLine className='fs-2'/></button>
                        <div className="icon-content text-start">
+
+
+      <Profile_modal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
                        <a href="#" className='border-bottom'><BsFillPersonFill className='oci_F fs-5 me-3'/> Profile</a>
                        <a href="#" className='border-bottom'><MdOutlineFavoriteBorder className='oci_F fs-5 me-3'/>Favourites</a>
                        <a href="#" className='border-bottom'><MdVisibility className='oci_F fs-5 me-3'/>Watch List</a>
@@ -136,7 +153,11 @@ function Navtr() {
                 <div className='vilt'>
                   <li>
                     <div>
-                    <button className="icon-dropbtn text-white"><MdOutlineAccountBalanceWallet className='fs-2'/></button>
+                    <>                  {[ 'end' ].map((placement, idx) => (
+        <Wallet_ofcanvas_nav key={idx} placement={placement} name={placement} />
+      ))}</>
+   
+                    {/* <button className="icon-dropbtn text-white"><MdOutlineAccountBalanceWallet  className='fs-2'/></button> */}
                     </div>
                   </li>
                 </div>
@@ -144,7 +165,16 @@ function Navtr() {
                 <div className='cart'>
                   <li>
                   <div>
-                    <button className="icon-dropbtn text-white"><MdOutlineShoppingCart className='fs-2'/></button>
+                    {/* <Wallet_offcanvas/> */}
+                    <>                  {[ 'end' ].map((placement, idx) => (
+        <Wallet_offcanvas key={idx} placement={placement} name={placement} />
+      ))}</>
+  
+                  {/* <Button " onClick={handleShow} className="me-2">
+                    there
+      
+      </Button> */}
+                    {/* <button className="icon-dropbtn text-white"><MdOutlineShoppingCart className='fs-2'/></button> */}
                     </div>
                   </li>
                 </div>

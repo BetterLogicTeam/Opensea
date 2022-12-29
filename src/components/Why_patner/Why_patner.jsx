@@ -2,7 +2,7 @@ import React from 'react'
 import iconMoney from '../Assets/iconMoney.svg'
 import iconusers from '../Assets/iconusers.svg'
 import wallet from '../Assets/wallet.svg'
-import collection from '../Assets/collection.svg'
+// import collection from '../Assets/collection.svg'
 import nfts from '../Assets/nfts.svg'
 
 function Why_patner() {
@@ -39,7 +39,7 @@ function Why_patner() {
 
 <div className='row d-flex justify-content-evenly'>
     <div className='col-lg-4'>
-    <img src={collection} width="45" alt="" />
+    {/* <img src={collection} width="45" alt="" /> */}
     <h3 className='mt-5'><b>Robust Features</b></h3>
     <p className='mt-4'>With the most powerful way for users to <br /> buy and sell NFTS, we offer the most <br /> advanced features</p>
 
@@ -53,6 +53,7 @@ function Why_patner() {
 
 </div>
 </div>
+
     </>
   )
 }
