@@ -257,6 +257,8 @@
     .forM{
         display: none !important;
     }
+   
+    
 
     .min_ul{
       display: flex;
@@ -281,8 +283,25 @@
   /* opacity: 0.5 !important; */
 }
 
+.nav_conditional{
+  display: block !important;
+}
 
 
 .for_inhi{
   color: inherit !important;
+}
+.moblie_nav_here{
+  display: none !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+  .nav_conditional{
+    display: none !important;
+  }
+  .moblie_nav_here{
+    display: block !important;
+  }
 }

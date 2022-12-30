@@ -39,7 +39,7 @@ function Navtr() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   return (
-    <div className='z_index_nav'>
+    <div className='z_index_nav nav_conditional'>
       <div className="container-fluid p-0 pil_er ">
         <div className="row m-0 p-0 nav-back">
             <div className="col-lg-12 p-0">

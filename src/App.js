@@ -13,6 +13,7 @@ import {
   useRouteMatch,
 } from "react-router-dom";
 import Drops from './components/Drops/Drops';
+import Resposive_Navbar from "./components/Responsive_Navbar/Resposive_Navbar"
 import View_tab from './components/View_tab/View_tab';
 import Mainhome from './components/Mainhome/Mainhome';
 import Footer from './components/Footer/Footer';
@@ -68,6 +69,7 @@ function App() {
       {/* <Simple_two_cards/> */}
       <BrowserRouter>
         <Navtr/>
+        <Resposive_Navbar/>
         <Routes>
         <Route path="/" element={<Mainhome />} />
         <Route path="/Drop" element={< Drops/>} />
@@ -87,11 +89,13 @@ function App() {
         <Route path="/Trading_hover" element={<Trading_hover/>} />
         <Route path="/Utilityhover" element={<Utilityhover/>} />
         <Route path="/Virtual_hover" element={<Virtual_hover/>} />
+        <Route path="/Nextdg" element={<Nextdg/>} />
         
 
         </Routes>
         <Footer/>
       </BrowserRouter>
+      {/*  */}
     
       {/* <Wallet_offcanvas/> */}
       <>
@@ -113,6 +117,7 @@ function App() {
       <R_watch/>
       <R_insities/>
       <R_bottom_links/>  */}  
+
     </div>
   );
 }

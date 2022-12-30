@@ -58,7 +58,7 @@ function Drops() {
   return (
     <div>
       <div className="container p-0">
-        <div className="row">
+        <div className="row m-0">
           <div className="col-lg-12 col-md-12 col-sm-12 pe-0 mainnn_col">
             <div className='dr_main'>
               <h1 className='main_heading text-start'>Drops</h1>
