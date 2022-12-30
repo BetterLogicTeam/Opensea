@@ -40,6 +40,10 @@ import R_bottom_links_full_page from './components/R_bottom_links_full_page/R_bo
 import R_full_tex_page from './components/R_full_tex_page/R_full_tex_page';
 import Wallet_offcanvas from './components/Wallet_offcanvas/Wallet_offcanvas';
 import R_partner_full from './components/R_partner_full/R_partner_full';
+import Explore_main from './components/Exploar_main/Explore_main';
+import Explore_art from './components/Explore_art/Explore_art';
+import P_create from './components/P_create/P_create';
+import Resposive_Navbar from './components/Responsive_Navbar/Resposive_Navbar';
 
 
 
@@ -55,7 +59,7 @@ function App() {
       {/* <Frist_open/> */}
       {/* <Ecsnft/> */}
       {/* <Simple_two_cards/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Navtr/>
         <Routes>
         <Route path="/" element={<Mainhome />} />
@@ -65,9 +69,12 @@ function App() {
         <Route path="/resource_main_help" element={<R_bottom_links_full_page/>} />
         <Route path="/R_full_tax_page" element={<R_full_tex_page/>} />
         <Route path="/R_full_partner" element={<R_partner_full/>} />
+        <Route path="/Explore_main" element={<Explore_main/>} />
+        <Route path="/Explore_art" element={<Explore_art/>} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Resposive_Navbar/>
     
       {/* <Wallet_offcanvas/> */}
       <>
@@ -89,6 +96,7 @@ function App() {
       <R_watch/>
       <R_insities/>
       <R_bottom_links/>  */}  
+
     </div>
   );
 }
