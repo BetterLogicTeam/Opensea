@@ -10,7 +10,7 @@ function FAQ(props) {
             <div className="container  p-0">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
-                        <Accordion defaultActiveKey="0" >
+                        <Accordion >
                             <Accordion.Item eventKey="0" className='tayyb' >
                                 <Accordion.Header className='m_hh'>{props.main_heading}</Accordion.Header>
                                 <Accordion.Body className='text-start'>

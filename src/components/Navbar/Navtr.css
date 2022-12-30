@@ -272,7 +272,11 @@
 
 }
 .nav-back{
-  background: transparent !important;
+  /* background: transparent !important; */
+  /* position: fixed !important;
+  background-color: rgb(46, 45, 45);
+  z-index: 99; */
+  /* opacity: 0.5 !important; */
 }
 
 .pil_er{

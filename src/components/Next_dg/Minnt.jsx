@@ -6,6 +6,8 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import Accordion from 'react-bootstrap/Accordion';
 import bldu_1 from '../Accets/narrative-1.avif'
 import bldu_2 from '../Accets/narrative-2.avif'
+import bldu_3 from '../Accets/narrative-3.avif'
+import bldu_4 from '../Accets/narrative-4.avif'
 
 function Minnt() {
     return (
@@ -80,7 +82,9 @@ function Minnt() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6"></div>
+                    <div className="col-lg-6">
+                        
+                    </div>
                 </div>
             </div>
 
@@ -101,22 +105,34 @@ function Minnt() {
                 <div className="row my-4 mx-0">
                     <div className="col-lg-7 text-start">
                         <div className='arre_nawaz'>
-                            <h5>GP x DG</h5>
-                            <p>An exclusive GianPiero x Dolce&Gabbana collaboration nearly 10 years in the making, and we're excited to bring it to life through the inBetweeners x Dolce&Gabbana and UNXD Drip Collection. The Collection comprises of 2,000 digital collectibles designed by inBetweener’s own GianPiero.</p>
+                            <h5>Meet GianPiero D’Allesandro</h5>
+                            <p>GianPiero is a graphic artist and creative visionary born and raised in Naples, Italy. GianPiero has built a global following through his art and creativity centered around nostalgia, love, and positivity. The message that GianPiero’s art provokes has captivated the attention of brands and celebrities including Justin Bieber, Netflix, Snoop Dogg, Luc Belaire Rose, and more. <br /> <br /> In addition to inBetweeners, GianPiero serves as the sole cartoonist and illustrator at DrewHouse, a brand co-founded by Justin Bieber.</p>
                         </div>
                     </div>
                 </div>
 
-                <img src={bldu_2} alt="#" className='bldu_pic' />
+                <img src={bldu_3} alt="#" className='bldu_pic' />
 
                 <div className="row my-4 mx-0">
                     <div className="col-lg-7 text-start">
                         <div className='arre_nawaz'>
-                            <h5>GP x DG</h5>
-                            <p>An exclusive GianPiero x Dolce&Gabbana collaboration nearly 10 years in the making, and we're excited to bring it to life through the inBetweeners x Dolce&Gabbana and UNXD Drip Collection. The Collection comprises of 2,000 digital collectibles designed by inBetweener’s own GianPiero.</p>
+                            <h5>About inBetweeners</h5>
+                            <p>inBetweeners is an exclusive GianPiero NFT collection of hand-drawn bears living on the Ethereum blockchain. Each inBetwener is uniquely based on a combination of 150+ randomized attributes. <br /> <br /> inBetweeners spread positivity in the real world and metaverse. We uplift and encourage our own to be wholesome and healthy. Our mission is simple: make the world a more loving place. <br /> <br /> We are a global crowdsourced community focused on spreading love and positivity. A place where you have thousands of shoulders to lean on. As our identity rises up to the cloud, inBetweeners keeps us grounded.</p>
                         </div>
                     </div>
                 </div>
+
+                <img src={bldu_4} alt="#" className='bldu_pic' />
+
+                <div className="row my-4 mx-0">
+                    <div className="col-lg-7 text-start">
+                        <div className='arre_nawaz'>
+                            <h5>Collection Utility</h5>
+                            <p>This collection is an exclusive collaboration between inBetweeners x Dolce&Gabbana and UNXD. Merging the worlds of fashion and art, each collectible is redeemable for one of 21 physical pieces reinvented from Dolce&Gabbana's vault. At reveal, the clothes your bear is wearing will be the garment that you will be able to redeem. Holders will also receive an authenticated print of their revealed Bear.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>

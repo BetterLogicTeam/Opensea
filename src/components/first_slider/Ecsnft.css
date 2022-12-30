@@ -215,7 +215,7 @@ background-repeat: no-repeat !important;
 background-size: cover !important;
 position: relative !important;
 /* bottom: 133px !important; */
-z-index: -1;
+/* z-index: -1; */
 }
 
 

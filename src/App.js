@@ -40,18 +40,18 @@ import R_bottom_links_full_page from './components/R_bottom_links_full_page/R_bo
 import R_full_tex_page from './components/R_full_tex_page/R_full_tex_page';
 import Wallet_offcanvas from './components/Wallet_offcanvas/Wallet_offcanvas';
 import R_partner_full from './components/R_partner_full/R_partner_full';
+import Drop_slider from './components/Drop_slider/Drop_slider';
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Nextdg/> */}
+      {/* <Drops/> */}
       {/* <Drop_slider/> */}
       {/* <Minnt/> */}
       {/* <Nextdrop/> */}
       {/* <Navtr/> */}
-      {/* <Drops/> */}
       {/* <Frist_open/> */}
       {/* <Ecsnft/> */}
       {/* <Simple_two_cards/> */}
@@ -65,6 +65,7 @@ function App() {
         <Route path="/resource_main_help" element={<R_bottom_links_full_page/>} />
         <Route path="/R_full_tax_page" element={<R_full_tex_page/>} />
         <Route path="/R_full_partner" element={<R_partner_full/>} />
+        <Route path="/Nextdg" element={<Nextdg/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>

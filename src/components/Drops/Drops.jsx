@@ -10,6 +10,7 @@ import Box from '@mui/material/Box';
 import collpic from "../Assets/collection-logo.avif"
 import { MdVerified } from 'react-icons/md';
 import { AiOutlineBell } from 'react-icons/ai';
+import { Link } from 'react-router-dom'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -59,7 +60,7 @@ function Drops() {
       <div className="container p-0">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 pe-0 mainnn_col">
-            <div className='dr_main mt-5'>
+            <div className='dr_main'>
               <h1 className='main_heading text-start'>Drops</h1>
 
               <div className='main_tab'>
@@ -77,7 +78,7 @@ function Drops() {
                     <div className="band">
                       <span className="dec d-flex justify-content-start">December 14</span>
                       <div className="uper">
-                        <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi"></video>
+                        <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi aga_in" ></video>
                         <div className="row for_position text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div>
@@ -107,7 +108,7 @@ function Drops() {
                     <div className="band mt-3">
                       <span className="dec d-flex justify-content-start">December 15</span>
                       <div className="uper">
-                        <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi"></video>
+                        <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi aga_in" ></video>
                         <div className="row for_position text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div>
@@ -139,8 +140,8 @@ function Drops() {
                   <TabPanel value={value2} index={1}>
                   <div className="band">
                       <span className="dec d-flex justify-content-start">December 9</span>
-                      <div className="uper">
-                        <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi"></video>
+                      <Link to="/Nextdg" className="text-decoration-none"><div className="uper">
+                        <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi aga_in"></video>
                         <div className="row for_position text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div>
@@ -163,8 +164,7 @@ function Drops() {
                             </div>
                           </div>
                         </div>
-                      </div>
-
+                      </div></Link>
                     </div>
                   </TabPanel>
   

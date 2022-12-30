@@ -2,3 +2,17 @@
 .bx_scrol{
     overflow: scroll !important;
 }
+
+.uper{
+    /* margin-top: 2rem; */
+    height: 500px;
+    width:100%;
+    position: relative;
+    overflow: hidden; 
+    border-radius: 20px;
+}
+
+
+.naexdgggg{
+  border-radius:  none !important;
+}

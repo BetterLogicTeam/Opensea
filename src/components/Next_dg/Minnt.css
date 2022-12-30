@@ -46,6 +46,19 @@
     margin-left: 3rem !important;
 }
 
+.accordion-button:focus {
+    z-index: 3;
+    border-color: red !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
 @media only screen and (max-width:600px) {
     .arre_nawaz{
         margin-left: 1rem !important;

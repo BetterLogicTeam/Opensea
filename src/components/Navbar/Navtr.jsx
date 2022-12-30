@@ -44,7 +44,7 @@ function Navtr() {
         <div className="row m-0 p-0 nav-back">
             <div className="col-lg-12 p-0">
 
-            <Navbar collapseOnSelect expand="lg" className='bg-dark' >
+            <Navbar collapseOnSelect expand="lg" className='nav-back bg-dark' >
       <Container fluid  className='d-flex justify-content-between'>
         <Navbar.Brand href="#home">
          <Link to="/" className='text-decoration-none'> <div className='main_logo d-flex'>
