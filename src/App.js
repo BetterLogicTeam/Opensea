@@ -40,7 +40,18 @@ import R_bottom_links_full_page from './components/R_bottom_links_full_page/R_bo
 import R_full_tex_page from './components/R_full_tex_page/R_full_tex_page';
 import Wallet_offcanvas from './components/Wallet_offcanvas/Wallet_offcanvas';
 import R_partner_full from './components/R_partner_full/R_partner_full';
-import Drop_slider from './components/Drop_slider/Drop_slider';
+import Explore_main from './components/Exploar_main/Explore_main';
+import Art_hover from './components/Art_hover/Art_hover';
+import Explore_all_nft from './components/Explore_all_nft/Explore_all_nft';
+import Colloctibles_hover from './components/colloctibles_hover/Colloctibles_hover';
+import Domine_hover from './components/Domine_hover/Domine_hover';
+
+import Music_hover from './components/Music_hover/Music_hover';
+import Photography_hover from './components/Photography_hover/Photography_hover';
+import Sport_hover from './components/Sport_hover/Sport_hover';
+import Trading_hover from './components/Trading_hover/Trading_hover';
+import Utilityhover from './components/Utility_hover/Utilityhover';
+import Virtual_hover from './components/Virtual_hover/Virtual_hover';
 
 
 
@@ -65,7 +76,19 @@ function App() {
         <Route path="/resource_main_help" element={<R_bottom_links_full_page/>} />
         <Route path="/R_full_tax_page" element={<R_full_tex_page/>} />
         <Route path="/R_full_partner" element={<R_partner_full/>} />
-        <Route path="/Nextdg" element={<Nextdg/>} />
+        <Route path="/Explore_main" element={<Explore_main/>} />
+        <Route path="/Art_hover" element={<Art_hover/>} />
+        <Route path="/Explore_all_nft" element={<Explore_all_nft/>} />
+        <Route path="/Colloctibles_hover" element={<Colloctibles_hover/>} />
+        <Route path="/Domine_hover" element={<Domine_hover/>} />
+        <Route path="/Music_hover" element={<Music_hover/>} />
+        <Route path="/Photography_hover" element={<Photography_hover/>} />
+        <Route path="/Sport_hover" element={<Sport_hover/>} />
+        <Route path="/Trading_hover" element={<Trading_hover/>} />
+        <Route path="/Utilityhover" element={<Utilityhover/>} />
+        <Route path="/Virtual_hover" element={<Virtual_hover/>} />
+        
+
         </Routes>
         <Footer/>
       </BrowserRouter>

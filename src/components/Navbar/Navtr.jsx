@@ -39,7 +39,7 @@ function Navtr() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   return (
-    <div>
+    <div className='z_index_nav'>
       <div className="container-fluid p-0 pil_er ">
         <div className="row m-0 p-0 nav-back">
             <div className="col-lg-12 p-0">
@@ -74,16 +74,16 @@ function Navtr() {
                     <div className="explore">
                     <Link to="/Explore_main"> <button className="dropbtn text-white for_bol for_inhi">Explore</button></Link>
                     <div className="explore-content text-start">
-                      <a href="#" className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</a>
-                      <Link  to="/Explore_art" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</Link>
-                      <a href="#" className='border-bottom'><span><img src={pic3} alt="" className='ffr_ppic me-3'/></span>Collectibles</a>
-                      <a href="#" className='border-bottom'><span><img src={pic4} alt="" className='ffr_ppic me-3'/></span>Domain Names</a>
-                      <a href="#" className='border-bottom'><span><img src={pic5} alt="" className='ffr_ppic me-3'/></span>Music</a>
-                      <a href="#" className='border-bottom'><span><img src={pic6} alt="" className='ffr_ppic me-3'/></span>Photography</a>
-                      <a href="#" className='border-bottom'><span><img src={pic7} alt="" className='ffr_ppic me-3'/></span>Sports</a>
-                      <a href="#" className='border-bottom'><span><img src={pic8} alt="" className='ffr_ppic me-3'/></span>Tranding Cards</a>
-                      <a href="#" className='border-bottom'><span><img src={pic9} alt="" className='ffr_ppic me-3'/></span>Utility</a>
-                      <a href="#"><span><img src={pic10} alt="" className='ffr_ppic me-3'/></span>Virtual World</a>
+                      <Link to="/Explore_all_nft"  className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</Link>
+                      <Link  to="/Art_hover" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</Link>
+                      <Link to="/Colloctibles_hover"  className='border-bottom'><span><img src={pic3} alt="" className='ffr_ppic me-3'/></span>Collectibles</Link>
+                      <Link to="/Domine_hover"  className='border-bottom'><span><img src={pic4} alt="" className='ffr_ppic me-3'/></span>Domain Names</Link>
+                      <Link to="/Music_hover"  className='border-bottom'><span><img src={pic5} alt="" className='ffr_ppic me-3'/></span>Music</Link>
+                      <Link to="/Photography_hover"  className='border-bottom'><span><img src={pic6} alt="" className='ffr_ppic me-3'/></span>Photography</Link>
+                      <Link to="/Sport_hover"  className='border-bottom'><span><img src={pic7} alt="" className='ffr_ppic me-3'/></span>Sports</Link>
+                      <Link to="/Trading_hover"  className='border-bottom'><span><img src={pic8} alt="" className='ffr_ppic me-3'/></span>Tranding Cards</Link>
+                      <Link to="/Utilityhover"  className='border-bottom'><span><img src={pic9} alt="" className='ffr_ppic me-3'/></span>Utility</Link>
+                      <Link to="/Virtual_hover"><span><img src={pic10} alt="" className='ffr_ppic me-3'/></span>Virtual World</Link>
                    </div>
                    </div>
                 </li>

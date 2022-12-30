@@ -7,7 +7,9 @@
     border: none;
 
 }
-
+.z_index_nav{
+  z-index: 700 !important;
+}
   
   .explore {
     position: relative;
@@ -19,9 +21,9 @@
     position: absolute;
     background-color: white;
     border-radius: .5rem;
-    min-width: 202px;
+    min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 900 !important;
    overflow-y:scroll !important ;
   }
   
@@ -60,9 +62,9 @@
     position: absolute;
     background-color: #f1f1f1;
     border-radius: .5rem;
-    min-width: 200px;
+    min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 900 !important;
   }
   
   .stats-content a {
@@ -100,9 +102,9 @@
     position: absolute;
     background-color: #f1f1f1;
     border-radius: .5rem;
-    min-width: 200px;
+    min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 900 !important;
   }
   
   .resource-content a {
@@ -140,9 +142,9 @@
     position: absolute;
     background-color: #f1f1f1;
     border-radius: .5rem;
-    min-width: 202px;
+    min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 900 !important;
   }
   
   .icon-content a {
@@ -279,10 +281,7 @@
   /* opacity: 0.5 !important; */
 }
 
-.pil_er{
-  /* position: fixed !important; */
-  
-}
+
 
 .for_inhi{
   color: inherit !important;
