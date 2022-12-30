@@ -16,39 +16,29 @@ import goof12 from "../Assets/savage_small.avif";
 import goof13 from "../Assets/rext.webp";
 import goof14 from "../Assets/rext_small.avif";
 import Trending_main from "../Trending_main/Trending_main";
-function Explore_art() {
+function Explore_art(props) {
   return (
     <div className="mb-5">
       <div>
-        <img src={back_art} width="100%" alt="" />
+        <img src={props.art} width="100%" alt="" />
       </div>
       <div className="container-fluid px-2 px-md-5">
-        <h1 className="text-start pt-4 heading_explore_art">Explore Art</h1>
+        <h1 className="text-start pt-4 heading_explore_art">{props.head_art}</h1>
         <div className="row">
             <div className="col-md-8 col-sm-12">
         <p className="text-start art_text_edit">
-          An online community of makers, developers, and traders is pushing the
-          art world into new territory. It all started with CryptoPunks, a set
-          of 10,000 randomly generated punks that proved demand for the digital
-          ownership of non-physical items and collectibles in 2017, and the
-          market has evolved rapidly ever since.
+        {props.para_1}
         </p>
         <p className="text-start art_text_edit">
-          As the underlying technology develops, a growing pool of artists are
-          selling verified, immutable works to art lovers and speculators, and
-          the space as a whole is waking up to the power and potential of
-          decentralized networks and currencies. With creators and collectors
-          generating meaningful revenue through an entirely digital ecosystem,
-          the tokenization of gifs, memes, and MP4s is emerging as the most
-          exciting and relevant blockchain use case. From SuperRare to Josie to
-          JOY, browse and trade NFTs from some of the world's top crypto artists
-          on OpenSea.
+        {props.para_2}
         </p>
       </div></div>
       
       </div>
-      <div className="px-2 px-md-3">
-      
+      <div className="px-2 px-md-5 pt-2">
+      <div className="trand text-start">
+        <h2 className="">Trending collections</h2>
+      </div>
       <div className="row">
     
         <div className="col-md-4">

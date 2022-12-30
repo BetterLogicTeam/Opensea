@@ -1,0 +1,30 @@
+.appbar_line{
+    z-index: 600 !important;
+    background-color: white !important;
+    color: black !important;
+    position: absolute !important;
+   top: 10% !important;
+}
+.drawer_appbar_z{
+    z-index: -1 !important;
+}
+.drawer_appbar{
+  
+  
+   /* position: sticky;
+   top: 10% !important; */
+}
+.zzzz{
+    z-index: 900 !important;
+}
+.circle_icon{
+    width: 43px !important;
+    height: 53px !important;
+    /* box-sizing: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin-left: 12px !important;
+}
+.circle_icon:hover{
+    /* width: 63px !important; */
+    box-shadow: 0 4px 8px 0 rgba(121, 121, 121, 0.2), 0 6px 20px 0 rgba(114, 114, 114, 0.19) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
