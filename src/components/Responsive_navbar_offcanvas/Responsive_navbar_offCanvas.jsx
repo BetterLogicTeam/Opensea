@@ -80,7 +80,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                     {" "}
                     <span onClick={handleClose}>
                       <img src={pic2} alt="" className="ffr_ppic me-3 mt-3" />
-                    </span>
+                    </span>    
                     <span className="responsive_moblie_links mt-3"> Art</span>{" "}
                   </Link>{" "}
                   <br />

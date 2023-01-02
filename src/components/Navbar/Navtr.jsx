@@ -141,7 +141,7 @@ function Navtr() {
                        <a href="#" className='border-bottom'><MdVisibility className='oci_F fs-5 me-3'/>Watch List</a>
                        <a href="#" className='border-bottom'><BsGrid3X3 className='oci_F fs-5 me-3'/>My Collections</a>
                        {/* <a href="#" className='border-bottom'>Partners</a> */}
-                       <a href="#" className='border-bottom'><MdEdit className='oci_F fs-5 me-3'/>Create</a>
+                     <Link to='/main_create_page' className='text-decoration-none'>  <a href="#" className='border-bottom'><MdEdit className='oci_F fs-5 me-3'/>Create</a> </Link>
                        <a href="#" className='border-bottom'><IoMdSettings className='oci_F fs-5 me-3'/>Settings</a>
                        <a href="#" className='border-bottom'><MdLanguage className='oci_F fs-5 me-3'/>Language</a>
                        <a href="#"><FaMoon className='oci_F fs-5 me-3'/>Night Mode</a>
