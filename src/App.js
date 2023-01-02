@@ -53,6 +53,7 @@ import Sport_hover from './components/Sport_hover/Sport_hover';
 import Trading_hover from './components/Trading_hover/Trading_hover';
 import Utilityhover from './components/Utility_hover/Utilityhover';
 import Virtual_hover from './components/Virtual_hover/Virtual_hover';
+import Activity from './components/Activity/Activity';
 
 
 
@@ -90,6 +91,7 @@ function App() {
         <Route path="/Utilityhover" element={<Utilityhover/>} />
         <Route path="/Virtual_hover" element={<Virtual_hover/>} />
         <Route path="/Nextdg" element={<Nextdg/>} />
+        <Route path="/Activity" element={<Activity/>} />
         
 
         </Routes>
