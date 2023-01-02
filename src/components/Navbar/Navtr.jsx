@@ -95,7 +95,7 @@ function Navtr() {
                    <button className="stats-dropbtn text-white for_bol">Stats</button>
                    <div className="stats-content text-start">
                     <a href="#" className='border-bottom'>Rankings</a>
-                    <a href="#" className='border-bottom'>Activity</a>
+                    <a href="/Activity" className='border-bottom'>Activity</a>
                    </div>
                   </div>
                 </li>
