@@ -100,6 +100,7 @@ function App() {
         
         <Route path="/Activity" element={<Activity/>} />
         <Route path="/main_create_page" element={<Create_page/>} />
+        <Route path="/seeting_pro_main" element={<Setting_page/>} />
 
         </Routes>
         <Footer/>
