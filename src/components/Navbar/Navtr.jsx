@@ -95,7 +95,7 @@ function Navtr() {
                    <button className="stats-dropbtn text-white for_bol">Stats</button>
                    <div className="stats-content text-start">
                     <a href="#" className='border-bottom'>Rankings</a>
-                    <a href="#" className='border-bottom'>Activity</a>
+                    <a href="/Activity" className='border-bottom'>Activity</a>
                    </div>
                   </div>
                 </li>
@@ -106,15 +106,15 @@ function Navtr() {
                      </Link>
                     
                       <div className="resource-content text-start">
-                        <a href="#" className='border-bottom'>Learn</a>
-                        <a href="#" className='border-bottom'>Help Center</a>
-                        <a href="#" className='border-bottom'>Collectibles</a>
+                    <Link to='/resource_learn_page' className='text-start tdn '>    <a href="#" className='border-bottom'>Learn</a></Link>
+                    <Link to='/r_help_center' className='tdn'>    <a href="#" className='border-bottom tdn'>Help Center</a> </Link>
+                        {/* <a href="#" className='border-bottom'>Collectibles</a> */}
                         <a href="#" className='border-bottom'>Platform Status</a>
-                       <Link to='/R_full_partner'> <a href="#" className='border-bottom'>Partners</a></Link>
+                       <Link to='/R_full_partner' className='tdn'> <a href="#" className='border-bottom'>Partners</a></Link>
                         <Link to="/R_full_tax_page" className='text-decoration-none'>    <a href="#" className='border-bottom'>Taxes</a> </Link>
                         <a href="#" className='border-bottom'>Blog</a>
-                        <a href="#" className='border-bottom'>Docs</a>
-                        <a href="#">Newsletter</a>
+                <Link to='/R_docs_full_page' className='tdn'>        <a href="#" className='border-bottom'>Docs</a></Link>
+                   <Link to='/newsletter' className='tdn'>    <a href="#"  className='border-bottom'>Newsletter</a> </Link> 
                       </div>
                   </div>
                 </li>
@@ -141,8 +141,8 @@ function Navtr() {
                        <a href="#" className='border-bottom'><MdVisibility className='oci_F fs-5 me-3'/>Watch List</a>
                        <a href="#" className='border-bottom'><BsGrid3X3 className='oci_F fs-5 me-3'/>My Collections</a>
                        {/* <a href="#" className='border-bottom'>Partners</a> */}
-                     <Link to='/main_create_page' className='text-decoration-none'>  <a href="#" className='border-bottom'><MdEdit className='oci_F fs-5 me-3'/>Create</a> </Link>
-                       <a href="#" className='border-bottom'><IoMdSettings className='oci_F fs-5 me-3'/>Settings</a>
+                     <Link to='/main_create_page' className='text-decoration-none tdn'>  <a href="#" className='border-bottom'><MdEdit className='oci_F fs-5 me-3'/>Create</a> </Link>
+                <Link to='seeting_pro_main' className='text-decoration-none tdn'>       <a href="#" className='border-bottom'><IoMdSettings className='oci_F fs-5 me-3'/>Settings</a> </Link>
                        <a href="#" className='border-bottom'><MdLanguage className='oci_F fs-5 me-3'/>Language</a>
                        <a href="#"><FaMoon className='oci_F fs-5 me-3'/>Night Mode</a>
                        </div>

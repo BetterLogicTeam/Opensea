@@ -53,8 +53,10 @@ import Sport_hover from './components/Sport_hover/Sport_hover';
 import Trading_hover from './components/Trading_hover/Trading_hover';
 import Utilityhover from './components/Utility_hover/Utilityhover';
 import Virtual_hover from './components/Virtual_hover/Virtual_hover';
+import Activity from './components/Activity/Activity';
 import Create_page from "./components/Create_page/Create_page"
-
+import R_docs_full_page from './components/R_docs_full_page/R_docs_full_page';
+import Setting_page from './components/Setting_page/Setting_page';
 
 
 function App() {
@@ -76,7 +78,10 @@ function App() {
         <Route path="/Drop" element={< Drops/>} />
         <Route path="/View_tab" element={< View_tab/>} />
         <Route path="/resources_main_page" element={<Resource_full_page/>} />
+        <Route path="/resource_learn_page" element={<Resource_full_page/>} />
         <Route path="/resource_main_help" element={<R_bottom_links_full_page/>} />
+        <Route path="/r_help_center" element={<R_bottom_links_full_page/>} />
+        <Route path="/R_docs_full_page" element={<R_docs_full_page/>} />
         <Route path="/R_full_tax_page" element={<R_full_tex_page/>} />
         <Route path="/R_full_partner" element={<R_partner_full/>} />
         <Route path="/Explore_main" element={<Explore_main/>} />
@@ -90,13 +95,18 @@ function App() {
         <Route path="/Trading_hover" element={<Trading_hover/>} />
         <Route path="/Utilityhover" element={<Utilityhover/>} />
         <Route path="/Virtual_hover" element={<Virtual_hover/>} />
+        <Route path="/seeting_pro_main" element={<Setting_page/>} />
         <Route path="/Nextdg" element={<Nextdg/>} />
-        <Route path='/main_create_page' element={<Create_page/>}/>
         
+        <Route path="/Activity" element={<Activity/>} />
+        <Route path="/main_create_page" element={<Create_page/>} />
 
         </Routes>
         <Footer/>
       </BrowserRouter>
+      {/* <Setting_page /> */}
+
+      {/* <R_docs_full_page/> */}
       {/*  */}
     
       {/* <Wallet_offcanvas/> */}

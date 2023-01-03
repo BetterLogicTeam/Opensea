@@ -10,7 +10,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import open from "../Accets/opensea-white.svg"
 function Footer() {
   return (
-    <div className='py-5 bg-primary text-white'>
+    <div className='py-5 main_footer_bg text-white'>
       <div className="container ">
         <div className="row">
             <div className="col-lg-6 pt-3">

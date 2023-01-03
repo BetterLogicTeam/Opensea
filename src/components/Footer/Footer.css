@@ -13,6 +13,10 @@ border-radius: 12px !important;
     font-size: 17px !important;
     font-weight: 600 !important;
 }
+
+.main_footer_bg{
+    background-color: #1868b7 !important;
+}
 .maill-boox-btn:hover{
     background-color: #238eff !important;
     box-shadow: 0 4px 8px 0 rgba(84, 84, 84, 0.2), 0 6px 20px 0 rgba(81, 81, 81, 0.19);

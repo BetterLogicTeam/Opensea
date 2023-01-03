@@ -1,21 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { AiFillHome, AiFillInfoCircle, AiFillStar, AiFillUnlock, AiFillWarning, AiOutlinePlus } from 'react-icons/ai'
 import { BsImageFill } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import "./Create_page.css"
 import Switch from '@mui/material/Switch';
 import ethereum from "../Assets/ethereum.svg"
+import Create_add_modal from '../Create_add_modal/Create_add_modal'
+import Create_level_modal from '../Create_level_modal/Create_level_modal'
 
 function Create_page() {
-    const [checked, setChecked] = React.useState(true);
+    const [checked, setChecked] = React.useState(false);
     const handleChange = (event) => {
         setChecked(event.target.checked);
       };
+    const [checked1, setChecked1] = React.useState(true);
+    const handleChange1 = (event) => {
+        setChecked1(event.target.checked);
+      };
+      const [modalShow, setModalShow] = React.useState(false);
+      const [modalShow1, setModalShow1] = React.useState(false);
+      const [modalShow2, setModalShow2] = React.useState(false);
+      const [show, setShow] = useState(false);
   return (
     <div className='py-4'>
         <div className="container">
             <div className="row">
-                <div className="col-md-6 text-start">
+                <div className="col-md-6 offset-md-2 text-start">
             <h1 className='create_page_main_heading'>Create New Item</h1>
 
             <p><span className='req_create_fi'>* Required fields</span></p>
@@ -85,7 +95,7 @@ Properties</span> <br />
                         </div>
 
                         <div className="right_content_pro">
-                            <button className='rght_content_btn'> <AiOutlinePlus className='fs-1'></AiOutlinePlus></button>
+                            <button className='rght_content_btn' onClick={() => setModalShow(true)}> <AiOutlinePlus className='fs-3'></AiOutlinePlus></button>
 
                         </div>
                     </div>
@@ -107,8 +117,17 @@ Properties</span> <br />
                         </div>
 
                         <div className="right_content_pro">
-                            <button className='rght_content_btn'> <AiOutlinePlus className='fs-1'></AiOutlinePlus></button>
-
+                            <button className='rght_content_btn' onClick={() => setModalShow1(true)} > <AiOutlinePlus className='fs-3'></AiOutlinePlus></button>
+                            <Create_add_modal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+                            <Create_level_modal
+                            create_head='Add levels'
+                            create_sub=' Levels show up underneath your item, are clickable, and can be filtered in your collection'
+        show={modalShow1}
+        onHide={() => setModalShow1(false)}
+      />
                         </div>
                     </div>
 
@@ -125,11 +144,17 @@ Properties</span> <br />
                                     <span className='main_pro_heING'> Stats</span> <br />
 <span className='main_pro_heING_sub'>Numerical traits that just show as numbers</span>
                                 </div>
+                                <Create_level_modal
+                            create_head='Add Stats'
+                            create_sub='Stats show up underneath your item, are clickable, and can be filtered in your collection'
+        show={modalShow2}
+        onHide={() => setModalShow2(false)}
+      />
                             </div>
                         </div>
 
                         <div className="right_content_pro">
-                            <button className='rght_content_btn'> <AiOutlinePlus className='fs-1'></AiOutlinePlus></button>
+                            <button className='rght_content_btn' onClick={() => setModalShow2(true)}> <AiOutlinePlus className='fs-3'></AiOutlinePlus></button>
 
                         </div>
                     </div>
@@ -156,14 +181,26 @@ Properties</span> <br />
                         <Switch
       checked={checked}
       onChange={handleChange}
-      inputProps={{ 'aria-label': 'controlled' }}
+      
+      onClick={() => setShow(!show)}
+      inputProps={{ 'aria-label': 'controlled' }}       
     />
+
+ 
                             {/* <button className='rght_content_btn'> <AiOutlinePlus className='fs-1'></AiOutlinePlus></button> */}
 
                         </div>
+
                     </div>
 
                 </div>
+                <div className={`${show ? "d-block panel swtich_on" : "d-none"}`}>
+   <textarea className='txt_show' placeholder='Enter content (access key, code to redeem, link to a file, etc.)' id="" cols="30" rows="6"></textarea>
+   
+   <p><span style={{color:'rgb(32, 129, 226)'}}> Markdown </span> syntax is supported</p>
+   
+   
+    </div>
 
 
 
@@ -182,8 +219,8 @@ Explicit & Sensitive Content</span> <br />
 
                         <div className="right_content_pro">
                         <Switch
-      checked={checked}
-      onChange={handleChange}
+      checked={checked1}
+      onChange={handleChange1}
       inputProps={{ 'aria-label': 'controlled' }}
     />
                             {/* <button className='rght_content_btn'> <AiOutlinePlus className='fs-1'></AiOutlinePlus></button> */}

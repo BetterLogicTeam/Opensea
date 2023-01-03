@@ -39,7 +39,7 @@ function Explore_art(props) {
         <div className="trand text-start">
           <h2 className="">Trending collections</h2>
         </div>
-        <div className="row m-0">
+        <div className="row m-0 mt-5">
       
           <div className="col-md-4">
             <Trending_main
@@ -60,7 +60,7 @@ function Explore_art(props) {
           </div>
         </div>
 
-        <div className="row m-0">
+        <div className="row m-0 mt-5">
       
           <div className="col-md-4">
             <Trending_main url={goof11} secondUrl={goof12} title="Wolf Game" />
@@ -81,7 +81,7 @@ function Explore_art(props) {
           </div>
         </div>
 
-        <div className="row m-0">
+        <div className="row m-0 mt-5">
           <div className="col-md-4">
             <Trending_main
               url={goof1}
@@ -107,7 +107,7 @@ function Explore_art(props) {
         </div>
 
       
-        <div className="row m-0">
+        <div className="row m-0 mt-5">
           <div className="col-md-4">
             <Trending_main
               url="https://i.seadn.io/gcs/files/86fd57236ca5539ede498e2b5abb2ca7.png?auto=format&w=2048"
