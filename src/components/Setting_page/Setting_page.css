@@ -202,6 +202,12 @@
 
 
 
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root{
+    display: none !important;
+}
+
+
+
 
 @media only screen and (max-width:600px){
     .bord_rght{
