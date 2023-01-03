@@ -209,12 +209,12 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                   <br />
                 </div>
                 <div className="mt-4">
-                  <span
+                  <Link to="/activity"><span
                     onClick={handleClose}
                     className="responsive_moblie_links margin_mobbb"
                   >
                     Activity
-                  </span>
+                  </span></Link>
                   <br />
                 </div>
               </Accordion.Body>

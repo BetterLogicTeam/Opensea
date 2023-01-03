@@ -54,6 +54,9 @@ import Trading_hover from './components/Trading_hover/Trading_hover';
 import Utilityhover from './components/Utility_hover/Utilityhover';
 import Virtual_hover from './components/Virtual_hover/Virtual_hover';
 import Activity from './components/Activity/Activity';
+import Activity_listing from './components/Activity_listing/Activity_listing';
+import Activity_offers from './components/Activity_offers/Activity_offers';
+import Activity_mob from './components/Activity_mob/Activity_mob';
 
 
 
@@ -92,6 +95,9 @@ function App() {
         <Route path="/Virtual_hover" element={<Virtual_hover/>} />
         <Route path="/Nextdg" element={<Nextdg/>} />
         <Route path="/Activity" element={<Activity/>} />
+        <Route path="/Activity_listing" element={<Activity_listing />} />
+        <Route path="/Activity_offers" element={<Activity_offers />} />
+        {/* <Route path="/activity" element={<Activity_mob />} /> */}
         
 
         </Routes>
