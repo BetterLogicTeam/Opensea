@@ -1,19 +1,18 @@
 .appbar_line{
-    z-index: 600 !important;
+    z-index: 600 !important; 
     background-color: white !important;
     color: black !important;
-    position: absolute !important;
-   top: 10% !important;
+    position: fixed  !important;
+   top: 8% !important;
 }
 .drawer_appbar_z{
-    z-index: -1 !important;
+    z-index: 1 !important;
 }
-.drawer_appbar{
+/* .drawer_appbar{
   
   
-   /* position: sticky;
-   top: 10% !important; */
-}
+ 
+} */
 .zzzz{
     z-index: 900 !important;
 }

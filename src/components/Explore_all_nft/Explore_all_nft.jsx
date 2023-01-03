@@ -24,7 +24,7 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 import Domain_explore from "../Domain_explore/Domain_explore";
 import Accordian_all_nft from "../Accordian_all_nft/Accordian_all_nft";
 import FilterListIcon from "@mui/icons-material/FilterList";
-const drawerWidth = 320;
+const drawerWidth = 390;
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
   ({ theme, open }) => ({
@@ -84,7 +84,7 @@ export default function PersistentDrawerLeft() {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex" }} >
       <CssBaseline />
       <AppBar className="appbar_line">
         <Toolbar className="d-flex justify-content-between">

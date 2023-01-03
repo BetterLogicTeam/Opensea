@@ -277,14 +277,15 @@
 }
 .nav-back{
   /* background: transparent !important; */
-  /* position: fixed !important;
-  background-color: rgb(46, 45, 45);
-  z-index: 99; */
+
+  z-index: 600 !important;
   /* opacity: 0.5 !important; */
 }
 
 .nav_conditional{
   display: block !important;
+  position: fixed !important;
+  width: 100% !important;
 }
 
 

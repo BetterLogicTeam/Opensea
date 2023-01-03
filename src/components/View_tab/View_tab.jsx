@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 // import Table_col from '../Table_col/Table_col';
 import Icon_bar_respon from '../Icon_bar_respon/Icon_bar_respon';
 import Icon_bar from '../Icon_bar/Icon_bar'
+import { RiArrowDropDownLine } from 'react-icons/ri';
 // import Responsive_table from '../Responsive_table/Responsive_table';
 // import "./Tab.css"
 // import Top_table from '../Top_table/Top_table';
@@ -73,7 +74,7 @@ export default function BasicTabs() {
         </Tabs>
         <div className="d-flex justify-content-around mt-4 mt-md-0 pt-4 pt-md-0 paddd-end-lg">
           <div>
-            <button className='btn btn-lg btn-lg-lg border radius-border px-4 me-1'> 24h ^</button>
+            <button className='btn btn-lg btn-lg-lg border radius-border px-4 me-1'> 24h <RiArrowDropDownLine className='fs-2'/></button>
           </div>
           <Icon_bar_respon />
           <Icon_bar />
