@@ -54,6 +54,7 @@ import Trading_hover from './components/Trading_hover/Trading_hover';
 import Utilityhover from './components/Utility_hover/Utilityhover';
 import Virtual_hover from './components/Virtual_hover/Virtual_hover';
 import Activity from './components/Activity/Activity';
+import E_acordin_h from './components/E_acordin_h/E_acordin_h';
 
 
 
@@ -119,6 +120,9 @@ function App() {
       <R_watch/>
       <R_insities/>
       <R_bottom_links/>  */}  
+
+
+        {/* <E_acordin_h /> */}
 
     </div>
   );
