@@ -165,16 +165,12 @@ function Navtr() {
                 <div className='cart'>
                   <li>
                   <div>
-                    {/* <Wallet_offcanvas/> */}
+                    
                     <>                  {[ 'end' ].map((placement, idx) => (
         <Wallet_offcanvas key={idx} placement={placement} name={placement} />
       ))}</>
   
-                  {/* <Button " onClick={handleShow} className="me-2">
-                    there
-      
-      </Button> */}
-                    {/* <button className="icon-dropbtn text-white"><MdOutlineShoppingCart className='fs-2'/></button> */}
+                    
                     </div>
                   </li>
                 </div>

@@ -1,0 +1,14 @@
+
+.typo{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.typo_tow{
+    font-size: medium;
+}
+
+.rad{
+ padding: 20px 20px;
+ border-radius: 12px !important;
+}

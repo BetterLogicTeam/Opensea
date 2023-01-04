@@ -57,20 +57,19 @@ import Activity from './components/Activity/Activity';
 import Create_page from "./components/Create_page/Create_page"
 import R_docs_full_page from './components/R_docs_full_page/R_docs_full_page';
 import Setting_page from './components/Setting_page/Setting_page';
+import Dropslider from './components/Drop_slider/Dropslider';
+import Blogslide from './components/Blog_slide/Blogslide';
+import Blocard from './components/Blog_slide/Blocard';
+import R_blog_cards from './components/R_blog_cards/R_blog_cards';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Drops/> */}
-      {/* <Drop_slider/> */}
-      {/* <Minnt/> */}
-      {/* <Nextdrop/> */}
-      {/* <Navtr/> */}
-      {/* <Frist_open/> */}
-      {/* <Ecsnft/> */}
-      {/* <Simple_two_cards/> */}
-      <BrowserRouter>
+      <R_blog_cards/>
+      {/* <Blocard/> */}
+      {/* <Blogslide/> */}
+      {/* <BrowserRouter>
         <Navtr/>
         <Resposive_Navbar/>
         <Routes>
@@ -104,7 +103,7 @@ function App() {
 
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </BrowserRouter> */}
       {/* <Setting_page /> */}
 
       {/* <R_docs_full_page/> */}

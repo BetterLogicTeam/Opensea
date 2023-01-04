@@ -1,0 +1,40 @@
+.card_width{
+    width: 30%;
+    border: 2px solid black;
+}
+.blog_img{
+    border-radius: 20px 20px 1px 1px;
+    width: 100%;
+}
+.bg_col{
+    background-color: rgb(255, 251, 251);
+}
+
+.datt_ed{
+    font-size: small;
+    font-weight: 600;
+}
+
+
+.sasasasasasss{
+    height: 286px !important;
+}
+
+
+.blog_card_bg_here
+{
+    /* background-color: red !important; */
+    
+    align-items: flex-start;
+    /* border-radius: 18px !important; */
+    background-color: #fff !important;
+    box-shadow: 1px 1px 16px 0 rgb(0 0 0 / 10%) !important;
+    text-decoration: none !important;
+
+}
+
+.pro_botn{
+    padding: 1.125em 2.25em;
+    border-radius: 12px;
+    box-shadow: 1px 1px 16px 0 rgb(0 0 0 / 10%);
+}

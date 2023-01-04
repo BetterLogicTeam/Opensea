@@ -8,6 +8,7 @@ import bldu_1 from '../Accets/narrative-1.avif'
 import bldu_2 from '../Accets/narrative-2.avif'
 import bldu_3 from '../Accets/narrative-3.avif'
 import bldu_4 from '../Accets/narrative-4.avif'
+import Dropslider from '../Drop_slider/Dropslider';
 
 function Minnt() {
     return (
@@ -82,8 +83,8 @@ function Minnt() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        
+                    <div className="col-lg-6  justify-content-center">
+                        <Dropslider/>
                     </div>
                 </div>
             </div>

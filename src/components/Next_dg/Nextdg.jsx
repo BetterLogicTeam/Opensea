@@ -62,29 +62,15 @@ export default function BasicTabs() {
                 <div className="col-md-12 col-sm-12 p-0">
                     <div className="uperr">
                         <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi naexdgggg" style={{borderRadius:'0px'}}></video>
-                        <div className="row for_position text-white m-0">
+                        {/* <div className="row for_position text-white m-0">
                             <div className="for_wrt col-lg-11 col-md-9">
                                 <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div>
                                 <div className="in_between mt-4 text-start">
                                     <h3 className="fw-bolder lfm">inBetweeners x Dolce&Gabbana Drip<MdVerified className='ms-1' /></h3>
                                     <h6 className="fw-bold lfm">By&nbsp;ItsMeGianPiero<MdVerified className='ms-1' /></h6>
-                                    {/* <h6 className="fw-bold lfm">2,000 items. 0.88 ETH</h6> */}
-                                </div>
-                                <div className="row main_time_box mt-4 ">
-                                    <div className="col-lg-4 col-md-2 time">
-                                    {/* <div className="mso"><span className="fw-bold">MINT SOLD OUT</span></div> */}
-                                        {/* <div className="day"><span className="w_fon">0</span> <span className="b_fon">DAYS</span></div>
-                                        <div className="day"><span className="w_fon">14</span> <span className="b_fon">HRS</span></div>
-                                        <div className="day"><span className="w_fon">25</span> <span className="b_fon">MINS</span></div>
-                                        <div className="day"><span className="w_fon">12</span> <span className="b_fon">SECS</span></div> */}
-                                    </div>
-                                    {/* <div className="col-lg-8 col-md-2 view gYb ">
-                                        <div className="bell_1 me-3"><AiOutlineBell className='fs-4 ' /></div>
-                                        <div className="bell px-4 py-3"><span className="fw-bold">View drop</span></div>
-                                    </div> */}
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="col-md-12 col-sm-12">
