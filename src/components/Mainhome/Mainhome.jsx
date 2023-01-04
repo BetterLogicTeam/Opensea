@@ -5,7 +5,7 @@ import Simple_two_cards from "../Simple_two_cards/Simple_two_cards"
 import Responsive from '../Responsive/Responsive'
 function Mainhome() {
   return (
-    <div>
+    <div className=''>
    
       <Frist_open/>
       <Responsive/>

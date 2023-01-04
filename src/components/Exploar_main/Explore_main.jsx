@@ -82,16 +82,16 @@ function Explore_main() {
     };
 
     return (
-        <div>
+        <div className='py-md-5 py-2'>
             <div className="explore_main px-2 px-md-4">
                 <div className="container-fluid">
-                    <div className="row mb-5 ">
+                    <div className="row mb-md-5 mb-2 ">
                         <div class="sc-29427738-0 sc-e1213540-0 dVNeWL ktCeqg">
                             <div class="sc-29427738-0 sc-630fc9ab-0 SipyW jSPhMX">
                                 <div class="fresnel-container fresnel-lessThan-sm ">
                                 </div>
                                 <div class="fresnel-container fresnel-greaterThanOrEqual-sm ">
-                                    <h1 class="sc-29427738-0 sc-d58c749b-0 jfEjBH ipKiCP">Explore collections</h1>
+                                    <h1 class="">Explore collections</h1>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ function Explore_main() {
                             </Box>
                             <TabPanel value={value} index={0}>
                                 <div className="">
-                                    <div className="row">
+                                    <div className="row my-md-5 my-3">
                                         <div className="col-md-4">
 
                                             <Trending_main  url="https://i.seadn.io/gcs/files/2754ce09410ac26f95a1c44e2719dc6f.jpg?auto=format&w=3840" secondUrl="https://i.seadn.io/gcs/files/f980181df268011a4491137fc71afdb5.jpg?auto=format&w=128" title="Trump Digital Trading Cards"  />
@@ -131,7 +131,7 @@ function Explore_main() {
                                         </div>
                                     </div>
 
-                                    <div className="row">
+                                    <div className="row my-md-5 my-3">
                                         <div className="col-md-4">
 
                                             <Trending_main  url="https://i.seadn.io/gcs/files/86fd57236ca5539ede498e2b5abb2ca7.png?auto=format&w=2048" title="Trump Digital Trading Cards" secondUrl="https://i.seadn.io/gcs/files/84aeda61734ec5126c8eedd88872ebb8.png?auto=format&w=128"  />
@@ -147,7 +147,7 @@ function Explore_main() {
                                     </div>
 
 
-                                    <div className="row">
+                                    <div className="row my-md-5 my-3">
                                         <div className="col-md-4">
 
                                             <Trending_main  url={goof1} title="Trump Digital Trading Cards" secondUrl={goof2}  />
@@ -161,7 +161,7 @@ function Explore_main() {
                                             <Trending_main url={goof6} secondUrl={goof5}  title="Wolf Game" />
                                         </div>
                                     </div>
-                                    <div className="row">
+                                    <div className="row my-md-5 my-3">
                                         <div className="col-md-4">
 
                                             <Trending_main  url={goof7} title="Trump Digital Trading Cards" secondUrl=

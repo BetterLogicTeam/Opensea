@@ -3,7 +3,7 @@ import Explore_art from "../Explore_art/Explore_art";
 import back_art from "../Assets/art_back.avif";
 function Art_hover() {
   return (
-    <div>
+    <div className="">
       <Explore_art
         art={back_art}
         head_art="Explore Art"

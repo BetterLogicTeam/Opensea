@@ -43,9 +43,13 @@ import Wallet_offcanvas from './components/Wallet_offcanvas/Wallet_offcanvas';
 import R_partner_full from './components/R_partner_full/R_partner_full';
 import Explore_main from './components/Exploar_main/Explore_main';
 import Art_hover from './components/Art_hover/Art_hover';
-import Explore_all_nft from './components/Explore_all_nft/Explore_all_nft';
+import ALL_explore from './components/ALL_explore/ALL_explore';
 import Colloctibles_hover from './components/colloctibles_hover/Colloctibles_hover';
 import Domine_hover from './components/Domine_hover/Domine_hover';
+import R_docs_full_page from './components/R_docs_full_page/R_docs_full_page';
+import Setting_page from './components/Setting_page/Setting_page';
+import Create_page from './components/Create_page/Create_page';
+import Full_new_letter from './components/Full_new_letter/Full_new_letter';
 
 import Music_hover from './components/Music_hover/Music_hover';
 import Photography_hover from './components/Photography_hover/Photography_hover';
@@ -54,11 +58,8 @@ import Trading_hover from './components/Trading_hover/Trading_hover';
 import Utilityhover from './components/Utility_hover/Utilityhover';
 import Virtual_hover from './components/Virtual_hover/Virtual_hover';
 import Activity from './components/Activity/Activity';
-import Create_page from "./components/Create_page/Create_page"
-import R_docs_full_page from './components/R_docs_full_page/R_docs_full_page';
-import Setting_page from './components/Setting_page/Setting_page';
-import Full_new_letter from './components/Full_new_letter/Full_new_letter';
-import R_blog_card from './components/R_partner_full/R_blog_card/R_blog_card';
+import E_acordin_h from './components/E_acordin_h/E_acordin_h';
+
 
 
 function App() {
@@ -88,7 +89,7 @@ function App() {
         <Route path="/R_full_partner" element={<R_partner_full/>} />
         <Route path="/Explore_main" element={<Explore_main/>} />
         <Route path="/Art_hover" element={<Art_hover/>} />
-        <Route path="/Explore_all_nft" element={<Explore_all_nft/>} />
+        <Route path="/ALL_explore" element={<ALL_explore/>} />
         <Route path="/Colloctibles_hover" element={<Colloctibles_hover/>} />
         <Route path="/Domine_hover" element={<Domine_hover/>} />
         <Route path="/Music_hover" element={<Music_hover/>} />
@@ -136,9 +137,8 @@ function App() {
       <R_insities/>
       <R_bottom_links/>  */}  
 
-{/* <R_watch/> */}
 
-
+        {/* <E_acordin_h /> */}
 
     </div>
   );

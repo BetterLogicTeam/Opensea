@@ -6,7 +6,7 @@ import Taxex_Frequently from "../Taxex_Frequently/Taxex_Frequently"
 
 function R_full_tex_page() {
   return (
-    <div>
+    <div className='ps_fixed1'>
        <Taxes_Sea/>
        <Taxes_what/>
        <Taxex_Frequently/>

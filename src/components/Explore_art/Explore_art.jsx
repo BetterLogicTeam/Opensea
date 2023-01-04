@@ -18,7 +18,7 @@ import goof14 from "../Assets/rext_small.avif";
 import Trending_main from "../Trending_main/Trending_main";
 function Explore_art(props) {
   return (
-    <div className="mb-5">
+    <div className="mb-5 pt-5">
       <div>
         <img src={props.art} width="100%" alt="" />
       </div>

@@ -16,7 +16,7 @@ import goof14 from "../Assets/rext_small.avif";
 import Trending_main from "../Trending_main/Trending_main";
 function Domain_explore() {
   return (
-    <div className="">
+    <div className="d-md-none d-block">
       
       <div className="row">
       <div className="col-md-4">

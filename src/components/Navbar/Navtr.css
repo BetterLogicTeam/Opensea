@@ -10,6 +10,13 @@
 .z_index_nav{
   z-index: 700 !important;
 }
+
+.ps_fixed{
+  padding-top: 100px !important;
+}
+.ps_fixed1{
+  padding-top: 70px !important;
+}
   
   .explore {
     position: relative;
@@ -264,7 +271,9 @@
     background-color: rgba(159, 159, 159, 0.24);
     backdrop-filter: blur(20px);
 }
-
+.ps_fixed2{
+  padding-top: 90px !important;
+}
 .min_ul{
   display: flex;
   flex-shrink: 0;
@@ -316,6 +325,12 @@
     .forM{
         display: none !important;
     }
+    .ps_fixed1{
+      padding-top: 0px !important;
+    }
+    .ps_fixed2{
+      padding-top: 10px !important;
+    }
    
     
 
@@ -332,18 +347,26 @@
       display: flex;
       justify-content: center;
     }
+    .ps_fixed{
+      padding-top: 30px !important;
+    }
 
 }
 .nav-back{
   /* background: transparent !important; */
-  /* position: fixed !important;
-  background-color: rgb(46, 45, 45);
-  z-index: 99; */
+
+  z-index: 600 !important;
   /* opacity: 0.5 !important; */
 }
 
+
+
+
+
 .nav_conditional{
   display: block !important;
+  position: fixed !important;
+  width: 100% !important;
 }
 
 

@@ -11,7 +11,7 @@ import R_web3 from '../R_web3/R_web3'
 
 function Resource_full_page() {
   return (
-    <div>
+    <div className='ps_fixed1'>
         <Resources_header/>
       <Meet_opensea/>
       <R_nft_card/> 

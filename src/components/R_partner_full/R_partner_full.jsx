@@ -7,7 +7,7 @@ import Why_patner from '../Why_patner/Why_patner'
 
 function R_partner_full() {
   return (
-    <div>
+    <div className='ps_fixed1'>
 
 <Partner />
 <Why_patner/>

@@ -23,8 +23,10 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Domain_explore from "../Domain_explore/Domain_explore";
 import Accordian_all_nft from "../Accordian_all_nft/Accordian_all_nft";
+import Canvas_accordian from "../Canvas_accordian/Canvas_accordian";
 import FilterListIcon from "@mui/icons-material/FilterList";
-const drawerWidth = 320;
+import Collectibles_explore from "../Collectibles_explore/Collectibles_explore";
+const drawerWidth = 340;
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
   ({ theme, open }) => ({
@@ -84,9 +86,11 @@ export default function PersistentDrawerLeft() {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex" }} className="d-none d-md-flex" >
       <CssBaseline />
-      <AppBar className="appbar_line">
+      
+      <AppBar className="appbar_line  d-none d-md-block">
+         
         <Toolbar className="d-flex justify-content-between">
           <IconButton
             className="circle_icon"
@@ -108,36 +112,7 @@ export default function PersistentDrawerLeft() {
             <FilterListIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div" className="">
-            <div className="">
-              <div class="dropdown">
-                <button
-                  class="btn btn-secondary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown button
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+           
           </Typography>
         </Toolbar>
       </AppBar>
@@ -193,7 +168,7 @@ export default function PersistentDrawerLeft() {
       <Main open={open}>
         <DrawerHeader />
         <Typography paragraph>
-          <Domain_explore />
+          <Collectibles_explore />
         </Typography>
       </Main>
     </Box>

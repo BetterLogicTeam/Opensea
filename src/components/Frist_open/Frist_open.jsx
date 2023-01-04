@@ -14,8 +14,8 @@ import ninja4 from "../Assets/4541c8d0-0ed1-4a25-a93d-8bb55dc76653.avif"
 import ninja5 from "../Assets/88bb0626-fabf-43e7-b3fa-99e2aeef8a46.avif"
 function Frist_open() {
   return (
-    <div className="container-fluid backgrid">
-      <div className='py-4'><h1 className='text-center pb-3  top_margin'>Explore, collect, and sell NFTs</h1></div>
+    <div className="container-fluid backgrid ">
+      <div className=' ps_fixed'><h1 className='text-center pb-3  top_margin'>Explore, collect, and sell NFTs</h1></div>
       <Swiper
         slidesPerView={4}
         spaceBetween={30}

@@ -40,11 +40,11 @@ function Navtr() {
   const handleClose = () => setShow(false);
   return (
       
-<div>
+<div className='nav_conditional z_index_nav'> 
 
 
   
-    <div className='z_index_nav nav_conditional'>
+    <div className=' '>
       <div className="container-fluid p-0 pil_er ">
         <div className="row m-0 p-0 nav-back">
             <div className="col-lg-12 p-0">
@@ -79,7 +79,7 @@ function Navtr() {
                     <div className="explore">
                     <Link to="/Explore_main"> <button className="dropbtn text-white for_bol for_inhi">Explore</button></Link>
                     <div className="explore-content text-start">
-                      <Link to="/Explore_all_nft"  className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</Link>
+                      <Link to="/ALL_explore"  className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</Link>
                       <Link  to="/Art_hover" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</Link>
                       <Link to="/Colloctibles_hover"  className='border-bottom'><span><img src={pic3} alt="" className='ffr_ppic me-3'/></span>Collectibles</Link>
                       <Link to="/Domine_hover"  className='border-bottom'><span><img src={pic4} alt="" className='ffr_ppic me-3'/></span>Domain Names</Link>

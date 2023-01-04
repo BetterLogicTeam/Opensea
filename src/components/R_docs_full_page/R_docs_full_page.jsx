@@ -10,7 +10,7 @@ import R_docs_run from '../R_docs_run/R_docs_run'
 
 function R_docs_full_page() {
   return (
-    <div>
+    <div className='ps_fixed1'>
     <R_docs/>
     <R_docs_open/>
     <R_docs_run/>

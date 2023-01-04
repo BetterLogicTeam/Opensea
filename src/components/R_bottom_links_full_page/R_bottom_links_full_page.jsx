@@ -5,7 +5,7 @@ import R_links_help from '../R_links_help/R_links_help'
 
 function R_bottom_links_full_page() {
   return (
-    <div>
+    <div className='ps_fixed1'>
         <R_links_help/> 
        
    

@@ -22,7 +22,7 @@ function Create_page() {
       const [modalShow2, setModalShow2] = React.useState(false);
       const [show, setShow] = useState(false);
   return (
-    <div className='py-4'>
+    <div className='ps_fixed2'>
         <div className="container">
             <div className="row">
                 <div className="col-md-6 offset-md-2 text-start">

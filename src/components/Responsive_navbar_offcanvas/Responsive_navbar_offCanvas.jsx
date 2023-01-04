@@ -43,12 +43,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
         {...props}
       >
         <Offcanvas.Header>
-          {/* <Offcanvas.Title>Offcanvas</Offcanvas.Title> */}
-          {/* <div className='d-flex align-items-center  align-item-center '><span><FaUserCircle className='fs-2'></FaUserCircle> </span> <h6 className='wallet_nav_clr'> My wallet</h6>
-              <span>
-
-              </span>
-            </div> */}
+      
         </Offcanvas.Header>
 
         <Offcanvas.Body>
@@ -68,19 +63,27 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
               </Accordion.Header>
               <Accordion.Body>
                 <div className="">
-                  <Link to="/Explore_all_nft" onClick={handleClose} className="text-decoration-none">
+                  <Link
+                    to="/ALL_explore"
+                    onClick={handleClose}
+                    className="text-decoration-none"
+                  >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic1} alt="" className="ffr_ppic me-3" />
                     </span>
                     <span className="responsive_moblie_links"> All NFTs</span>
                   </Link>
                   <br />
-                  <Link to="/Art_hover" onClick={handleClose} className="text-decoration-none ">
+                  <Link
+                    to="/Art_hover"
+                    onClick={handleClose}
+                    className="text-decoration-none "
+                  >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic2} alt="" className="ffr_ppic me-3 mt-3" />
-                    </span>    
+                    </span>
                     <span className="responsive_moblie_links mt-3"> Art</span>{" "}
                   </Link>{" "}
                   <br />
@@ -90,7 +93,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                     onClick={handleClose}
                   >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic3} alt="" className="ffr_ppic me-3 mt-3" />
                     </span>
                     <span className="responsive_moblie_links mt-3">
@@ -99,9 +102,13 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                     </span>{" "}
                     <br />
                   </Link>
-                  <Link to="/Domine_hover" onClick={handleClose} className="text-decoration-none">
+                  <Link
+                    to="/Domine_hover"
+                    onClick={handleClose}
+                    className="text-decoration-none"
+                  >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic4} alt="" className="ffr_ppic me-3 mt-3" />
                     </span>
                     <span className="responsive_moblie_links mt-3">
@@ -110,9 +117,13 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                     </span>{" "}
                     <br />
                   </Link>
-                  <Link to="/Music_hover" onClick={handleClose} className="text-decoration-none">
+                  <Link
+                    to="/Music_hover"
+                    onClick={handleClose}
+                    className="text-decoration-none"
+                  >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic5} alt="" className="ffr_ppic me-3 mt-3" />
                     </span>
                     <span className="responsive_moblie_links mt-3"> Music</span>{" "}
@@ -124,7 +135,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                     onClick={handleClose}
                   >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic6} alt="" className="ffr_ppic me-3 mt-3" />
                     </span>
                     <span className="responsive_moblie_links mt-3">
@@ -133,20 +144,34 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                     </span>{" "}
                     <br />
                   </Link>
-                  <Link to="/Sport_hover" onClick={handleClose} className="text-decoration-none">
+                  <Link
+                    to="/Sport_hover"
+                    onClick={handleClose}
+                    className="text-decoration-none"
+                  >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic7} alt="" className="ffr_ppic me-3 mt-3" />
                     </span>
-                    <span className="responsive_moblie_links mt-3"> Sports</span>{" "}
+                    <span className="responsive_moblie_links mt-3">
+                      {" "}
+                      Sports
+                    </span>{" "}
                     <br />
                   </Link>
-                  <Link to="/Utilityhover" onClick={handleClose} className="text-decoration-none">
+                  <Link
+                    to="/Utilityhover"
+                    onClick={handleClose}
+                    className="text-decoration-none"
+                  >
                     {" "}
-                    <span >
+                    <span>
                       <img src={pic9} alt="" className="ffr_ppic me-3 mt-3" />
                     </span>
-                    <span className="responsive_moblie_links mt-3"> Utility</span>{" "}
+                    <span className="responsive_moblie_links mt-3">
+                      {" "}
+                      Utility
+                    </span>{" "}
                     <br />
                   </Link>
                   <span onClick={handleClose}>
@@ -197,7 +222,9 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
               <Accordion.Header>
                 <div className="d-flex align-items-center">
                   <IoIosStats className="moblie_view_icons"></IoIosStats>
-                  <h6 className="moblie_menu_heading"  onClick={handleClose}>Stats</h6>
+                  <h6 className="moblie_menu_heading" onClick={handleClose}>
+                    Stats
+                  </h6>
                 </div>
               </Accordion.Header>
               <Accordion.Body>
@@ -277,40 +304,32 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                   </Link>
                 </div>
                 <div className="mt-3">
-                
-                  <Link to="/R_full_tax_page" className="text-decoration-none"       onClick={handleClose} >
+                  <Link
+                    to="/R_full_tax_page"
+                    className="text-decoration-none"
+                    onClick={handleClose}
+                  >
                     {" "}
-                    <span
-                      className="responsive_moblie_links margin_mobbb"
-                    >
+                    <span className="responsive_moblie_links margin_mobbb">
                       Taxes
                     </span>
                     <br />
                   </Link>
                 </div>
-                <div className="mt-3"  onClick={handleClose}>
-                  <span
-                   
-                    className="responsive_moblie_links margin_mobbb"
-                  >
+                <div className="mt-3" onClick={handleClose}>
+                  <span className="responsive_moblie_links margin_mobbb">
                     Blog
                   </span>
                   <br />
                 </div>
-                <div className="mt-3"   onClick={handleClose}>
-                  <span
-                  
-                    className="responsive_moblie_links margin_mobbb"
-                  >
+                <div className="mt-3" onClick={handleClose}>
+                  <span className="responsive_moblie_links margin_mobbb">
                     Docs
                   </span>
                   <br />
                 </div>
-                <div className="mt-3"  onClick={handleClose}>
-                  <span
-                   
-                    className="responsive_moblie_links margin_mobbb"
-                  >
+                <div className="mt-3" onClick={handleClose}>
+                  <span className="responsive_moblie_links margin_mobbb">
                     Newsletter
                   </span>
                   <br />
@@ -319,8 +338,15 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
             </Accordion.Item>
             <div className="d-flex align-items-center ms-3">
               <BsFillPencilFill className="moblie_view_icons"></BsFillPencilFill>
-                    
-     <Link to='/main_create_page' className='text-decoration-none' onClick={handleClose} >        <h6 className="moblie_menu_heading">Create</h6></Link>
+
+              <Link
+                to="/main_create_page"
+                className="text-decoration-none"
+                onClick={handleClose}
+              >
+                {" "}
+                <h6 className="moblie_menu_heading">Create</h6>
+              </Link>
             </div>
             <Accordion.Item eventKey="4">
               <Accordion.Header>

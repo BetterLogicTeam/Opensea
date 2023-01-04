@@ -18,7 +18,7 @@ function Collectibles_explore() {
   return (
     <div className="">
       
-      <div className="row">
+      <div className="row my-5">
     
         <div className="col-md-4">
           <Trending_main
@@ -39,7 +39,7 @@ function Collectibles_explore() {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row my-5">
      
         <div className="col-md-4">
           <Trending_main url={goof11} secondUrl={goof12} title="Wolf Game" />
@@ -60,7 +60,7 @@ function Collectibles_explore() {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row my-5">
         <div className="col-md-4">
           <Trending_main
             url={goof1}
@@ -86,7 +86,7 @@ function Collectibles_explore() {
       </div>
 
      
-      <div className="row">
+      <div className="row my-5">
         <div className="col-md-4">
           <Trending_main
             url="https://i.seadn.io/gcs/files/86fd57236ca5539ede498e2b5abb2ca7.png?auto=format&w=2048"
