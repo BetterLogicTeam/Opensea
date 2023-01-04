@@ -6,7 +6,7 @@ function Frist_card(props) {
     <div>
          <>
  
- <div class=" card  text-white  geeks">
+ <div class=" card  text-white  geeks w-100">
    <img src={props.img1} class="card-img immg" alt="..."/>
  <h5 className='oo ps-2 hBeyeI'> <b>{props.h1}</b> <span className='text-info'><MdVerified className='ico'/> </span> </h5>
  <h6 className='oa ps-2'>{props.h2}</h6>
