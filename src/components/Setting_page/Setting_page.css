@@ -207,12 +207,6 @@
 }
 
 
-.bg_main_tool{
-    background-color: red !important;
-}
-.bg_main_tool .title{
-background: red !important;
-}
 
 
 
@@ -220,5 +214,6 @@ background: red !important;
 @media only screen and (max-width:600px){
     .bord_rght{
         border-right: none !important;
+        height: auto !important;
     }
 }

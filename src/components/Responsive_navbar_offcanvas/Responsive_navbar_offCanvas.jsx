@@ -7,7 +7,7 @@ import {
   MdOutlineExplore,
 } from "react-icons/md";
 import { GiArchaeopteryxFossil, GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineTwitter, AiTwotoneSetting } from "react-icons/ai";
 import { BsFillPencilFill, BsInstagram } from "react-icons/bs";
 import { IoIosStats, IoLogoYoutube } from "react-icons/io";
 import { SiDiscord } from "react-icons/si";
@@ -336,7 +336,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                 </div>
               </Accordion.Body>
             </Accordion.Item>
-            <div className="d-flex align-items-center ms-3">
+            <div className="d-flex align-items-center ms-3 my-3">
               <BsFillPencilFill className="moblie_view_icons"></BsFillPencilFill>
 
               <Link
@@ -346,6 +346,18 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
               >
                 {" "}
                 <h6 className="moblie_menu_heading">Create</h6>
+              </Link>
+            </div>
+            <div className="d-flex align-items-center ms-3 my-3">
+              <AiTwotoneSetting className="moblie_view_icons"></AiTwotoneSetting>
+
+              <Link
+                to="/seeting_pro_main"
+                className="text-decoration-none"
+                onClick={handleClose}
+              >
+                {" "}
+                <h6 className="moblie_menu_heading">Setting</h6>
               </Link>
             </div>
             <Accordion.Item eventKey="4">
