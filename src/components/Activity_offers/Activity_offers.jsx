@@ -96,13 +96,13 @@ function Activity_offers() {
 
                                     <Activity_prop url="https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&amp;w=48 1x, https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&amp;w=64 2x" src="https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&amp;w=64" title="CryptoPunks" />
 
-                                    <Activity_prop url="https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=48 1x, https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=64 2x" title="Bored Ape Yacht Club" />
+                                    <Activity_prop url="https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=48 1x, https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=64 2x" title="Bored Ape" />
 
-                                    <Activity_prop url="https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=48 1x, https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=64 2x" title="Otherdeed for Otherside" />
+                                    <Activity_prop url="https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=48 1x, https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=64 2x" title="Otherdeed" />
 
-                                    <Activity_prop url="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=48 1x, https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=64 2x" title="Mutant Hound Collars" />
+                                    <Activity_prop url="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=48 1x, https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=64 2x" title="Mutant" />
 
-                                    <Activity_prop url="https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=48 1x, https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=64 2x" title="Savage Nation" />
+                                    <Activity_prop url="https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=48 1x, https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=64 2x" title="Savage" />
 
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -110,7 +110,7 @@ function Activity_offers() {
 
 
                             <Accordion.Item className="accur_item" eventKey="2">
-                                <Accordion.Header><div className="event_header">Event Type</div></Accordion.Header>
+                                <Accordion.Header><div className="event_header">Chains</div></Accordion.Header>
                                 <Accordion.Body>
                                     <div className="sale_main">
                                         <div className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX">
@@ -288,7 +288,7 @@ function Activity_offers() {
 
                     <div className="col-md-9">
                     <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 tgTCr jSPhMX kKyBpy">
-                    <div className="sc-29427738-0 sc-630fc9ab-0 sc-ecfc7326-0 sc-d400cbf1-1 cbPOR jSPhMX dwHBvC cmiZwC fresnel-greaterThanOrEqual-lg">
+                    <div className="sc-29427738-0 resssponsse sc-630fc9ab-0 sc-ecfc7326-0 sc-d400cbf1-1 cbPOR jSPhMX dwHBvC cmiZwC fresnel-greaterThanOrEqual-lg">
                         <div width="190px" display="flex" className="sc-29427738-0 sc-87407077-0 kuRVgt">
                             </div>
                             <div width="300px" display="flex" className="sc-29427738-0 sc-87407077-0 gTqShe">
@@ -312,11 +312,11 @@ function Activity_offers() {
                                                     </div>
 
                                                     <Activity_items item="https://i.seadn.io/gae/16VePbNVa-dOXX-M0XGw1bJvoSeY3XvhOM17G42VhpdMpdyoZvuV-d2HQ3x2daXQVI9ibxnq3mdTRyn5tVUZGQwLxGQk2g3sbDtO3w?auto=format&w=3840"
-                         item_category="Sale" item_name="Otherdeed for otherside" item_nmbr="82970" item_price="1.700 ETH" item_amount="$2,066.28" item_quantity="1" item_from="PlanD_69" item_to="thecrypton" item_time="20 minutes ago"
+                         item_category="Sale" item_name="Otherdeed" item_nmbr="82970" item_price="1.700 ETH" item_amount="$2,066.28" item_quantity="1" item_from="PlanD_69" item_to="thecrypton" item_time="20 minutes ago"
                         />
 
                         <Activity_items item="https://i.seadn.io/gcs/files/d3781f86c3ff626070559d01a85b1f0f.png?auto=format&w=3840"
-                         item_category="Sale" item_name="Mutant Hound Collars" item_nmbr="Mutant Hound Collar #4937" item_price="1.390 ETH" item_amount="$16,86.55" item_quantity="1" item_from="DD7" item_to="9E745" item_time="32 seconds ago"
+                         item_category="Sale" item_name="Mutant" item_nmbr="Mutant Hound Collar #4937" item_price="1.390 ETH" item_amount="$16,86.55" item_quantity="1" item_from="DD7" item_to="9E745" item_time="32 seconds ago"
                         />
 
                                                     <Activity_items item="https://i.seadn.io/gae/rsFEXPGI6BC7BLDmIaQOMyp_7RBURD1ksuHtOZw9VhhXB7kxwU8d98JzYRDXYMmayDSuiY-pno_rJOiamQnqXhUFUBjKEJrwoDrf?auto=format&w=3840"

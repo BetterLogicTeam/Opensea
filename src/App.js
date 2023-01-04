@@ -57,6 +57,7 @@ import Activity from './components/Activity/Activity';
 import Activity_listing from './components/Activity_listing/Activity_listing';
 import Activity_offers from './components/Activity_offers/Activity_offers';
 import Activity_mob from './components/Activity_mob/Activity_mob';
+import Profile_collection from './components/Profile_collection/Profile_collection';
 
 
 
@@ -98,10 +99,11 @@ function App() {
         <Route path="/Activity_listing" element={<Activity_listing />} />
         <Route path="/Activity_offers" element={<Activity_offers />} />
         {/* <Route path="/activity" element={<Activity_mob />} /> */}
+        <Route path="/Profile_collection" element={<Profile_collection />} />
         
 
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
       {/*  */}
     
