@@ -117,7 +117,7 @@ function Navtr() {
                         <a href="#" className='border-bottom'>Platform Status</a>
                        <Link to='/R_full_partner' className='tdn'> <a href="#" className='border-bottom'>Partners</a></Link>
                         <Link to="/R_full_tax_page" className='text-decoration-none'>    <a href="#" className='border-bottom'>Taxes</a> </Link>
-                        <a href="#" className='border-bottom'>Blog</a>
+                   <Link to='/R_blog_cards_full_page'  className='text-decoration-none tdn' >    <a href="#" className='border-bottom'>Blog</a></Link>
                 <Link to='/R_docs_full_page' className='tdn'>        <a href="#" className='border-bottom'>Docs</a></Link>
                    <Link to='/newsletter' className='tdn'>    <a href="#"  className='border-bottom'>Newsletter</a> </Link> 
                       </div>

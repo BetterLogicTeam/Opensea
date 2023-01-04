@@ -59,20 +59,16 @@ import Utilityhover from './components/Utility_hover/Utilityhover';
 import Virtual_hover from './components/Virtual_hover/Virtual_hover';
 import Activity from './components/Activity/Activity';
 import E_acordin_h from './components/E_acordin_h/E_acordin_h';
+import R_blog_cards from './components/R_blog_cards/R_blog_cards';
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Drops/> */}
-      {/* <Drop_slider/> */}
-      {/* <Minnt/> */}
-      {/* <Nextdrop/> */}
-      {/* <Navtr/> */}
-      {/* <Frist_open/> */}
-      {/* <Ecsnft/> */}
-      {/* <Simple_two_cards/> */}
+      {/* <R_blog_cards/> */}
+      {/* <Blocard/> */}
+      {/* <Blogslide/> */}
       <BrowserRouter>
         <Navtr/>
         <Resposive_Navbar/>
@@ -105,9 +101,10 @@ function App() {
         <Route path="/Activity" element={<Activity/>} />
         <Route path="/main_create_page" element={<Create_page/>} />
         <Route path="/seeting_pro_main" element={<Setting_page/>} />
+        <Route path="/R_blog_cards_full_page" element={<R_blog_cards/>} />
 
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
 
       {/* <Full_new_letter/> */}
