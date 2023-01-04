@@ -53,7 +53,7 @@ function Setting_page() {
                     <div><button className='preview_setting setting_hvr'>Preview</button></div>
                     <div className="content_setting_right">
                         <div className="row">
-                            <div className="col-md-5">
+                            <div className="col-md-6">
                             <div className='mt-3'>
                                 <label htmlFor="username" className='label_setting'>Username</label> <br />
                                 <input type="text" id='username' className='seeting_right_input setting_hvr' />

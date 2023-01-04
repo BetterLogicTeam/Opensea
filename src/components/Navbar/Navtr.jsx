@@ -39,6 +39,11 @@ function Navtr() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   return (
+      
+<div>
+
+
+  
     <div className='z_index_nav nav_conditional'>
       <div className="container-fluid p-0 pil_er ">
         <div className="row m-0 p-0 nav-back">
@@ -144,7 +149,7 @@ function Navtr() {
                      <Link to='/main_create_page' className='text-decoration-none tdn'>  <a href="#" className='border-bottom'><MdEdit className='oci_F fs-5 me-3'/>Create</a> </Link>
                 <Link to='seeting_pro_main' className='text-decoration-none tdn'>       <a href="#" className='border-bottom'><IoMdSettings className='oci_F fs-5 me-3'/>Settings</a> </Link>
                        <a href="#" className='border-bottom'><MdLanguage className='oci_F fs-5 me-3'/>Language</a>
-                       <a href="#"><FaMoon className='oci_F fs-5 me-3'/>Night Mode</a>
+                       <a href="#" className='nght tdn'><FaMoon className='oci_F fs-5 me-3'/>Night Mode</a>
                        </div>
                     </div>
                   </li>
@@ -165,16 +170,12 @@ function Navtr() {
                 <div className='cart'>
                   <li>
                   <div>
-                    {/* <Wallet_offcanvas/> */}
+                  
                     <>                  {[ 'end' ].map((placement, idx) => (
         <Wallet_offcanvas key={idx} placement={placement} name={placement} />
       ))}</>
   
-                  {/* <Button " onClick={handleShow} className="me-2">
-                    there
-      
-      </Button> */}
-                    {/* <button className="icon-dropbtn text-white"><MdOutlineShoppingCart className='fs-2'/></button> */}
+               
                     </div>
                   </li>
                 </div>
@@ -191,6 +192,7 @@ function Navtr() {
             </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

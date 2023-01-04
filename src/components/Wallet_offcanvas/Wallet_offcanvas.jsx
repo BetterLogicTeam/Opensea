@@ -27,12 +27,15 @@ const handleShow = () => setShow(true);
         <Offcanvas.Header closeButton>
           {/* <Offcanvas.Title>Offcanvas</Offcanvas.Title> */}
           <div className='d-flex align-items-center  '><h3>Your cart</h3>
-          <span>   <Tooltip className='toool_tippp' title={<span className='tooltiple_cart'>Items in your cart are not guaranteed at purchase. Learn more</span>}>
+          <span> 
+          <Tooltip className='bg_main_tool' title={<span className='bg-dark'> Items in your cart are not guaranteed at purchase. <span style={{color:'red'}}> Learn more </span></span>} arrow placement="bottom"> 
+          {/* <Tooltip className='toool_tippp' title={<span className='tooltiple_cart'>Items in your cart are not guaranteed at purchase. Learn more</span>}> */}
       <IconButton>
         {/* <DeleteIcon /> */}
         <AiOutlineInfoCircle></AiOutlineInfoCircle>
       </IconButton>
-    </Tooltip>
+    {/* </Tooltip> */}
+    </Tooltip> 
     </span>
           </div>
         </Offcanvas.Header>

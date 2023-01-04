@@ -39,7 +39,7 @@ function Who_card_pro() {
       millions of dollars in revenue in the process.</p>
 
       </div>
-  <div className="row m-0 p-0 ">
+  <div className="row m-0 p-0 mt-4 ">
         <div className='col-12 col-md-4 '>
           <Trending_main url={yellow} secondUrl={yellow} title="888 by Kevin Abosch  "/>
         </div>
@@ -51,7 +51,7 @@ function Who_card_pro() {
         </div>
         </div>
 
-      <div className="row p-0 m-0 ">
+      <div className="row p-0 m-0  mt-4">
       <div className='col-12 col-md-4 '>
         <Trending_main url={arrow} secondUrl={red} title=" Reddit CryptoSnoos "/>
       </div>
@@ -62,7 +62,7 @@ function Who_card_pro() {
         <Trending_main url={golden} secondUrl={P} title="Golden state warriors"/>
       </div>
       </div>
-      <div className="row  m-0 ">
+      <div className="row  m-0 mt-4 ">
       <div className='col-12 col-md-4 '>
         <Trending_main url={black} secondUrl={B} title="Lil - I Got An NFT"/>
       </div>
@@ -73,7 +73,7 @@ function Who_card_pro() {
         <Trending_main url={petra} secondUrl={PP} title="Petra Cortright - Room"/>
       </div>
       </div>
-      <div className="row  m-0 ">
+      <div className="row  m-0  mt-4">
       <div className='col-12 col-md-4 '>
         <Trending_main url={Rob} secondUrl={R} title="Rob Gronkowski champion"/>
       </div>

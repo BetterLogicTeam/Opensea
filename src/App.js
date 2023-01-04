@@ -57,6 +57,8 @@ import Activity from './components/Activity/Activity';
 import Create_page from "./components/Create_page/Create_page"
 import R_docs_full_page from './components/R_docs_full_page/R_docs_full_page';
 import Setting_page from './components/Setting_page/Setting_page';
+import Full_new_letter from './components/Full_new_letter/Full_new_letter';
+import R_blog_card from './components/R_partner_full/R_blog_card/R_blog_card';
 
 
 function App() {
@@ -97,14 +99,17 @@ function App() {
         <Route path="/Virtual_hover" element={<Virtual_hover/>} />
         <Route path="/seeting_pro_main" element={<Setting_page/>} />
         <Route path="/Nextdg" element={<Nextdg/>} />
+        <Route path="/newsletter" element={<Full_new_letter/>} />
         
         <Route path="/Activity" element={<Activity/>} />
         <Route path="/main_create_page" element={<Create_page/>} />
         <Route path="/seeting_pro_main" element={<Setting_page/>} />
 
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
+
+      {/* <Full_new_letter/> */}
       {/* <Setting_page /> */}
 
       {/* <R_docs_full_page/> */}
@@ -132,6 +137,8 @@ function App() {
       <R_bottom_links/>  */}  
 
 {/* <R_watch/> */}
+
+
 
     </div>
   );

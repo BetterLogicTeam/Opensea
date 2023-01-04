@@ -14,7 +14,7 @@ function Trending_main(props) {
                                 <div className="col-md-3">
                                     <div role="gridcell" style={{ width: "100%", writingMode: "horizontal-tb", position: "absolute", top: "0px", left: "0px" }}>
                                         <div class="sc-29427738-0 sc-d1fcbabf-6 dVNeWL dIfFHE">
-                                            <a href="/collection/trump-digital-trading-cards" class="sc-1f719d57-0 fKAlPV">
+                                            <a href="#" class="sc-1f719d57-0 fKAlPV">
                                                 <div class="sc-29427738-0 sc-d1fcbabf-1 dVNeWL eBMgqA">
                                                     <div height="0" class="sc-29427738-0 eCIkYY">
                                                         <span style={{ boxSizing: "border-box", display: "block", overflow: "hidden", width: "initial", height: "initial", background: "none", opacity: "1", border: "0px", margin: "0px", padding: "0px", position: "absolute", inset: "0px" }}>
