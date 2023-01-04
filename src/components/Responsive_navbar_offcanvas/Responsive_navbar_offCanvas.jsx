@@ -273,13 +273,15 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                   </span>
                   <br />
                 </div>
-                <div className="mt-3">
+                <div className="mt-3"  onClick={handleClose}>
+              <Link to='/r_help_center' className="tdn text-decoration-none" >
                   <span
-                    onClick={handleClose}
+                   
                     className="responsive_moblie_links margin_mobbb"
                   >
                     Help Center
                   </span>
+                  </Link>
                   <br />
                 </div>
                 <div className="mt-3">
@@ -317,9 +319,10 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                   </Link>
                 </div>
                 <div className="mt-3" onClick={handleClose}>
+                <Link to='/R_blog_cards_full_page' className="tdn text-decoration-none">
                   <span className="responsive_moblie_links margin_mobbb">
                     Blog
-                  </span>
+                  </span></Link>
                   <br />
                 </div>
                 <div className="mt-3" onClick={handleClose}>
@@ -329,9 +332,10 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                   <br />
                 </div>
                 <div className="mt-3" onClick={handleClose}>
+                <Link to='/newsletter'>
                   <span className="responsive_moblie_links margin_mobbb">
                     Newsletter
-                  </span>
+                  </span></Link>
                   <br />
                 </div>
               </Accordion.Body>
