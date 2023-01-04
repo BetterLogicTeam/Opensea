@@ -74,7 +74,7 @@ function Navtr() {
                     <div className="explore">
                     <Link to="/Explore_main"> <button className="dropbtn text-white for_bol for_inhi">Explore</button></Link>
                     <div className="explore-content text-start">
-                      <Link to="/Explore_all_nft"  className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</Link>
+                      <Link to="/ALL_explore"  className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</Link>
                       <Link  to="/Art_hover" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</Link>
                       <Link to="/Colloctibles_hover"  className='border-bottom'><span><img src={pic3} alt="" className='ffr_ppic me-3'/></span>Collectibles</Link>
                       <Link to="/Domine_hover"  className='border-bottom'><span><img src={pic4} alt="" className='ffr_ppic me-3'/></span>Domain Names</Link>

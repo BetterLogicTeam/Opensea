@@ -68,7 +68,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
               </Accordion.Header>
               <Accordion.Body>
                 <div className="">
-                  <Link to="/Explore_all_nft" className="text-decoration-none">
+                  <Link to="/ALL_explore" className="text-decoration-none">
                     {" "}
                     <span onClick={handleClose}>
                       <img src={pic1} alt="" className="ffr_ppic me-3" />

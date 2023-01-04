@@ -8,11 +8,15 @@
 .drawer_appbar_z{
     z-index: 1 !important;
 }
-/* .drawer_appbar{
-  
-  
- 
-} */
+@media only screen and (max-width: 600px) {
+    .appbar_line{
+        z-index: 600 !important; 
+        background-color: white !important;
+        color: black !important;
+        position:relative !important;
+       
+    }
+}
 .zzzz{
     z-index: 900 !important;
 }

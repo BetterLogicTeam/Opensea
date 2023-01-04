@@ -10,8 +10,8 @@ function Accorden_data(props) {
               <div className="col-2">
                 <img src={props.acc1} width="40" alt="" className="acci" />
               </div>
-              <div className="col-4 mt-3">
-                <p>{props.crypto}</p>
+              <div className="col-4 mt-3 ">
+                <p className='text-truncate text-start'>{props.crypto}</p>
               </div>
               <div className="col-1">
                 <svg
@@ -31,11 +31,12 @@ function Accorden_data(props) {
                     stroke="white"
                   ></path>
                 </svg>
+             
               </div>
-              <div className="col-2 mt-3">
+              <div className="col-3 mt-3 text-end">
                 <p>{props.num}</p>
               </div>
-              <div className="col-3">
+              <div className="col-2 px-0">
               <Checkbox
                 {...label}
                 sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}

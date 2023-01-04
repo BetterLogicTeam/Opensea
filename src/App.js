@@ -43,7 +43,7 @@ import Wallet_offcanvas from './components/Wallet_offcanvas/Wallet_offcanvas';
 import R_partner_full from './components/R_partner_full/R_partner_full';
 import Explore_main from './components/Exploar_main/Explore_main';
 import Art_hover from './components/Art_hover/Art_hover';
-import Explore_all_nft from './components/Explore_all_nft/Explore_all_nft';
+import ALL_explore from './components/ALL_explore/ALL_explore';
 import Colloctibles_hover from './components/colloctibles_hover/Colloctibles_hover';
 import Domine_hover from './components/Domine_hover/Domine_hover';
 
@@ -82,7 +82,7 @@ function App() {
         <Route path="/R_full_partner" element={<R_partner_full/>} />
         <Route path="/Explore_main" element={<Explore_main/>} />
         <Route path="/Art_hover" element={<Art_hover/>} />
-        <Route path="/Explore_all_nft" element={<Explore_all_nft/>} />
+        <Route path="/ALL_explore" element={<ALL_explore/>} />
         <Route path="/Colloctibles_hover" element={<Colloctibles_hover/>} />
         <Route path="/Domine_hover" element={<Domine_hover/>} />
         <Route path="/Music_hover" element={<Music_hover/>} />
