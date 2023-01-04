@@ -60,6 +60,10 @@ import Virtual_hover from './components/Virtual_hover/Virtual_hover';
 import Activity from './components/Activity/Activity';
 import E_acordin_h from './components/E_acordin_h/E_acordin_h';
 import R_blog_cards from './components/R_blog_cards/R_blog_cards';
+import Activity_listing from './components/Activity_listing/Activity_listing';
+import Activity_offers from './components/Activity_offers/Activity_offers';
+import Activity_mob from './components/Activity_mob/Activity_mob';
+import Profile_collection from './components/Profile_collection/Profile_collection';
 
 
 
@@ -102,9 +106,14 @@ function App() {
         <Route path="/main_create_page" element={<Create_page/>} />
         <Route path="/seeting_pro_main" element={<Setting_page/>} />
         <Route path="/R_blog_cards_full_page" element={<R_blog_cards/>} />
+        <Route path="/Activity_listing" element={<Activity_listing/>} />
+        <Route path="/Activity_offers" element={<Activity_offers/>} />
+        <Route path="/activity" element={<Activity_mob/>} />
+        <Route path="/Profile_collection" element={<Profile_collection/>} />
+
 
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
 
       {/* <Full_new_letter/> */}

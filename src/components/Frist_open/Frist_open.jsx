@@ -12,6 +12,7 @@ import ninja2 from "../Assets/riDbUm07GjqPcnK3Ll7r7y4b6lHNNQS4AHtghn46WXmic0JnOG
 import ninja3 from "../Assets/0b8ea573-c2b0-431d-8538-4034ad57966a.avif"
 import ninja4 from "../Assets/4541c8d0-0ed1-4a25-a93d-8bb55dc76653.avif"
 import ninja5 from "../Assets/88bb0626-fabf-43e7-b3fa-99e2aeef8a46.avif"
+import { Link } from "react-router-dom";
 function Frist_open() {
   return (
     <div className="container-fluid backgrid ">
@@ -43,7 +44,7 @@ function Frist_open() {
         className="mySwiper"
       >
         <SwiperSlide className='silde befr'>
-          <Frist_card img1={ninja} h1="KPR" h2="Floor:0,24 ETH" />
+          <Link to="/Profile_collection"><Frist_card img1={ninja} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
           <Frist_card img1={ninja1} h1="KPR" h2="Floor:0,24 ETH" />

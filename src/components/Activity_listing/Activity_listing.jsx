@@ -1,24 +1,18 @@
 import React from 'react';
-import "./Activity.css";
+import Activity_items from '../Activity_items/Activity_items';
 import Accordion from 'react-bootstrap/Accordion';
 import Checkbox from '@mui/material/Checkbox';
 import { HiOutlineSearch } from 'react-icons/hi';
 import { IoCart, IoFilterSharp } from 'react-icons/io5';
 import Activity_prop from '../Activity_prop/Activity_prop';
-import Activity_items from '../Activity_items/Activity_items';
 import { Link } from 'react-router-dom';
-
 
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
-function Activity() {
-
-
-    return (
-        <div className='Activity_main ps_fixed1'>
-
-
+function Activity_listing() {
+  return (
+    <div>
             <div className="shaadoow">
                 <div className="fresnel-container fresnel-greaterThanOrEqual-lg sc-1242568d-1 dZzJwG">
                     <div display="flex" height="100%" className="sc-29427738-0 sc-e1213540-0 dqOkeF hdXdDy">
@@ -30,29 +24,27 @@ function Activity() {
                                             <i color="charcoal" font-weight="600" value="filter_list" size="24" className="sc-a143597d-0 buXgzV material-icons-outlined"><IoFilterSharp /></i>
                                         </span></button></div></div></div></div></div>
             </div>
-
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-3 accor_main">
+                    <div className="col-md-3 accor_main">
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item className="accur_item" eventKey="0">
                                 <Accordion.Header><div className="event_header">Event Type</div></Accordion.Header>
                                 <Accordion.Body>
                                     <div className="sale_main">
                                         <span className="sale">Sales</span>
-                                        <Link to="/Activity">  <Checkbox
+                                       <Link to="/Activity"> <Checkbox
                                             {...label}
-                                            defaultChecked
+                                            
                                             sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
-                                        />
-                                        </Link>
+                                        /></Link>
                                     </div>
 
                                     <div className="sale_main">
                                         <span className="sale">Listings</span>
-                                        <Link to="/Activity_listing"> <Checkbox
+                                       <Link to="/Activity_listing"> <Checkbox
                                             {...label}
-
+                                            defaultChecked
                                             sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
                                         /></Link>
                                     </div>
@@ -293,66 +285,69 @@ function Activity() {
                         </Accordion>
                     </div>
 
-                    <div className="col-lg-9">
-                        <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 tgTCr jSPhMX kKyBpy">
-                            <div className="sc-29427738-0 sc-630fc9ab-0 resssponsse sc-ecfc7326-0 sc-d400cbf1-1 cbPOR jSPhMX dwHBvC cmiZwC fresnel-greaterThanOrEqual-lg">
-                                <div width="190px" display="flex" className="sc-29427738-0 sc-87407077-0 kuRVgt">
-                                </div>
-                                <div width="300px" display="flex" className="sc-29427738-0 sc-87407077-0 gTqShe">
-                                    <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">Item</p>
+                    <div className="col-md-9">
+                    <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 tgTCr jSPhMX kKyBpy">
+                    <div className="sc-29427738-0 resssponsse sc-630fc9ab-0 sc-ecfc7326-0 sc-d400cbf1-1 cbPOR jSPhMX dwHBvC cmiZwC fresnel-greaterThanOrEqual-lg">
+                        <div width="190px" display="flex" className="sc-29427738-0 sc-87407077-0 kuRVgt">
+                            </div>
+                            <div width="300px" display="flex" className="sc-29427738-0 sc-87407077-0 gTqShe">
+                                <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">Item</p>
                                 </div>
                                 <div width="90px" display="flex" className="sc-29427738-0 sc-87407077-0 kngZAJ">
                                     <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">Price</p>
-                                </div>
-                                <div width="75px" display="flex" className="sc-29427738-0 sc-87407077-0 eNEoCR">
-                                    <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">Quantity</p>
-                                </div>
-                                <div width="125px" display="flex" className="sc-29427738-0 sc-87407077-0 fZTVZV">
-                                    <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">From</p>
-                                </div>
-                                <div width="125px" display="flex" className="sc-29427738-0 sc-87407077-0 fZTVZV">
-                                    <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">To</p>
-                                </div>
-                                <div width="160px" display="flex" className="sc-29427738-0 sc-87407077-0 eGwnwZ">
-                                    <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">Time</p>
-                                </div>
-                            </div>
-                            <Activity_items item="https://i.seadn.io/gcs/files/1cbe825bfa4f771907557a5feb373f99.png?auto=format&amp;w=3840"
-                                item_category="Sale" item_name="Rug Buds" item_nmbr="Rug Buds #668" item_price="0.0049 ETH" item_amount="$5.96" item_quantity="1" item_from="vonny" item_to="2FB957" item_time="29 seconds ago"
-                            />
+                                    </div>
+                                    <div width="75px" display="flex" className="sc-29427738-0 sc-87407077-0 eNEoCR">
+                                        <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">Quantity</p>
+                                        </div>
+                                        <div width="125px" display="flex" className="sc-29427738-0 sc-87407077-0 fZTVZV">
+                                            <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">From</p>
+                                            </div>
+                                            <div width="125px" display="flex" className="sc-29427738-0 sc-87407077-0 fZTVZV">
+                                                <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">To</p>
+                                                </div>
+                                                <div width="160px" display="flex" className="sc-29427738-0 sc-87407077-0 eGwnwZ">
+                                                    <p className="sc-29427738-0 sc-bdnxRM dVNeWL eimMfF">Time</p>
+                                                    </div>
+                                                    </div>
 
-                            <Activity_items item="https://i.seadn.io/gcs/files/129b97582f0071212ee7cf440644fc28.gif?auto=format&w=3840"
-                                item_category="Sale" item_name="The Potatoz" item_nmbr="Potatoz#2570" item_price="3.190 ETH" item_amount="$3,891.55" item_quantity="1" item_from="976891" item_to="HakuCrypto" item_time="58 seconds ago"
-                            />
+                                                    <Activity_items item="https://i.seadn.io/gae/rsFEXPGI6BC7BLDmIaQOMyp_7RBURD1ksuHtOZw9VhhXB7kxwU8d98JzYRDXYMmayDSuiY-pno_rJOiamQnqXhUFUBjKEJrwoDrf?auto=format&w=3840"
+                         item_category="Sale" item_name="Bored Ape" item_nmbr="7i98" item_price="76 ETH" item_amount="$92,226.76" item_quantity="1" item_from="Khalissman" item_to="70EC2F" item_time="45 seconds ago"
+                        />
 
-                            <Activity_items item="https://i.seadn.io/gae/rsFEXPGI6BC7BLDmIaQOMyp_7RBURD1ksuHtOZw9VhhXB7kxwU8d98JzYRDXYMmayDSuiY-pno_rJOiamQnqXhUFUBjKEJrwoDrf?auto=format&w=3840"
-                                item_category="Sale" item_name="Bored Ape Yatch Club" item_nmbr="7i98" item_price="76 ETH" item_amount="$92,226.76" item_quantity="1" item_from="Khalissman" item_to="70EC2F" item_time="45 seconds ago"
-                            />
+                                                    <Activity_items item="https://i.seadn.io/gcs/files/1cbe825bfa4f771907557a5feb373f99.png?auto=format&amp;w=3840"
+                         item_category="Sale" item_name="Rug Buds" item_nmbr="Rug Buds #668" item_price="0.0049 ETH" item_amount="$5.96" item_quantity="1" item_from="vonny" item_to="2FB957" item_time="29 seconds ago"
+                        />
 
-                            <Activity_items item="https://i.seadn.io/gae/NtBpTM_wdyHUWbTJAZX434jLINoiNDGyDFJT55A-Nm-MSSgNKP3L1E5_PBH-Jb01HmrHiLfTX57KcXN_SQw3VaK2RZdndc-GaeOL?auto=format&w=3840"
-                                item_category="Sale" item_name="CryptoPunks" item_nmbr="CryptoPunks #8187" item_price="72.950 ETH" item_amount="$88,525.55" item_quantity="1" item_from="punksotc.eth" item_to="TrippVault" item_time="18 seconds ago"
-                            />
+                        <Activity_items item="https://i.seadn.io/gcs/files/129b97582f0071212ee7cf440644fc28.gif?auto=format&w=3840"
+                         item_category="Sale" item_name="The Potatoz" item_nmbr="Potatoz#2570" item_price="3.190 ETH" item_amount="$3,891.55" item_quantity="1" item_from="976891" item_to="HakuCrypto" item_time="58 seconds ago"
+                        />
 
-                            <Activity_items item="https://i.seadn.io/gcs/files/d3781f86c3ff626070559d01a85b1f0f.png?auto=format&w=3840"
-                                item_category="Sale" item_name="Mutant Hound Collars" item_nmbr="Mutant Hound Collar #4937" item_price="1.390 ETH" item_amount="$16,86.55" item_quantity="1" item_from="DD7" item_to="9E745" item_time="32 seconds ago"
-                            />
+                        
 
-                            <Activity_items item="https://i.seadn.io/gae/16VePbNVa-dOXX-M0XGw1bJvoSeY3XvhOM17G42VhpdMpdyoZvuV-d2HQ3x2daXQVI9ibxnq3mdTRyn5tVUZGQwLxGQk2g3sbDtO3w?auto=format&w=3840"
-                                item_category="Sale" item_name="Otherdeed for otherside" item_nmbr="82970" item_price="1.700 ETH" item_amount="$2,066.28" item_quantity="1" item_from="PlanD_69" item_to="thecrypton" item_time="20 minutes ago"
-                            />
+                        <Activity_items item="https://i.seadn.io/gae/NtBpTM_wdyHUWbTJAZX434jLINoiNDGyDFJT55A-Nm-MSSgNKP3L1E5_PBH-Jb01HmrHiLfTX57KcXN_SQw3VaK2RZdndc-GaeOL?auto=format&w=3840"
+                         item_category="Sale" item_name="CryptoPunks" item_nmbr="CryptoPunks #8187" item_price="72.950 ETH" item_amount="$88,525.55" item_quantity="1" item_from="punksotc.eth" item_to="TrippVault" item_time="18 seconds ago"
+                        />
 
-                            <Activity_items item="https://i.seadn.io/gcs/files/d3781f86c3ff626070559d01a85b1f0f.png?auto=format&w=3840"
-                                item_category="Sale" item_name="Mutant Hound Collars" item_nmbr="Mutant Hound Collar #4937" item_price="1.390 ETH" item_amount="$16,86.55" item_quantity="1" item_from="DD7" item_to="9E745" item_time="32 seconds ago"
-                            />
-                        </div>
+                        <Activity_items item="https://i.seadn.io/gcs/files/d3781f86c3ff626070559d01a85b1f0f.png?auto=format&w=3840"
+                         item_category="Sale" item_name="Mutant Hound Collars" item_nmbr="Mutant Hound Collar #4937" item_price="1.390 ETH" item_amount="$16,86.55" item_quantity="1" item_from="DD7" item_to="9E745" item_time="32 seconds ago"
+                        />
 
+                        <Activity_items item="https://i.seadn.io/gae/16VePbNVa-dOXX-M0XGw1bJvoSeY3XvhOM17G42VhpdMpdyoZvuV-d2HQ3x2daXQVI9ibxnq3mdTRyn5tVUZGQwLxGQk2g3sbDtO3w?auto=format&w=3840"
+                         item_category="Sale" item_name="Otherdeed for otherside" item_nmbr="82970" item_price="1.700 ETH" item_amount="$2,066.28" item_quantity="1" item_from="PlanD_69" item_to="thecrypton" item_time="20 minutes ago"
+                        />
 
+                        <Activity_items item="https://i.seadn.io/gcs/files/d3781f86c3ff626070559d01a85b1f0f.png?auto=format&w=3840"
+                         item_category="Sale" item_name="Mutant Hound Collars" item_nmbr="Mutant Hound Collar #4937" item_price="1.390 ETH" item_amount="$16,86.55" item_quantity="1" item_from="DD7" item_to="9E745" item_time="32 seconds ago"
+                        />
+                                                    </div>
+                        
 
+                    
                     </div>
                 </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default Activity
+export default Activity_listing
