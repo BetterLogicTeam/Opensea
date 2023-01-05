@@ -64,6 +64,7 @@ import Activity_listing from './components/Activity_listing/Activity_listing';
 import Activity_offers from './components/Activity_offers/Activity_offers';
 import Activity_mob from './components/Activity_mob/Activity_mob';
 import Profile_collection from './components/Profile_collection/Profile_collection';
+import Blocard from './components/Blog_slide/Blocard';
 
 
 
@@ -73,7 +74,7 @@ function App() {
       {/* <R_blog_cards/> */}
       {/* <Blocard/> */}
       {/* <Blogslide/> */}
-      <BrowserRouter>
+       <BrowserRouter>
         <Navtr/>
         <Resposive_Navbar/>
         <Routes>
