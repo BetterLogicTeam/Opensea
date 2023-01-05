@@ -9,7 +9,7 @@ import Blocard from "./Blocard";
 
 function Blogslide() {
   return (
-    <div className='container-fluid mt-5'>
+    <div className='container-fluid'>
         <div className="row">
             <div className="col-lg-12">
             <Swiper
@@ -35,9 +35,9 @@ function Blogslide() {
           loop={true}
           navigation={true}
         modules={[Pagination , Navigation]}
-        className="mySwiper"
+        className="mySwiper silde sld_remk"
       >
-        <SwiperSlide className='silde'>
+        <SwiperSlide className=''>
             <Blocard/>
         </SwiperSlide>
         <SwiperSlide className='silde'>
