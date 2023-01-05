@@ -4,6 +4,7 @@
     border-radius: 12px;
     box-shadow: rgb(0 0 0 / 4%) 0px 4px 8px;
     transition: box-shadow 0.25s ease-in-out 0s;
+    width: 100% !important;
 }
 
 .fst_pic_uper{

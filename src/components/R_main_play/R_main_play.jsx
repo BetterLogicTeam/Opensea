@@ -3,7 +3,7 @@ import play from "../Assets/play.svg"
 
 function R_main_play({card_play,playb}) {
   return (
-    <div>
+    <div className='mb-5'>
            <div className=''>
            <div className="   nft_card_reso ">
       <div className="card_img_nft">
@@ -21,7 +21,7 @@ function R_main_play({card_play,playb}) {
     </div>
         <div className='text-start '>
 
-        <b className='m-5 ms-0 text-start'>{playb}</b>
+        <b className=' ms-0 text-start'>{playb}</b>
         </div>
       
     </div>

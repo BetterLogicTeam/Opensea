@@ -12,11 +12,11 @@ import "swiper/css/navigation";
 
 function R_insities() {
   return (
-    <div>
+    <div className='pb-4'>
           <div className="container-fluid">
         <div className="row">
           <div className="col-md-12">
-          <div className='my-4 text-start'><h4 className='text-start r_main_headeer_card'>NFT community insights</h4>
+          <div className=' text-start'><h4 className='text-start r_main_headeer_card'>NFT community insights</h4>
           <span className='nft_title_sub'>
           Hear from the NFT community on a variety of topics.</span></div>
           <Swiper

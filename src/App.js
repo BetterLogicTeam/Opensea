@@ -113,14 +113,14 @@ function App() {
 
 
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
 
       {/* <Full_new_letter/> */}
       {/* <Setting_page /> */}
 
       {/* <R_docs_full_page/> */}
-      {/*  */}
+  
     
       {/* <Wallet_offcanvas/> */}
       <>

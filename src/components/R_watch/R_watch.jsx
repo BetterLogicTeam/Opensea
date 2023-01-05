@@ -18,14 +18,14 @@ import wl3 from "../Assets/wl3.jpg"
 
 function R_watch() {
   return (
-    <div>
+    <div className='pb-5'>
         <div className="container-fluid">
         <div className="row">
           <div className="col-md-12">
-          <div className='my-4 text-start'><h4 className='text-start r_main_headeer_card'>Watch and learn</h4>
+          <div className=' text-start'><h4 className='text-start r_main_headeer_card'>Watch and learn</h4>
           <span className='nft_title_sub'>
           Learn about important NFT concepts.</span></div>
-          <Swiper
+          {/* <Swiper
         slidesPerView={3}
         spaceBetween={30}
         pagination={{
@@ -82,7 +82,75 @@ function R_watch() {
        
       
         
+      </Swiper> */}
+
+      <Swiper
+        slidesPerView={4}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+            300: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+          }}
+          loop={true}
+          navigation={true}
+        modules={[Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='silde befr text-start ' >
+    
+        {/* <R_main_card card_img={web3_1} sub_title='What is blockchain?'/> */}
+    <R_main_play card_play={wl} playb='What is an NFT?'/>
+
+
+ 
+        </SwiperSlide>
+        <SwiperSlide className='silde befr text-start' >
+    
+        {/* <R_main_card card_img={gas_fee} sub_title='What are blockchain gas fees?'/> */}
+        <R_main_play card_play={wl3} playb='How to sell an NFT'/>
+
+
+ 
+        </SwiperSlide>
+        <SwiperSlide className='silde befr text-start' >
+    
+        {/* <R_main_card card_img={web3} sub_title='What is Ethereum?'/> */}
+        <R_main_play card_play={wl2} playb='What is a crypto wallet?'/>
+
+
+ 
+        </SwiperSlide>
+        <SwiperSlide className='silde befr text-start' >
+    
+        {/* <R_main_card card_img={R_main_card3} sub_title='What is Solana?'/> */}
+        <R_main_play card_play={wl1} playb='How to buy an NFT'/>
+
+ 
+        </SwiperSlide>
+      
+       
+   
+     
+      
+     
+       
+      
+        
       </Swiper>
+            
             
           </div>
         </div>

@@ -59,7 +59,7 @@ export default function BasicTabs() {
 
   return (
 
-    <Box sx={{ width: '100%' }} className="mt-5">
+    <Box sx={{ width: '100%' }} className="pd_fixed1">
       <div className="py-4 text-center text-md-start ps-0 ps-md-4 ">
         <h1 className='fw-bold'>Collection stats</h1>
       </div>

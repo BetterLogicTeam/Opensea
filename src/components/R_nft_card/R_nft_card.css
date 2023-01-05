@@ -34,13 +34,13 @@
 }
 
 .play_p{
-    position: absolute !important;
-height: 90% !important;
+    position: relative !important;
+height: 100% !important;
 }
 
 .main_paly{
-    position: relative !important;
-      bottom: -233px;
+    position: absolute !important;
+      top: 270px !important;
     top: auto;
 }
 
@@ -86,7 +86,7 @@ height: 90% !important;
     /* max-width: none; */
     border-radius: 10px;
     width: 100%;
-    max-width: 380px;
+    /* max-width: 380px; */
     height: 100%;
     border: 1px none #000;
     /* -o-object-fit: cover; */
@@ -100,4 +100,12 @@ height: 90% !important;
 
 .trans_forn_pro:hover{
     transform: translateY(-30px);
+}
+
+
+
+@media only screen and (max-width:600px){
+    .nft_card_img_pro{
+        width: 340px !important;
+    }
 }

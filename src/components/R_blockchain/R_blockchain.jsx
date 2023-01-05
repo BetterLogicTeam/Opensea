@@ -13,16 +13,16 @@ import R_main_card3 from "../Assets/R_main_card3.png"
 
 function R_blockchain() {
   return (
-    <div>
+    <div className='pb-5'>
           <div className="container-fluid">
         <div className="row">
           <div className="col-md-12">
-          <div className='my-4  text-start'>
+          <div className='  text-start'>
             <h4 className='text-start r_main_headeer_card'>Blockchain basics</h4>
           <span className='nft_title_sub'>
           Understand the technology behind cryptocurrency and NFTs.</span></div>
           <Swiper
-        slidesPerView={3}
+        slidesPerView={4}
         spaceBetween={30}
         pagination={{
           clickable: true,
