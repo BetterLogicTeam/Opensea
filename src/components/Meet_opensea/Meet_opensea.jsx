@@ -22,9 +22,7 @@ function Meet_opensea() {
     {/* <source src="/video-example.mp4" type="video/mp4" /> */}
     
 </video>
-               {/* <video ></video> */}
-                {/* <video className='w-100 ' autoplay loop playsInline muted src=""></video> */}
-                {/* <video src="r_vido.mp4" autoplay loop playsInLine muted ></video> */}
+              
             </div>
         </div>
       
