@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 function Taxes_what() {
   return (
     <>
-      <h1 className="my-5">
+      <h1 className="my-5 text-center">
         {" "}
         <b>What OpenSea users get</b>
       </h1>

@@ -6,7 +6,7 @@ import "./Taxes_sea.css"
 
 function Taxes_Sea() {
   return (
-    <div className='piko'>
+    <div className='piko text-center '>
         
         {/* background-image: url(./Assets/background_img.png); */}
         {/* background-image: url(../Asse) */}

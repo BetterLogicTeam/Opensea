@@ -238,7 +238,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                   <br />
                 </div>
                 <div className="mt-4">
-                  <Link to="/activity"><span
+                  <Link to="/activity" className="tdn text-decoration-none"><span
                     onClick={handleClose}
                     className="responsive_moblie_links margin_mobbb"
                   >
@@ -332,7 +332,7 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
                   <br />
                 </div>
                 <div className="mt-3" onClick={handleClose}>
-                <Link to='/newsletter'>
+                <Link to='/newsletter' className="text-decoration-none">
                   <span className="responsive_moblie_links margin_mobbb">
                     Newsletter
                   </span></Link>

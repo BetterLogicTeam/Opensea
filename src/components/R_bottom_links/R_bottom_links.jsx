@@ -33,7 +33,7 @@ function R_bottom_links() {
                 </div>
                 </Link>
 
-                <div className="row justify-content-center mt-3">
+                <div className="row justify-content-center mt-3 px-2 px-md-0">
                     <div className="col-md-8 links_border_top">
                         <div className="d-flex justify-content-between">
                         <div className='d-flex'>
@@ -52,7 +52,7 @@ function R_bottom_links() {
                       
                     </div>
                 </div>
-                <div className="row justify-content-center mt-3">
+                <div className="row justify-content-center mt-3 px-2 px-md-0">
                     <div className="col-md-8 links_border_top">
                         <div className="d-flex justify-content-between">
                         <div className='d-flex'>

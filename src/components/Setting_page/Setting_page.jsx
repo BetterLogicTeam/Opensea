@@ -163,13 +163,30 @@ function Setting_page() {
                   <div className="col-md-4">
                     <div className="d-flex align-items-center">
                       <h3 className="fs-5 fw-bold me-3">Profile Image</h3>
-                      <AiFillInfoCircle></AiFillInfoCircle>
+                      {/* <AiFillInfoCircle></AiFillInfoCircle> */}
+                      <div className="kakakaka me-2">
+                  <span className="sdsdsds    ">
+                  Recommanded 350px x 350px <br />
+                  Max size :100MB
+
+                  
+                  </span>{" "}
+                  <AiFillInfoCircle className="me-2"> </AiFillInfoCircle>{" "}
+                </div>
                     </div>
                     <div className="circle_setting"></div>
 
                     <div className="d-flex align-items-center mt-3">
                       <h3 className="fs-5 fw-bold me-3">Profile Banner</h3>
-                      <AiFillInfoCircle></AiFillInfoCircle>
+                      <div className="kakakaka me-2">
+                  <span className="sdsdsds    ">
+                  Recommanded 1400px x 350px <br />
+                  Max size :100MB
+
+                  
+                  </span>{" "}
+                  <AiFillInfoCircle className="me-2"> </AiFillInfoCircle>{" "}
+                </div>
                     </div>
                     <div className="reactangle_here">
                       <div className="icon_ss">
