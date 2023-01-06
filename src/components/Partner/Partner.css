@@ -69,3 +69,16 @@ width: 25% !important;
     font-size: 2px !important;
 
 }
+
+/* 6-01-2023  */
+
+.i_con_img_p{
+    
+    display: flex !important;
+    justify-content: center !important;
+    justify-items: center !important;
+}
+
+.gap_img_btn{
+    gap: 100px;
+}

@@ -8,7 +8,7 @@ function R_docs_build() {
   return (
     <>
     <div>
-        <h3 className='Heading_color_all'><b> Build on the largest marketplace for <br /> digital items</b> </h3>
+        <h3 className='Heading_color_all text-center'><b> Build on the largest marketplace for <br /> digital items</b> </h3>
     </div>
     
     <div className='container'>

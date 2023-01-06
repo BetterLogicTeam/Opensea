@@ -32,9 +32,9 @@ function R_blog_cards() {
                         <img src={crd_tw_pic_1} class="blog_img" alt="#" />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary '>Creator</button>
-                                <button className='btn btn-sm btn-primary'>Experience</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Experience</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -49,9 +49,9 @@ function R_blog_cards() {
                             <img src={crd_tw_pic_2} class="blog_img sasasasasasss" alt="..." />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start  '>
                                 <button className='btn btn-sm btn-primary '>Product</button>
-                                <button className='btn btn-sm btn-primary'>Marketplace</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Marketplace</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -66,9 +66,9 @@ function R_blog_cards() {
                         <img src={crd_tw_pic_1_3} class="blog_img" alt="..." />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary'>Product</button>
-                                <button className='btn btn-sm btn-primary'>Trust and Safety</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Trust and Safety</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -85,9 +85,9 @@ function R_blog_cards() {
                         <img src={crd_tw_pic_3} class="blog_img" alt="#" />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary '>Creator</button>
-                                <button className='btn btn-sm btn-primary'>Experience</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Experience</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -102,9 +102,9 @@ function R_blog_cards() {
                             <img src={crd_tw_pic_4} class="blog_img sasasasasasss" alt="..." />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary '>Product</button>
-                                <button className='btn btn-sm btn-primary'>Marketplace</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Marketplace</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -119,9 +119,9 @@ function R_blog_cards() {
                         <img src={crd_tw_pic_5} class="blog_img" alt="..." />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary'>Product</button>
-                                <button className='btn btn-sm btn-primary'>Trust and Safety</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Trust and Safety</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -138,9 +138,9 @@ function R_blog_cards() {
                         <img src={crd_tw_pic_1} class="blog_img" alt="#" />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary '>Creator</button>
-                                <button className='btn btn-sm btn-primary'>Experience</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Experience</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -155,9 +155,9 @@ function R_blog_cards() {
                             <img src={crd_tw_pic_2} class="blog_img" alt="..." />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary '>Product</button>
-                                <button className='btn btn-sm btn-primary'>Marketplace</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Marketplace</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>
@@ -172,9 +172,9 @@ function R_blog_cards() {
                         <img src={crd_tw_pic_1_3} class="blog_img" alt="..." />
                         </div>
                         <div className='text-start shadow p-3 bottom_rads'>
-                            <div className='bttn_rap d-flex justify-content-evenly '>
+                            <div className='bttn_rap d-flex justify-content-start '>
                                 <button className='btn btn-sm btn-primary'>Product</button>
-                                <button className='btn btn-sm btn-primary'>Trust and Safety</button>
+                                <button className='btn btn-sm btn-primary ms-3'>Trust and Safety</button>
                             </div>
                             <div className='text_main_box'>
                                 <h4 className='fw-bold mt-2 for_siz_edt'>Creator Using openSea Earned Over $ 1Billion from Creator fee i 2022</h4>

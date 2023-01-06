@@ -89,7 +89,7 @@ Trusted and secure  <br />platform</b></h6>
   </div>
 </div>
 
-<Button variant="contained" className="p-3 bb">Get started</Button>
+<Button variant="contained" className="p-3 bb d-block m-auto my-3">Get started</Button>
 
       </div>
     </>
