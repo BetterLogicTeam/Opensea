@@ -64,6 +64,7 @@ import Activity_listing from './components/Activity_listing/Activity_listing';
 import Activity_offers from './components/Activity_offers/Activity_offers';
 import Activity_mob from './components/Activity_mob/Activity_mob';
 import Profile_collection from './components/Profile_collection/Profile_collection';
+import Profile_collection_tab_item_data from './components/Profile_collection_tab_item_data/Profile_collection_tab_item_data';
 
 
 
@@ -110,10 +111,11 @@ function App() {
         <Route path="/Activity_offers" element={<Activity_offers/>} />
         <Route path="/activity" element={<Activity_mob/>} />
         <Route path="/Profile_collection" element={<Profile_collection/>} />
+        <Route path="/Profile_collection_tab_item_data" element={<Profile_collection_tab_item_data/>} />
 
 
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
 
       {/* <Full_new_letter/> */}

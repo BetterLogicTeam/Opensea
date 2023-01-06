@@ -53,7 +53,7 @@
 .nnnjjnj{
     overflow: hidden !important;
     transition: all 1s !important;
-    /* transition: box-shadow 0.25s ease-in-out 0s !important  ;  */
+    transition: box-shadow 0.25s ease-in-out 0s !important  ; 
 
 }
 
@@ -347,8 +347,3 @@
     right: 0px;
 }
 
-@media screen and (max-width:600px) {
-    .graeed{
-        display: none;
-    }
-}
