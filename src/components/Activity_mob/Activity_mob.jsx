@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 import Activity_prop from '../Activity_prop/Activity_prop';
 import { HiOutlineSearch } from 'react-icons/hi';
 import Activity_items from '../Activity_items/Activity_items';
-
+import "./Activity_mob.css"
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 

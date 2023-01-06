@@ -12,7 +12,7 @@ const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 function Activity_offers() {
   return (
-    <div>
+    <div className='active_lesting_padd_top'>
         <div>
             <div className="shaadoow">
                 <div className="fresnel-container fresnel-greaterThanOrEqual-lg sc-1242568d-1 dZzJwG">
