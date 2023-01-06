@@ -6,6 +6,7 @@ import { HiOutlineSearch } from 'react-icons/hi';
 import { IoCart, IoFilterSharp } from 'react-icons/io5';
 import Activity_prop from '../Activity_prop/Activity_prop';
 import { Link } from 'react-router-dom';
+import Activity_mob from '../Activity_mob/Activity_mob';
 
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
@@ -13,6 +14,8 @@ const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 function Activity_listing() {
   return (
     <div>
+
+            <Activity_mob />
             <div className="shaadoow">
                 <div className="fresnel-container fresnel-greaterThanOrEqual-lg sc-1242568d-1 dZzJwG">
                     <div display="flex" height="100%" className="sc-29427738-0 sc-e1213540-0 dqOkeF hdXdDy">
@@ -346,6 +349,7 @@ function Activity_listing() {
                     </div>
                 </div>
             </div>
+
         </div>
   )
 }
