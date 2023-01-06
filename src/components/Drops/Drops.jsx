@@ -119,7 +119,7 @@ function Drops() {
                               <h6 className="fw-bold lfm">By&nbsp;ItsMeGianPiero<MdVerified className='ms-1' /></h6>
                               <h6 className="fw-bold lfm">2,000 items. 0.88 ETH</h6>
                             </div>
-                            <div className="row main_time_box mt-4 ">
+                            <div className="row main_time_box">
                               <div className="col-lg-4 col-md-2 time">
                                 <div className="day"><span className="w_fon">0</span> <span className="b_fon">DAYS</span></div>
                                 <div className="day"><span className="w_fon">14</span> <span className="b_fon">HRS</span></div>

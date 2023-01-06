@@ -19,7 +19,7 @@ function R_main_play({card_play,playb}) {
       </div>
 
     </div>
-        <div className='text-start '>
+        <div className='text-center text-md-start '>
 
         <b className=' ms-0 text-start'>{playb}</b>
         </div>
