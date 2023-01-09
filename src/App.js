@@ -118,7 +118,7 @@ function App() {
 
         </Routes>
         <Footer/>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
 
       {/* <Full_new_letter/> */}
