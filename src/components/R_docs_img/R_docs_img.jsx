@@ -11,7 +11,7 @@ import h_docs_img from "../Assets/h_docs_img.png"
 function R_docs_img() {
   return (
     <div className='container col_img'>
-        Trusted by top wallets & websites
+        <p className='text-center my-5 pt-5'>Trusted by top wallets & websites</p>
         <div className="row  "> 
         {/* <div className="col-2"></div> */}
 <div className="col-12 col-md-6 d-md-flex justify-content-around  m-auto">

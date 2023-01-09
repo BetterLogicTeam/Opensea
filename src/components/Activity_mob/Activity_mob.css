@@ -1,3 +1,4 @@
-.active_lesting_padd_top{
-    padding-top: 72px !important;
+.Activity_mob_main{
+    display: flex;
+    justify-content: center;
 }
