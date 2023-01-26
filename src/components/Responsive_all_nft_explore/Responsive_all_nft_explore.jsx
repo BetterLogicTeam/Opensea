@@ -5,10 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 export default function Responsive_all_nft_explore({ name, ...props }) {
-    // const [show, setShow] = useState(false);
-
-    // const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
+ 
   return (
     <div>
 

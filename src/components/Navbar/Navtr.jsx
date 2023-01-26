@@ -63,7 +63,7 @@ function Navtr() {
             <Navbar collapseOnSelect expand="lg" className='nav-back text-dark '  style={{
           backgroundColor: navColor,
          
-          transition: "5ms"
+          transition: "1s"
         }} >
       <Container fluid  className='d-flex justify-content-between'>
         <Navbar.Brand href="#home">
