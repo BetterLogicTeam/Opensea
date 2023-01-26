@@ -4,12 +4,12 @@ import Button from "@mui/material/Button";
 function R_docs_footer() {
   return (
     <>
-      <div className="container  px-5">
+      <div className="container  px-5 mt-5">
         <div className="row">
           <div className="col-12 col-md-4 ">
-            <h6 className="text-start text_footer  ">
+            <h6 className="text-start text_footer">
               {" "}
-              <b className="Heading_color_all">Getting Started</b>
+              <b>Getting Started</b>
             </h6>
 
             <hr className="footer_hr" />

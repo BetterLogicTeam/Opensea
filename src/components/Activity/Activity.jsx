@@ -7,6 +7,7 @@ import { IoCart, IoFilterSharp } from 'react-icons/io5';
 import Activity_prop from '../Activity_prop/Activity_prop';
 import Activity_items from '../Activity_items/Activity_items';
 import { Link } from 'react-router-dom';
+import Activity_mob from '../Activity_mob/Activity_mob';
 
 
 
@@ -28,12 +29,19 @@ function Activity() {
                                     <button aria-expanded="true" aria-label="Close" data-testid="filter-toggle" className="sc-29427738-0 sc-788bb508-0 nFISH bpmNDx sc-9a637e94-1 kSESLX" type="button">
                                         <span className="sc-29427738-0 sc-d58c749b-2 sc-9a637e94-0 ILliQ cWTWPE enUGCb">
                                             <i color="charcoal" font-weight="600" value="filter_list" size="24" className="sc-a143597d-0 buXgzV material-icons-outlined"><IoFilterSharp /></i>
-                                        </span></button></div></div></div></div></div>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <Activity_mob />
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-3 accor_main">
+                    <div className="col-sm-12 col-lg-3 accor_main">
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item className="accur_item" eventKey="0">
                                 <Accordion.Header><div className="event_header">Event Type</div></Accordion.Header>

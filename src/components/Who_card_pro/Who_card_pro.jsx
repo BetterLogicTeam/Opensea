@@ -31,7 +31,7 @@ import eyes from "../Assets/eyes.webp"
 function Who_card_pro() {
   return (
     <div className='px-1 px-md-5'>
-    <div>
+    <div className='text-center'>
       <h1 className='mt-2'> <b>Who has partnered with us</b> </h1>
 
       <p className='my-5'>We've collaborated with high-profile organizations and celebrities and generated <br />

@@ -47,19 +47,19 @@ function Frist_open() {
           <Link to="/Profile_collection"><Frist_card img1={ninja} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
-          <Frist_card img1={ninja1} h1="KPR" h2="Floor:0,24 ETH" />
+          <Link to="/Profile_collection"><Frist_card img1={ninja1} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
-          <Frist_card img1={ninja2} h1="KPR" h2="Floor:0,24 ETH" />
+          <Link to="/Profile_collection"><Frist_card img1={ninja2} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
-          <Frist_card img1={ninja3} h1="KPR" h2="Floor:0,24 ETH" />
+          <Link to="/Profile_collection"><Frist_card img1={ninja3} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
-          <Frist_card img1={ninja4} h1="KPR" h2="Floor:0,24 ETH" />
+          <Link to="/Profile_collection"><Frist_card img1={ninja4} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
-          <Frist_card img1={ninja5} h1="KPR" h2="Floor:0,24 ETH" />
+          <Link to="/Profile_collection"><Frist_card img1={ninja5} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
 
       </Swiper>
