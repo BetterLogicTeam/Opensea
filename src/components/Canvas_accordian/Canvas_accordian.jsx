@@ -12,7 +12,7 @@ function Canvas_accordian({ name, ...props }) {
   return (
     <div>
       <Button variant="" onClick={handleShoww} className="me-2 d-block d-md-none ssssss ">
-      <FilterListIcon className='text-dark ' /> Fliter
+      <FilterListIcon className='te ' /> Fliter
       </Button>
       <Offcanvas show={showw} onHide={handleClosee} {...props} className="h-100">
         <Offcanvas.Header closeButton>

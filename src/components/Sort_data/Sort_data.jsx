@@ -25,7 +25,7 @@ function Sort_data({ name, ...props }) {
         </Offcanvas.Body>
         <div className='d-flex justify-content-evenly px-3 my-2'>
             
-            <button className='btn done_responsive text-light fw-bold btn-lg ssssss ' onClick={handleClosee} > Done</button>
+            <button className='btn done_responsive text-light fw-bold btn-lg ssssss w-100' onClick={handleClosee} > Done</button>
         </div>
       </Offcanvas>
     </div>

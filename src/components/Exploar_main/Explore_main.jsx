@@ -30,6 +30,7 @@ import Sports_explore from '../Sports_explore/Sports_explore';
 import Trading_explore from '../Trading_explore/Trading_explore';
 import Utility_explore from '../Utility_explore/Utility_explore';
 import Virtual_explore from '../Virtual_explore/Virtual_explore';
+import Domain_name_main from '../Domain_name_main/Domain_name_main';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -192,7 +193,7 @@ function Explore_main() {
                              <Collectibles_explore/>
                             </TabPanel>
                             <TabPanel value={value} index={4}>
-                           <Domain_explore/>
+                          <Domain_name_main/>
                             </TabPanel>
                             <TabPanel value={value} index={5}>
                               <Music_explore/>

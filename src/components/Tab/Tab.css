@@ -15,6 +15,9 @@
 .css-1aquho2-MuiTabs-indicator{
     background-color: black !important;
 }
+.shdow_none{
+    box-shadow: none !important;
+}
 @media only screen and (max-width:800px) {
     .paddd-end-lg{
         padding-right: 11px !important;

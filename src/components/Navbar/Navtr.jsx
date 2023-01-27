@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navtr.css"
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -38,6 +38,17 @@ function Navtr() {
   const handleShow = () => setShow(true);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
+   const [navColor, setnavColor] = useState("#ffffff");
+  const listenScrollEvent = () => {
+    window.scrollY > 10 ? setnavColor("#ffffff") : setnavColor("#ffffff");
+   
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
   return (
       
 <div className='nav_conditional z_index_nav'> 
@@ -49,18 +60,22 @@ function Navtr() {
         <div className="row m-0 p-0 nav-back">
             <div className="col-lg-12 p-0">
 
-            <Navbar collapseOnSelect expand="lg" className='nav-back bg-dark' >
+            <Navbar collapseOnSelect expand="lg" className='nav-back text-dark '  style={{
+          backgroundColor: navColor,
+         
+          transition: "1s"
+        }} >
       <Container fluid  className='d-flex justify-content-between'>
         <Navbar.Brand href="#home">
          <Link to="/" className='text-decoration-none'> <div className='main_logo d-flex'>
             <span><img src="./images/logo.svg" alt="opensea" className='lo_pi' /></span>
-            <div className='d-flex align-items-center poss'><h5 className='open text-white'>OpenSea</h5></div>
+            <div className='d-flex align-items-center poss'><h5 className='open '>OpenSea</h5></div>
           </div></Link>
         </Navbar.Brand>
 
         <Nav className="m-0">
           <form action="/action_page.php" className='d-none d-md-flex main_ch_bar'>
-             <div className='d-flex align-items-center'><BiSearchAlt2 className="fs-4 text-white"/></div>
+             <div className='d-flex align-items-center'><BiSearchAlt2 className="fs-4 "/></div>
              <Form.Control type="search " placeholder="Search items, colloections, and accounts" className="sbar d-none d-md-block forM" aria-label="Search"/>
              <div className='slg forM'>/</div>
           </form>
@@ -77,7 +92,7 @@ function Navtr() {
 
                 <li className='explr_l'>
                     <div className="explore">
-                    <Link to="/Explore_main"> <button className="dropbtn text-white for_bol for_inhi">Explore</button></Link>
+                    <Link to="/Explore_main"> <button className="dropbtn text-dark for_bol for_inhi">Explore</button></Link>
                     <div className="explore-content text-start">
                       <Link to="/ALL_explore"  className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</Link>
                       <Link  to="/Art_hover" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</Link>
@@ -93,11 +108,11 @@ function Navtr() {
                    </div>
                 </li>
                 <li>
-                <Nav.Link href="#pricing" className='text-white for_bol'><Link to="/Drop" className='text-white text-decoration-none'> Drops</Link></Nav.Link>
+                <Nav.Link href="#pricing" className=' for_bol'><Link to="/Drop" className=' text-decoration-none text-dark'> Drops</Link></Nav.Link>
                 </li>
                 <li>
                  <div className="stats">
-                   <button className="stats-dropbtn text-white for_bol">Stats</button>
+                   <button className="stats-dropbtn text-dark for_bol">Stats</button>
                    <div className="stats-content text-start">
                     <a href="#" className='border-bottom'>Rankings</a>
                     <a href="/Activity" className='border-bottom'>Activity</a>
@@ -107,7 +122,7 @@ function Navtr() {
                 <li>
                   <div className="resource">
                   <Link to="/resources_main_page" className='text-decoration-none'>
-                     <button className="resource-dropbtn text-white for_bol">Resources</button>
+                     <button className="resource-dropbtn text-dark for_bol">Resources</button>
                      </Link>
                     
                       <div className="resource-content text-start">
@@ -133,8 +148,8 @@ function Navtr() {
                 <div className='accoutn'>
                   <li>
                     <div className="icon">
-                      <button className="icon-dropbtn text-white" onClick={() => setModalShow(true)}><RiAccountCircleLine className='fs-2'/></button>
-                       <div className="icon-content text-start">
+                      <button className="icon-dropbtn " onClick={() => setModalShow(true)}><RiAccountCircleLine className='fs-2 text-dark'/></button>
+                       <div className="icon-content text-dark text-start">
 
 
       <Profile_modal
@@ -162,7 +177,7 @@ function Navtr() {
         <Wallet_ofcanvas_nav key={idx} placement={placement} name={placement} />
       ))}</>
    
-                    {/* <button className="icon-dropbtn text-white"><MdOutlineAccountBalanceWallet  className='fs-2'/></button> */}
+                    {/* <button className="icon-dropbtn "><MdOutlineAccountBalanceWallet  className='fs-2'/></button> */}
                     </div>
                   </li>
                 </div>

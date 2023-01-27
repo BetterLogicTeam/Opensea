@@ -26,6 +26,12 @@ import Accordian_all_nft from "../Accordian_all_nft/Accordian_all_nft";
 import Canvas_accordian from "../Canvas_accordian/Canvas_accordian";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import Collectibles_explore from "../Collectibles_explore/Collectibles_explore";
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import { RiArrowDropDownLine } from "react-icons/ri";
+import { BsGrid, BsGrid1X2, BsGrid3X3 } from "react-icons/bs";
+import { ButtonGroup } from "@mui/material";
 const drawerWidth = 340;
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
@@ -75,7 +81,7 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 
 export default function PersistentDrawerLeft() {
   const theme = useTheme();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -83,6 +89,14 @@ export default function PersistentDrawerLeft() {
 
   const handleDrawerClose = () => {
     setOpen(false);
+  };
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open1 = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
   };
 
   return (
@@ -111,12 +125,52 @@ export default function PersistentDrawerLeft() {
             {" "}
             <FilterListIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div" className="">
-           
+          <Typography variant="h6" noWrap component="div" className="d-flex justify-content-around">
+          <div className="me-4">
+      <Button
+      className="  dashbord me-5"
+        id="basic-button"
+        aria-controls={open1 ? 'basic-menu' : undefined}
+        aria-haspopup="true"
+        aria-expanded={open1 ? 'true' : undefined}
+        onClick={handleClick}
+      >
+       Sort by  <RiArrowDropDownLine className="fs-2"/>
+      </Button>
+      <Menu
+        id="basic-menu"
+        anchorEl={anchorEl}
+        open={open1}
+        onClose={handleClose}
+        MenuListProps={{
+          'aria-labelledby': 'basic-button',
+        }}
+      >
+        <MenuItem onClick={handleClose}>Recently listed</MenuItem>
+        <MenuItem onClick={handleClose}>Recently created</MenuItem>
+        <MenuItem onClick={handleClose}>Bundles</MenuItem>
+        <MenuItem onClick={handleClose}>Recently sold</MenuItem>
+        <MenuItem onClick={handleClose}>Recently received</MenuItem>
+        <MenuItem onClick={handleClose}>Endin soon</MenuItem>
+        <MenuItem onClick={handleClose}>Price low to high</MenuItem>
+        <MenuItem onClick={handleClose}>Price low to high</MenuItem>
+        <MenuItem onClick={handleClose}>Hightest last sale</MenuItem>
+        <MenuItem onClick={handleClose}>Oldest</MenuItem>
+      </Menu>
+    </div>
+    {/* <div className="d-flex justify-content-around  align-items-center">
+
+<ButtonGroup variant="outlined" aria-label="outlined button group" className="bor_color" >
+  <Button>  < BsGrid3X3 className="fs-2 button_lan "/></Button>
+  <Button><BsGrid className="fs-2  button_lan "/></Button>
+  <Button><BsGrid1X2 className="fs-2 button_lan  "/></Button>
+</ButtonGroup>
+    </div> */}
           </Typography>
         </Toolbar>
       </AppBar>
-      <Drawer
+      <Drawer open={open}
+
         className="drawer_appbar_z"
         sx={{
           width: drawerWidth,
@@ -128,39 +182,14 @@ export default function PersistentDrawerLeft() {
         }}
         variant="persistent"
         anchor="left"
-        open={open}
+        
       >
         <DrawerHeader>
           {/* <IconButton >
             {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton> */}
         </DrawerHeader>
-        {/* <Divider /> */}
-        {/* <List>
-          {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
-        <Divider />
-        <List>
-          {['All mail', 'Trash', 'Spam'].map((text, index) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List> */}
+   
         <div className="drawer_appbar">
           <Accordian_all_nft/>
         </div>

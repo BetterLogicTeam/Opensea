@@ -66,12 +66,12 @@ export default function BasicTabs() {
         </Tabs>
         <div className="d-flex justify-content-between mt-4 mt-md-0 paddd-end-lg">
           <div>
-            <button className='btn btn-lg btn-lg-lg border radius-border px-3 me-1'> 24h <RiArrowDropDownLine className='fs-2'/></button>
+            <button className='btn btn-lg btn-lg-lg border radius-border px-3 me-1 shdow_none'> 24h <RiArrowDropDownLine className='fs-2'/></button>
           </div>
           <Icon_bar_respon />
           <Icon_bar />
           <div>
-            <Link to="/View_tab"><button className='btn btn-lg btn-lg-lg border radius-border ms-1 px-3 '> Veiw All</button></Link>
+            <Link to="/View_tab"><button className='btn btn-lg btn-lg-lg border radius-border ms-1 px-3 shdow_none'> Veiw All</button></Link>
           </div>
         </div>
       

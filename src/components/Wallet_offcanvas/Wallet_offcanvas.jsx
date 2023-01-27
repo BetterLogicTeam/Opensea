@@ -21,7 +21,7 @@ const handleShow = () => setShow(true);
     <div>
    
          <Button  onClick={handleShow} className="me-2 offcanvas_header_btn">
-         <MdOutlineShoppingCart className='fs-2'/>
+         <MdOutlineShoppingCart className='fs-2 text-dark'/>
       </Button>
       <Offcanvas className='main_cart_ooff' show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>

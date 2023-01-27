@@ -30,7 +30,7 @@
     display: flex !important    ;
     flex-direction: column !important   ;
     height: 100% !important ;
-    border-radius: 10px !important  ;
+    /* border-radius: 10px !important  ; */
     position: relative !important   ;
     z-index: 2 !important   ;
     overflow: hidden !important ;
@@ -38,6 +38,7 @@
     box-shadow: rgb(0 0 0 / 8%) 0px 4px 15px !important ;
     transition: box-shadow 0.25s ease-in-out 0s !important  ; 
     overflow: hidden !important;
+    border-radius: 17px;
 }
 
 .caaart_bton{
@@ -280,6 +281,12 @@
 }
 .heream:hover .made_by_me{
     transform: scale(1.1);
+    
+}
+
+.again_edit{
+    /* border-radius: 80px !important; */
+    /* border: 3px solid green !important; */
 }
 
 /* .elbDsc:not(:hover) {
