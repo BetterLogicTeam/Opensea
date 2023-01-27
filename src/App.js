@@ -66,6 +66,7 @@ import Activity_mob from './components/Activity_mob/Activity_mob';
 import Profile_collection from './components/Profile_collection/Profile_collection';
 import Blocard from './components/Blog_slide/Blocard';
 import Profile_collection_tab_item_data from './components/Profile_collection_tab_item_data/Profile_collection_tab_item_data';
+import Nft_main_detail from './components/Nft_main_detail/Nft_main_detail';
 
 
 
@@ -75,12 +76,14 @@ function App() {
       {/* <R_blog_cards/> */}
       {/* <Blocard/> */}
       {/* <Blogslide/> */}
+      {/* <Nft_main_detail/> */}
        <BrowserRouter>
         <Navtr/>
         <Resposive_Navbar/>
         <Routes>
         <Route path="/" element={<Mainhome />} />
         <Route path="/Drop" element={< Drops/>} />
+        <Route path="/Nft_main_detail" element={< Nft_main_detail/>} />
         <Route path="/View_tab" element={< View_tab/>} />
         <Route path="/resources_main_page" element={<Resource_full_page/>} />
         <Route path="/resource_learn_page" element={<Resource_full_page/>} />
@@ -118,7 +121,6 @@ function App() {
 
         </Routes>
         <Footer/>
-        {/* <Footer/> */}
       </BrowserRouter>
 
       {/* <Full_new_letter/> */}

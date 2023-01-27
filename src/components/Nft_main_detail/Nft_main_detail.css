@@ -1,0 +1,49 @@
+
+.nft__display_styl{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+.right_sid_icon{
+    gap: 10px !important;
+}
+
+.favort{
+    font-size: 20px;
+    cursor: pointer !important;
+    font-weight: 700;
+
+}
+
+.azu_1st{
+    font-size: 16px;
+    color: rgb(32, 129, 226);
+}
+
+.fst_bbtn{
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.main_titl{
+    font-size: 30px;
+    font-weight: 600px;
+    word-break: break-word;
+}
+.view_heart_ppt{
+    font-size: 14px !important;
+    padding-top: 2px !important;
+    padding-left: 3px !important;
+}
+.group_list_m_some{
+    color: rgb(69, 70, 74) !important;
+   font-weight: 500 !important;
+}
+.Current_price{
+    color: rgb(69, 70, 74) !important;
+    font-weight: 500 !important;
+}
+.Add_to:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(129, 129, 129, 0.19) !important;
+}
