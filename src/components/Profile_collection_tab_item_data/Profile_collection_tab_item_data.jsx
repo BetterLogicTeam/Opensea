@@ -28,9 +28,9 @@ function Profile_collection_tab_item_data() {
         setValue(newValue);
     };
 
-  return (
-    <div>
-        <div className="sc-29427738-0 graeed sc-630fc9ab-0 sc-3f102755-0 gtDMWH jSPhMX hLGbAz">
+    return (
+        <div>
+            <div className="sc-29427738-0 graeed sc-630fc9ab-0 sc-3f102755-0 gtDMWH jSPhMX hLGbAz">
                 <div height="100%" width="calc(100vw - 17px)" className="sc-29427738-0 sc-3f102755-1 gHZPOh gpxecR">
                     <div className="fresnel-container fresnel-greaterThanOrEqual-lg sc-1242568d-1 dZzJwG">
                         <div display="flex" height="100%" className="sc-29427738-0 sc-e1213540-0 dqOkeF hdXdDy">
@@ -70,16 +70,16 @@ function Profile_collection_tab_item_data() {
                                                 <div cursor="pointer" aria-expanded="false">
                                                     {/* <input aria-invalid="false" placeholder="Sort by" readonly="" aria-haspopup="true" value="Price low to high" style={{cursor: "pointer"}}/> */}
                                                     <Dropdown className="sc-37393a8-0 bfXCzr sc-9a485e76-0 ggtkBP sc-a3ec9f15-2 dVaSwQ">
-      <Dropdown.Toggle className="acuure" variant="" id="dropdown-basic">
-      Price low to high
-      </Dropdown.Toggle>
+                                                        <Dropdown.Toggle className="acuure" variant="" id="dropdown-basic">
+                                                            Price low to high
+                                                        </Dropdown.Toggle>
 
-      <Dropdown.Menu className="acuure_bddy">
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
+                                                        <Dropdown.Menu className="acuure_bddy">
+                                                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                                                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                                                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                                                        </Dropdown.Menu>
+                                                    </Dropdown>
                                                     {/* <Accordion className="sc-37393a8-0 bfXCzr sc-9a485e76-0 ggtkBP sc-a3ec9f15-2 dVaSwQ">
                                                         <Accordion.Item eventKey="0">
                                                             <Accordion.Header className="acuure">Price low to high</Accordion.Header>
@@ -152,16 +152,16 @@ function Profile_collection_tab_item_data() {
                                 <Accordion.Body>
                                     <div className="sale_main_2">
                                         <span className="sale">Buy Now</span>
-                                      <Checkbox
+                                        <Checkbox
                                             {...label}
                                             sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
                                         />
-                                
+
                                     </div>
 
                                     <div className="sale_main_2">
                                         <span className="sale">On Auction</span>
-                                         <Checkbox
+                                        <Checkbox
                                             {...label}
 
                                             sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
@@ -246,7 +246,7 @@ function Profile_collection_tab_item_data() {
                                         <span className="sale">ETH</span>
                                         <Link to="/Activity">  <Checkbox
                                             {...label}
-                                            
+
                                             sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
                                         />
                                         </Link>
@@ -266,7 +266,7 @@ function Profile_collection_tab_item_data() {
                             <Accordion.Item className="accur_item" eventKey="4">
                                 <Accordion.Header><div className="event_header">Artist</div></Accordion.Header>
                                 <Accordion.Body>
-                                <div className="sc-29427738-0 fxMmBv">
+                                    <div className="sc-29427738-0 fxMmBv">
                                         <p className="sc-29427738-0 sc-bdnxRM dVNeWL jRRGWp">
                                             <div className="sc-37393a8-0 iFtgSt sc-e8931d0e-0 cJbnHG">
                                                 <div color="gray" className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 gMILgy jSPhMX kKyBpy fYgjHJ">
@@ -304,8 +304,8 @@ function Profile_collection_tab_item_data() {
                     </div>
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Profile_collection_tab_item_data
