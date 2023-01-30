@@ -26,6 +26,7 @@ import { Link } from "react-router-dom";
 import pic10 from "../Assets/virtual-worlds-light.svg";
 import { BiCalendar, BiWorld } from "react-icons/bi";
 import { RiFileCopy2Line } from "react-icons/ri";
+import Res_wallet_of_canvas from "../Res_wallet_of_canvas/Res_wallet_of_canvas";
 
 function Responsive_navbar_offCanvas({ name, ...props }) {
   const [show, setShow] = useState(false);
@@ -405,8 +406,14 @@ function Responsive_navbar_offCanvas({ name, ...props }) {
             </Accordion.Item>
           </Accordion>
 
-          <button onClick={handleClose} className="mbl_buttton_res w-100">
-            Connect Wallet
+          <button  className="mbl_buttton_res w-100">
+          <div>
+                    <>                  {[ 'end' ].map((placement, idx) => (
+        <Res_wallet_of_canvas key={idx} placement={placement} name={placement} />
+      ))}</>
+   
+                    {/* <button className="icon-dropbtn "><MdOutlineAccountBalanceWallet  className='fs-2'/></button> */}
+                    </div>
           </button>
 
           <div className="offcanvas_footer_mboile_vielw">
