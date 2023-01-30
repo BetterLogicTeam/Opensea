@@ -16,7 +16,7 @@ const handleShow = () => setShow5(true);
     <div>
    
          <Button  onClick={handleShow} className="me-2 offcanvas_header_btn">
-         <MdOutlineShoppingCart className='fs-2 text-dark'/>
+         <MdOutlineShoppingCart className=' text-dark resp_shoping_chart'/>
       </Button>
       <Offcanvas className='' show={show5} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
