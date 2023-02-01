@@ -103,7 +103,7 @@ export default function PersistentDrawerLeft() {
 
   return (
     <>
-     <AppBar className="appbar_line_analytics  d-none d-md-block">
+     <AppBar className="appbar_line_analytics d-none  d-md-block">
          
          <Toolbar className="analytical d-flex justify-content-between">
            <IconButton
