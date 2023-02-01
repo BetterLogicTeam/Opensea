@@ -12,8 +12,9 @@
     border: 2px solid rgb(162, 162, 162) !important;
     border-radius: 12px !important;
     font-weight: 600 !important;
-    width: 100% !important;
+    width:70% !important;
     color:rgb(162, 162, 162) !important ;
+    
     cursor: pointer !important;
 }
 .bor_right:hover{
