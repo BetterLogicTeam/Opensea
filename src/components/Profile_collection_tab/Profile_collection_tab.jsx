@@ -22,6 +22,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import { Radio } from '@mui/material';
 import Profile_collection_tab_mob from '../Profile_collection_tab_mob/Profile_collection_tab_mob';
 import Profile_collection_tab_item_data from '../Profile_collection_tab_item_data/Profile_collection_tab_item_data';
+import Profile_nft_analytics from '../Profile_nft_analytics/Profile_nft_analytics';
 
 
 function TabPanel(props) {
@@ -75,7 +76,7 @@ function Profile_collection_tab() {
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                             <Tab label="Item One" {...a11yProps(0)} />
-                            <Tab label="Item Two" {...a11yProps(1)} />
+                            <Tab label="Analytics" {...a11yProps(1)} />
                             <Tab label="Item Three" {...a11yProps(2)} />
                         </Tabs>
                     </Box>
@@ -83,7 +84,7 @@ function Profile_collection_tab() {
                         <Profile_collection_tab_item_data />
                     </TabPanel>
                     <TabPanel value={value} index={1}>
-                    <Profile_collection_tab_item_data />
+                    <Profile_nft_analytics/>
                     </TabPanel>
                     <TabPanel value={value} index={2}>
                     <Profile_collection_tab_item_data />

@@ -1,0 +1,12 @@
+.appbar_line_analytics{
+   
+    z-index: 600 !important; 
+    background-color: white !important;
+    color: black !important;
+    position:relative !important;
+    box-shadow: none !important;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    position: relative !important;
+    z-index: 1 !important;
+}
