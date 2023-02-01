@@ -91,10 +91,7 @@ function Drops() {
                             </div>
                             <div className="row main_time_box mt-4 ">
                               <div className="col-lg-4 col-md-2 time">
-                                {/* <div className="day"><span className="w_fon">0</span> <span className="b_fon">DAYS</span></div>
-                                <div className="day"><span className="w_fon">14</span> <span className="b_fon">HRS</span></div>
-                                <div className="day"><span className="w_fon">25</span> <span className="b_fon">MINS</span></div>
-                                <div className="day"><span className="w_fon">12</span> <span className="b_fon">SECS</span></div> */}
+                         
                               </div>
                               <div className="col-lg-8 col-md-2 view gYb ">
                                 <div className="bell_1 me-3"><AiOutlineBell className='fs-4 ' /></div>

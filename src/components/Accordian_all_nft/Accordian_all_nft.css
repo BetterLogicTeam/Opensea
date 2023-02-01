@@ -20,7 +20,6 @@
     width: 112px;
     height: 48px;
     margin-right: 8px;
-    /* border: 2px solid rgb(229, 232, 235); */
     padding-left: 12px;
 color: black !important;
 }
@@ -39,7 +38,6 @@ color: black !important;
 }
 .radius_boreder_text .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
     border-radius: 13px !important;
-    /* width: 0% !important; */
    
 }
 .hello_height .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {

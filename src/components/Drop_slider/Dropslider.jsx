@@ -35,11 +35,7 @@ function Dropslider() {
         <SwiperSlide><img src={sel_2} alt="" className="sel_wid" /></SwiperSlide>
         <SwiperSlide><img src={sel_3} alt="" className="sel_wid" /></SwiperSlide>
         <SwiperSlide><img src={sel_4} alt="" className="sel_wid" /></SwiperSlide>
-        {/* <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSl>Slide 7</SwiperSl
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
+
       </Swiper>
     </>
             </div>

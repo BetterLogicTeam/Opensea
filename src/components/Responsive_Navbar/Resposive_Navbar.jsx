@@ -28,9 +28,7 @@ const handleShow = () => setShow5(true);
         <div className="responsive_avbar_icons">
           <div className="d-flex">
             <BsSearch className="res_pos_icons me-2"></BsSearch>
-            {/* <MdOutlineShoppingCart className="res_pos_icons me-2"  onClick={handleShow}>
-    
-            </MdOutlineShoppingCart> */}
+           
             <>                  {[ 'end' ].map((placement, idx) => (
         <Respo_wallet_offcanvas key={idx} placement={placement} name={placement} />
       ))}</>

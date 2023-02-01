@@ -4,7 +4,6 @@
         padding: 5px 20px;
         border: 2px solid rgb(229, 232, 235) !important;
         border-radius:0px 10px 10px 0px ;
-        /* caret-color: red ; */
 }
 
 .inpu_grp{
@@ -18,7 +17,6 @@
 
 .inpu_grp:focus{
     box-shadow: none !important;
-    /* border: 2px solid red !important ; */
 }
 
 

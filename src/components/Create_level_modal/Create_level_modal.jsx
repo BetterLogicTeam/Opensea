@@ -45,7 +45,6 @@ function Create_level_modal(props,create_head,create_sub) {
     <div class="input-group-text" id="btnGroupAddon">of</div>
     <input type="number" placeholder='5' className='w-25 nummmmber_impu' />
   </div>
-                {/* <input type="text" placeholder='Male' className='male_input' /> */}
             </div>
         </div>  
 
@@ -54,7 +53,6 @@ function Create_level_modal(props,create_head,create_sub) {
             </div>
       </Modal.Body>
       <Modal.Footer>
-        {/* <Button onClick={props.onHide}>Close</Button> */}
         <button className='save_pro add_more_pro w-100' onClick={props.onHide}> Save</button>
       </Modal.Footer>
     </Modal>

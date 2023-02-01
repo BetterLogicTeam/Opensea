@@ -50,7 +50,6 @@ function Create_add_modal(props) {
             </div>
       </Modal.Body>
       <Modal.Footer>
-        {/* <Button onClick={props.onHide}>Close</Button> */}
         <button className='save_pro add_more_pro w-100' onClick={props.onHide}> Save</button>
       </Modal.Footer>
     </Modal>

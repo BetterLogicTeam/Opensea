@@ -107,7 +107,6 @@ function Create_page() {
                 placeholder="Provide a detailed description of your item."
                 className="create_page_textareaa_here"
               ></textarea>
-              {/* <input type="text" placeholder='https://yoursite.io/item/123' className=' ' name="" id="link" /> */}
             </div>
 
             <div className="main_name_input mt-3 mb-3">
@@ -142,7 +141,6 @@ function Create_page() {
                 </option>
                 <option value="">no results</option>
               </select>
-              {/* <input type="text" placeholder='https://yoursite.io/item/123' className='create_page_input_here' name="" id="link" /> */}
             </div>
 
             <div className="properties_create_page">
@@ -274,7 +272,6 @@ function Create_page() {
                     inputProps={{ "aria-label": "controlled" }}
                   />
 
-                  {/* <button className='rght_content_btn'> <AiOutlinePlus className='fs-1'></AiOutlinePlus></button> */}
                 </div>
               </div>
             </div>
@@ -328,7 +325,6 @@ function Create_page() {
                     onChange={handleChange1}
                     inputProps={{ "aria-label": "controlled" }}
                   />
-                  {/* <button className='rght_content_btn'> <AiOutlinePlus className='fs-1'></AiOutlinePlus></button> */}
                 </div>
               </div>
             </div>
@@ -360,7 +356,6 @@ function Create_page() {
                 Blockchain
               </label>
               <br />
-              {/* <span className='req_create_fi mb-3'>The number of items that can be minted. No gas cost to you! <span><AiFillInfoCircle className='ms-2'></AiFillInfoCircle></span></span> */}
             </div>
             <div className="nanaa">
               <img src={ethereum} className="ethereu" alt="" />
@@ -369,7 +364,6 @@ function Create_page() {
                   Ethereum
                 </option>
               </select>{" "}
-              {/* <input type="number" placeholder='1' className='create_page_input_here' name="" id="link" /> */}
             </div>
 
             <div className="main_name_input mt-3 mb-3">

@@ -21,7 +21,6 @@
 
 
 .img_upload_create_div{
-    /* position: relative; */
     padding: 4px;
     cursor: pointer;
     border: 3px dashed rgb(204, 204, 204);
@@ -35,8 +34,7 @@
 
 .create_page_input_here{
     background-color: transparent;
-    /* border: none; */
-    /* flex: 1 0 0%; */
+  
     height: 48px;
     outline: none;
     padding: 6px 12px!important;
@@ -70,7 +68,6 @@
 .main_pro_heING{
     font-weight: 700;
     font-size: 16px;
-    /* display: block; */
     color: rgb(53, 56, 64) !important;
 }
 
@@ -167,10 +164,7 @@
 
 
 
-.tooltip {
-    /* display: inline-block; */
-    /* border-bottom: 1px dotted black; */
-  }
+
 
   .kakakaka {
     position: relative !important;

@@ -154,18 +154,19 @@ function Nft_main_detail() {
                   <div className="table-responsive">
                   <Table striped className="m-0 tbl_ro_stt table">
                     <thead>
-                      <tr >
+                      <tr className="" >
                         <th>Price</th>
                         <th>USD Price</th>
                         <th>Expiration</th>
                         <th>From</th>
+                      
                       </tr>
                     </thead>
                     <tbody className="tbl_ro_st">
                       <tr className="" >
                         <td>0.009 ETH</td>
-                        <td>$14.16</td>
-                        <td>about 23 hours</td>
+                        <td>$14.166666</td>
+                        <td>About 23 hours</td>
                         <td>B77344</td>
                         <td className=""> <button className="btn btn-md tabl_buy_bttnn"><BsFillLightningChargeFill className="me-2" />Buy</button></td>
                       </tr>
