@@ -18,7 +18,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-import "./Explore_all_nft.css";
+// import "./Drawer_profile_collection.css"
+// import "./Explore_all_nft.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Domain_explore from "../Domain_explore/Domain_explore";
@@ -32,6 +33,12 @@ import MenuItem from '@mui/material/MenuItem';
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { BsGrid, BsGrid1X2, BsGrid3X3 } from "react-icons/bs";
 import { ButtonGroup } from "@mui/material";
+import Profile_collection_card from "../Profile_collection_card/Profile_collection_card";
+// import Drawer_card_of_cards from "./Drawer_card_of_cards";
+import Activity_accordian from "../Profile_nft_activity/Activity_accordian"
+import Activity_nft_details from "./Activity_nft_details";
+import "./Profile_nft_activity.css"
+
 const drawerWidth = 340;
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
@@ -100,71 +107,74 @@ export default function PersistentDrawerLeft() {
   };
 
   return (
-    <Box sx={{ display: "flex" }} className="d-none d-md-flex" >
+    <>
+     <AppBar className="upper_drwr_baar css-ciy9n4-MuiPaper-gdg d-none d-md-block">
+
+<Toolbar className=" d-flex justify-content-between">
+  <IconButton
+    className="circle_icon"
+    aria-label="open drawer"
+    onClick={handleDrawerOpen}
+    edge="start"
+    sx={{ mr: 2, display: !open ? "block" : "none" }}
+  >
+    <FilterListIcon />
+  </IconButton>
+  <IconButton
+    className="circle_icon"
+    aria-label="open drawer"
+    onClick={handleDrawerClose}
+    edge="start"
+    sx={{ mr: 2, display: !open ? "none " : " block" }}
+  >
+    {" "}
+    <FilterListIcon />
+  </IconButton>
+  {/* <Typography variant="h6" noWrap component="div" className="d-flex justify-content-around">
+    <div className="me-4">
+      <Button
+        className="  dashbord me-5"
+        id="basic-button"
+        aria-controls={open1 ? 'basic-menu' : undefined}
+        aria-haspopup="true"
+        aria-expanded={open1 ? 'true' : undefined}
+        onClick={handleClick}
+      >
+        Sort by  <RiArrowDropDownLine className="fs-2" />
+      </Button>
+      <Menu
+        id="basic-menu"
+        anchorEl={anchorEl}
+        open={open1}
+        onClose={handleClose}
+        MenuListProps={{
+          'aria-labelledby': 'basic-button',
+        }}
+      >
+        <MenuItem onClick={handleClose}>Recently listed</MenuItem>
+        <MenuItem onClick={handleClose}>Recently created</MenuItem>
+        <MenuItem onClick={handleClose}>Bundles</MenuItem>
+        <MenuItem onClick={handleClose}>Recently sold</MenuItem>
+        <MenuItem onClick={handleClose}>Recently received</MenuItem>
+        <MenuItem onClick={handleClose}>Endin soon</MenuItem>
+        <MenuItem onClick={handleClose}>Price low to high</MenuItem>
+        <MenuItem onClick={handleClose}>Price low to high</MenuItem>
+        <MenuItem onClick={handleClose}>Hightest last sale</MenuItem>
+        <MenuItem onClick={handleClose}>Oldest</MenuItem>
+      </Menu>
+    </div>
+
+  </Typography> */}
+</Toolbar>
+</AppBar>
+    
+    
+    <Box sx={{ display: "flex" }} className="d-none d-md-flex upr_drww" >
       <CssBaseline />
 
-      <AppBar className="appbar_line  d-none d-md-block">
-
-        <Toolbar className="d-flex justify-content-between">
-          <IconButton
-            className="circle_icon"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            sx={{ mr: 2, display: !open ? "block" : "none" }}
-          >
-            <FilterListIcon />
-          </IconButton>
-          <IconButton
-            className="circle_icon"
-            aria-label="open drawer"
-            onClick={handleDrawerClose}
-            edge="start"
-            sx={{ mr: 2, display: !open ? "none " : " block" }}
-          >
-            {" "}
-            <FilterListIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap component="div" className="d-flex justify-content-around">
-            <div className="me-4">
-              <Button
-                className="  dashbord me-5"
-                id="basic-button"
-                aria-controls={open1 ? 'basic-menu' : undefined}
-                aria-haspopup="true"
-                aria-expanded={open1 ? 'true' : undefined}
-                onClick={handleClick}
-              >
-                Sort by  <RiArrowDropDownLine className="fs-2" />
-              </Button>
-              <Menu
-                id="basic-menu"
-                anchorEl={anchorEl}
-                open={open1}
-                onClose={handleClose}
-                MenuListProps={{
-                  'aria-labelledby': 'basic-button',
-                }}
-              >
-                <MenuItem onClick={handleClose}>Recently listed</MenuItem>
-                <MenuItem onClick={handleClose}>Recently created</MenuItem>
-                <MenuItem onClick={handleClose}>Bundles</MenuItem>
-                <MenuItem onClick={handleClose}>Recently sold</MenuItem>
-                <MenuItem onClick={handleClose}>Recently received</MenuItem>
-                <MenuItem onClick={handleClose}>Endin soon</MenuItem>
-                <MenuItem onClick={handleClose}>Price low to high</MenuItem>
-                <MenuItem onClick={handleClose}>Price low to high</MenuItem>
-                <MenuItem onClick={handleClose}>Hightest last sale</MenuItem>
-                <MenuItem onClick={handleClose}>Oldest</MenuItem>
-              </Menu>
-            </div>
-
-          </Typography>
-        </Toolbar>
-      </AppBar>
       <Drawer open={open}
 
-        className="drawer_appbar_z"
+        className="drawer_appbar_zgss"
         sx={{
           width: drawerWidth,
           flexShrink: 0,
@@ -180,17 +190,19 @@ export default function PersistentDrawerLeft() {
         <DrawerHeader>
         </DrawerHeader>
 
-        <div className="drawer_appbar">
-          <Accordian_all_nft />
+        <div className="activirt_drawer_appbar ">
+          <Activity_accordian/>
         </div>
       </Drawer>
-      
-      <Main open={open}>
-        <DrawerHeader />
-        <Typography paragraph>
-          <Collectibles_explore />
-        </Typography>
-      </Main>
+
+        <Main open={open}>
+          <DrawerHeader />
+          <Typography style={{width: "100%"}}>
+            <Activity_nft_details />
+          </Typography>
+        </Main>
+     
     </Box>
+    </>
   );
 }

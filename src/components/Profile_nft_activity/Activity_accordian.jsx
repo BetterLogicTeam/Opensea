@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
-import "./Accordian_all_nft.css";
+// import "./Accordian_all_nft.css";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -48,7 +48,7 @@ export default function SimpleAccordion() {
     setAge(event.target.value);
   };
   return (
-    <div className="activity_acordian_dawer mt-5">
+    <div className="activty_acordian_dawer mt-5">
       <Accordion disableGutters defaultExpanded className="px-2">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className="fs-2" />}
@@ -56,13 +56,13 @@ export default function SimpleAccordion() {
           id="panel1a-header"
         >
           <Typography variant="h6" className="fw-bold">
-            Status
+            Event Type
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <div className="new_main" onClick={handleClosee}>
-              <span className="new_all">Buy Now</span>
+              <span className="new_all">Sales</span>
               <Checkbox
                 {...label}
 
@@ -72,7 +72,7 @@ export default function SimpleAccordion() {
             </div>
 
             <div className="new_main">
-              <span className="new_all">On Auction</span>
+              <span className="new_all">Listings</span>
               <Checkbox
                 {...label}
                 sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}
@@ -81,7 +81,7 @@ export default function SimpleAccordion() {
             </div>
 
             <div className="new_main">
-              <span className="new_all">New</span>
+              <span className="new_all">Offers</span>
               <Checkbox
                 {...label}
                 sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}
@@ -90,16 +90,25 @@ export default function SimpleAccordion() {
             </div>
 
             <div className="new_main">
-              <span className="new_all">Has Offers</span>
+              <span className="new_all">Collection offers</span>
               <Checkbox
                 {...label}
                 sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}
               />
             </div>
+
+            <div className="new_main">
+              <span className="new_all">Transfers</span>
+              <Checkbox
+                {...label}
+                sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}
+              />
+            </div>
+
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion disableGutters className="px-2">
+      {/* <Accordion disableGutters className="px-2">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className="fs-2" />}
           aria-controls="panel2a-content"
@@ -311,7 +320,7 @@ export default function SimpleAccordion() {
 
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       {/* <E_acordin_h/> */}
     </div>
