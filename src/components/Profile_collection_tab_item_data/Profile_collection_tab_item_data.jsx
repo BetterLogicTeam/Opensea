@@ -10,13 +10,11 @@ import Accordion from 'react-bootstrap/Accordion';
 import Checkbox from '@mui/material/Checkbox';
 import { Link } from 'react-router-dom';
 import Profile_collection_card from '../Profile_collection_card/Profile_collection_card';
-// import "./Profile_collection_tab.css";
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Radio } from '@mui/material';
 import Profile_collection_tab_mob from '../Profile_collection_tab_mob/Profile_collection_tab_mob';
-// import Profile_collection_tab_mob from '../../../Profile_collection_tab_mob/Profile_collection_tab_mob';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
@@ -68,7 +66,6 @@ function Profile_collection_tab_item_data() {
                                         <div className="fresnel-container fresnel-greaterThanOrEqual-lg ">
                                             <div className="fresnel-container fresnel-greaterThanOrEqual-lg ">
                                                 <div cursor="pointer" aria-expanded="false">
-                                                    {/* <input aria-invalid="false" placeholder="Sort by" readonly="" aria-haspopup="true" value="Price low to high" style={{cursor: "pointer"}}/> */}
                                                     <Dropdown className="sc-37393a8-0 bfXCzr sc-9a485e76-0 ggtkBP sc-a3ec9f15-2 dVaSwQ">
                                                         <Dropdown.Toggle className="acuure" variant="" id="dropdown-basic">
                                                             Price low to high
@@ -80,23 +77,7 @@ function Profile_collection_tab_item_data() {
                                                             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                                                         </Dropdown.Menu>
                                                     </Dropdown>
-                                                    {/* <Accordion className="sc-37393a8-0 bfXCzr sc-9a485e76-0 ggtkBP sc-a3ec9f15-2 dVaSwQ">
-                                                        <Accordion.Item eventKey="0">
-                                                            <Accordion.Header className="acuure">Price low to high</Accordion.Header>
-                                                            <Accordion.Body className="acuure_bddy">
-                                                                <ul>
-                                                                    <li>Recently listed</li>
-                                                                    <li>Recently created</li>
-                                                                    <li>Recently sold</li>
-                                                                    <li>Highest last sale </li>
-                                                                    <li>Ending soon </li>
-                                                                </ul>
-                                                            </Accordion.Body>
-                                                        </Accordion.Item>
-                                                    </Accordion> */}
-                                                    {/* <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 kQKAhB jSPhMX kKyBpy fYgjHJ"> */}
-                                                    {/* <i aria-label="Show more" color="gray" cursor="pointer" value="keyboard_arrow_down" size="24" className="sc-a143597d-0 dYnUi material-icons"><IoIosArrowDown /></i> */}
-                                                    {/* </div> */}
+                                                  
                                                 </div>
                                             </div>
                                             <div className="fresnel-container fresnel-lessThan-lg ">
@@ -185,15 +166,7 @@ function Profile_collection_tab_item_data() {
                                         </p>
                                     </div>
 
-                                    {/* <Activity_prop url="https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&amp;w=48 1x, https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&amp;w=64 2x" src="https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&amp;w=64" title="CryptoPunks" />
-
-                                    <Activity_prop url="https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=48 1x, https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&amp;w=64 2x" title="Bored Ape" />
-
-                                    <Activity_prop url="https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=48 1x, https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&amp;w=64 2x" title="Otherdeed" />
-
-                                    <Activity_prop url="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=48 1x, https://i.seadn.io/gcs/files/9617c138dee52ff098742ce9e25f5d8a.png?auto=format&amp;w=64 2x" title="Mutant" />
-
-                                    <Activity_prop url="https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=64" decoding="async" data-nimg="intrinsic" srcset="https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=48 1x, https://i.seadn.io/gcs/files/498b0e830344cd420b80c3ae1161c3ca.png?auto=format&amp;w=64 2x" title="Savage" /> */}
+                                  
 
                                 </Accordion.Body>
                             </Accordion.Item>

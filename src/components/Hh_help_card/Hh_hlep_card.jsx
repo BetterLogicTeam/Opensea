@@ -1,6 +1,5 @@
   import React from 'react'
   import "./Hh_help_card.css"
-//   import hh_cardp from "../Assets/hh_cardp.png"
   function Hh_hlep_card({card_title,hh_cardp}) {
     return (
       <div>

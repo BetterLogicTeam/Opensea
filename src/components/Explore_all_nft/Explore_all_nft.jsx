@@ -158,14 +158,7 @@ export default function PersistentDrawerLeft() {
         <MenuItem onClick={handleClose}>Oldest</MenuItem>
       </Menu>
     </div>
-    {/* <div className="d-flex justify-content-around  align-items-center">
-
-<ButtonGroup variant="outlined" aria-label="outlined button group" className="bor_color" >
-  <Button>  < BsGrid3X3 className="fs-2 button_lan "/></Button>
-  <Button><BsGrid className="fs-2  button_lan "/></Button>
-  <Button><BsGrid1X2 className="fs-2 button_lan  "/></Button>
-</ButtonGroup>
-    </div> */}
+   
           </Typography>
         </Toolbar>
       </AppBar>
@@ -185,9 +178,7 @@ export default function PersistentDrawerLeft() {
         
       >
         <DrawerHeader>
-          {/* <IconButton >
-            {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
-          </IconButton> */}
+         
         </DrawerHeader>
    
         <div className="drawer_appbar">

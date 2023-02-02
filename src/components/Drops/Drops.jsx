@@ -79,11 +79,9 @@ function Drops() {
                     <div className="band">
                       <span className="dec d-flex justify-content-start">January 12</span>
                       <div className="uper">
-                        {/* <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi aga_in" ></video> */}
                         <img src={frs_drp} alt="" className="bike_movi aga_in" />
                         <div className="row for_position text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
-                            {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
                             <div className="in_between mt-4 text-start">
                               <h3 className="fw-bolder lfm">Patchworks<MdVerified className='ms-1' /></h3>
                               <h6 className="fw-bold lfm">By&nbsp;CameoPass<MdVerified className='ms-1' /></h6>
@@ -95,7 +93,6 @@ function Drops() {
                               </div>
                               <div className="col-lg-8 col-md-2 view gYb ">
                                 <div className="bell_1 me-3"><AiOutlineBell className='fs-4 ' /></div>
-                                {/* <div className="bell px-4 py-3"><span className="fw-bold">View drop</span></div> */}
                               </div>
                             </div>
                           </div>

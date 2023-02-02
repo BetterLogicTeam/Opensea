@@ -22,19 +22,7 @@ function Explore_art(props) {
       <div>
         <img src={props.art} width="100%" alt="" />
       </div>
-      {/* <div className="container-fluid px-2 px-md-5 px-0">
-        <h1 className="text-start pt-4 heading_explore_art">{props.head_art}</h1>
-        <div className="row m-0">
-            <div className="col-md-8 col-sm-12">
-        <p className="text-start art_text_edit">
-        {props.para_1}
-        </p>
-        <p className="text-start art_text_edit">
-        {props.para_2}
-        </p>
-      </div></div>
       
-      </div> */}
         <div className="px-2 px-md-5 pt-2">
         <div className="trand text-start">
           <h2 className="">Trending collections</h2>

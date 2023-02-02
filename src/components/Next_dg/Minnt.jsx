@@ -33,7 +33,6 @@ function Minnt() {
                             </div>
                             <div className='mt-4 border py-3 px-4 view_c_box '>
                                 <h5 className='fw-bold text-start'>Mint sold out</h5>
-                                {/* <h6 className='fw-bold'>0.88 ETH</h6> */}
                                 <h6 className="text-muted text-start">All items were minted</h6>
                                 <button className='btn btn-lg btn-primary view_c_butn mt-3'> <span className='fw-bold'>View collection</span></button>
                                 <div>

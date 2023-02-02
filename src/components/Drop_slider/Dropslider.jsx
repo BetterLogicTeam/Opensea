@@ -1,13 +1,9 @@
-// import React from 'react'
 import "./Dropslider.css"
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import sel_1 from '../Accets/usel-1.avif'
 import sel_2 from '../Accets/usel-2.avif'

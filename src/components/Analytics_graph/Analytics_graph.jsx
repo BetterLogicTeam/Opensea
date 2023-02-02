@@ -196,7 +196,7 @@ function Analytics_graph() {
 
               <div className="acutal_progress_bar"></div>
             </div>
-       
+
             <div className="progress_bar_nft mt-3">
               <div className="d-flex justify-content-between">
                 <h6 className="fw-bold text-dark">13%</h6>

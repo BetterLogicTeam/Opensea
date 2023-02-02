@@ -32,8 +32,7 @@ function Profile_collection_card() {
                       className=" sc-f087f95e-0 nnnjjnj sc-f087f95e-1 gwpnfr gyivza AssetMedia--img"
                       style={{ height: "100%", width: "380px" }}
                     >
-                      {/* <span className='img_wrapper' style={{ boxSizing: "border-box", display: "block", overflow: "hidden", width: "initial", height: "initial", background: "none", opacity: "1", border: "0", margin: "0", padding: "0", position: "absolute", top: "0", left: "0", bottom: "0", right: "0" }}>
-                                            </span> */}
+           
                       <img
                         className="inner_img made_by_me again_edit"
                         alt="BurnassoCelebtratesFirstEdition-1"

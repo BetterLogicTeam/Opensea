@@ -92,67 +92,7 @@ WETH
     </Accordion>
   
      
-    {/* <Accordion disableGutters  className='px-2'>
-      <AccordionSummary
-        expandIcon={<ExpandMoreIcon className='fs-2'/>}
-        aria-controls="panel1a-content"
-        id="panel1a-header"
-      >
-        <Typography variant='h6' className='fw-bold'>Currency</Typography>
-      </AccordionSummary>
-      <AccordionDetails>
-      <div className='my-2 position-relative '><SearchIcon className='input_icon'/><input type="text" placeholder='Fiter '  className='input_border py-2 ps-5' /> </div>
-        <Typography>
-            <div className='d-flex justify-content-between'>
-
-<div> 3 attributes</div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div></div>
-<div className='d-flex justify-content-between'>
-<div> 2 attributes</div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div></div>
-            <div className='d-flex justify-content-between'><div> APE</div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div>     </div>
-            <div className='d-flex justify-content-between'>
-<div> Earring </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> 4 attributes </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Cigarette </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Hot Lipstick </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Purple Lipstick </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Mole </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Black Lipstick </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Nerd Glasses </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Big Shades </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Horned Rim Glasses</div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Regular Shades </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-            <div className='d-flex justify-content-between'>
-<div> Shadow Beard </div>
-<div className=''><Checkbox  {...label} sx={{ "& .MuiSvgIcon-root": { fontSize: 27 } }}/></div> </div>
-
-           
-        </Typography>
-      </AccordionDetails>
-    </Accordion> */}
+   
   </div>
   )
 }

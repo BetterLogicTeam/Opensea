@@ -207,16 +207,13 @@ padding: 13px !important;
         }
 }
 .backgrid{
-    /* background-image: linear-gradient(to bottom,rgb(201, 242, 255), rgb(255, 255, 255) );
-    
-*/
+
 background-image: url(../Assets/home-gradient-light-sm.png);
 background-position: center !important;
 background-repeat: no-repeat !important;
 background-size: cover !important;
 position: relative !important;
-/* bottom: 133px !important; */
-/* z-index: -1; */
+
 }
 
 

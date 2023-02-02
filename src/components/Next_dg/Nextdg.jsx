@@ -62,15 +62,7 @@ export default function BasicTabs() {
                 <div className="col-md-12 col-sm-12 p-0">
                     <div className="uperr">
                         <video src="./images/banner.mp4" autoPlay loop playsinline muted className="bike_movi naexdgggg" style={{borderRadius:'0px'}}></video>
-                        {/* <div className="row for_position text-white m-0">
-                            <div className="for_wrt col-lg-11 col-md-9">
-                                <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div>
-                                <div className="in_between mt-4 text-start">
-                                    <h3 className="fw-bolder lfm">inBetweeners x Dolce&Gabbana Drip<MdVerified className='ms-1' /></h3>
-                                    <h6 className="fw-bold lfm">By&nbsp;ItsMeGianPiero<MdVerified className='ms-1' /></h6>
-                                </div>
-                            </div>
-                        </div> */}
+                   
                     </div>
                 </div>
                 <div className="col-md-12 col-sm-12">

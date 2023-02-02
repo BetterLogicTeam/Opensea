@@ -19,7 +19,6 @@ function Meet_opensea() {
             <div className="col-md-8 mt-2 mt-md-0">
             <video autoPlay loop playsInline muted controls  className='w-100 r_sources_video'>
     <source src="r_vido.mp4" type="video/mp4" />
-    {/* <source src="/video-example.mp4" type="video/mp4" /> */}
     
 </video>
               

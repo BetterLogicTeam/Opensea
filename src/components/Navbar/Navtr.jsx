@@ -128,7 +128,6 @@ function Navtr() {
                       <div className="resource-content text-start">
                     <Link to='/resource_learn_page' className='text-start tdn '>    <a href="#" className='border-bottom'>Learn</a></Link>
                     <Link to='/r_help_center' className='tdn'>    <a href="#" className='border-bottom tdn'>Help Center</a> </Link>
-                        {/* <a href="#" className='border-bottom'>Collectibles</a> */}
                         <a href="#" className='border-bottom'>Platform Status</a>
                        <Link to='/R_full_partner' className='tdn'> <a href="#" className='border-bottom'>Partners</a></Link>
                         <Link to="/R_full_tax_page" className='text-decoration-none'>    <a href="#" className='border-bottom'>Taxes</a> </Link>
@@ -177,7 +176,6 @@ function Navtr() {
         <Wallet_ofcanvas_nav key={idx} placement={placement} name={placement} />
       ))}</>
    
-                    {/* <button className="icon-dropbtn "><MdOutlineAccountBalanceWallet  className='fs-2'/></button> */}
                     </div>
                   </li>
                 </div>
