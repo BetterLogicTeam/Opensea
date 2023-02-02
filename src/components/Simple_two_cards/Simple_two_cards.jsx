@@ -20,7 +20,7 @@ function Simple_two_cards() {
     
 
 
-    <div className=" container-fluid mt-5">
+    <div className=" container-fluid mt-5 mb-5">
       <div className='text-start txx ps-0 ps-md-3'><h4 className='fs-5'>Browse by category</h4></div>
     <div className="grid-pic-art">
     <Boxtow simpleimg={art} simh2="ART"/>
