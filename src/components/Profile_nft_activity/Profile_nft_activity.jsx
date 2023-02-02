@@ -140,7 +140,7 @@ export default function PersistentDrawerLeft() {
 
       <Drawer open={open}
 
-        className="drawer_appbar_zgss"
+        className="drawer_appbar_zgss drawer_appbar_z_analytics"
         sx={{
           width: drawerWidth,
           flexShrink: 0,
@@ -153,8 +153,8 @@ export default function PersistentDrawerLeft() {
         anchor="left"
 
       >
-        <DrawerHeader>
-        </DrawerHeader>
+        {/* <DrawerHeader>
+        </DrawerHeader> */}
 
         <div className="activirt_drawer_appbar ">
           <Activity_accordian/>
