@@ -83,7 +83,7 @@ function Profile_collection_tab() {
                     <TabPanel value={value} index={0}>
                         <Profile_collection_tab_item_data />
                     </TabPanel>
-                    <TabPanel value={value} index={1}>
+                    <TabPanel value={value} index={1} sx={{padding:"0px"}}>
                     <Profile_nft_analytics/>
                     </TabPanel>
                     <TabPanel value={value} index={2}>

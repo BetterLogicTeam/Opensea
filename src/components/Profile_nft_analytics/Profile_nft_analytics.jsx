@@ -103,122 +103,117 @@ export default function PersistentDrawerLeft() {
 
   return (
     <>
-      <AppBar className="appbar_line_analytics d-none  d-md-block">
-        <Toolbar className="analytical d-flex justify-content-between">
-          <IconButton
-            className="circle_icon"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            sx={{ mr: 2, display: !open ? "block" : "none" }}
-          >
-            <FilterListIcon />
-          </IconButton>
-          <IconButton
-            className="circle_icon"
-            aria-label="open drawer"
-            onClick={handleDrawerClose}
-            edge="start"
-            sx={{ mr: 2, display: !open ? "none " : " block" }}
-          >
-            {" "}
-            <FilterListIcon />
-          </IconButton>
+     <AppBar className="appbar_line_analytics d-none d-lg-block ">
+         
+         <Toolbar className="analytical d-flex justify-content-between">
+           <IconButton
+             className="circle_icon"
+             aria-label="open drawer"
+             onClick={handleDrawerOpen}
+             edge="start"
+             sx={{ mr: 2, display: !open ? "block" : "none" }}
+           >
+             <FilterListIcon />
+           </IconButton>
+           <IconButton
+             className="circle_icon"
+             aria-label="open drawer"
+             onClick={handleDrawerClose}
+             edge="start"
+             sx={{ mr: 2, display: !open ? "none " : " block" }}
+           >
+             {" "}
+             <FilterListIcon />
+           </IconButton>
+          
+                                                <div className="sc-29427738-0 ePjRuL">
+                                                    <div className="sc-37393a8-0 iFtgSt" aria-expanded="false">
+                                                        <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 dSVLeh jSPhMX kKyBpy fYgjHJ">
+                                                            <i color="gray" size="24" value="search" className="sc-a143597d-0 iyKxcj material-icons"><HiOutlineSearch /></i>
+                                                        </div>
+                                                        <input aria-invalid="false" aria-controls="CollectionTraitSearch--results" id="trait-selector-input" placeholder="Search by name or attribute" role="searchbox" value="" style={{ cursor: "text" }} />
+                                                    </div>
+                                                </div>
+                                         
 
-          <div className="sc-29427738-0 ePjRuL">
-            <div className="sc-37393a8-0 iFtgSt" aria-expanded="false">
-              <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 dSVLeh jSPhMX kKyBpy fYgjHJ">
-                <i
-                  color="gray"
-                  size="24"
-                  value="search"
-                  className="sc-a143597d-0 iyKxcj material-icons"
-                >
-                  <HiOutlineSearch />
-                </i>
-              </div>
-              <input
-                aria-invalid="false"
-                aria-controls="CollectionTraitSearch--results"
-                id="trait-selector-input"
-                placeholder="Search by name or attribute"
-                role="searchbox"
-                value=""
-                style={{ cursor: "text" }}
-              />
-            </div>
-          </div>
+           <Typography variant="h6" noWrap component="div" className="d-flex justify-content-around">
+           <div className="ms-2">
+       <Button
+       className="  dashbord "
+         id="basic-button"
+         aria-controls={open1 ? 'basic-menu' : undefined}
+         aria-haspopup="true"
+         aria-expanded={open1 ? 'true' : undefined}
+         onClick={handleClick}
+       >
+        Sort by  <RiArrowDropDownLine className="fs-2"/>
+       </Button>
+       
+       <Menu
+         id="basic-menu"
+         anchorEl={anchorEl}
+         open={open1}
+         onClose={handleClose}
+         MenuListProps={{
+           'aria-labelledby': 'basic-button',
+         }}
+       >
+         <MenuItem onClick={handleClose}>Recently listed</MenuItem>
+         <MenuItem onClick={handleClose}>Recently created</MenuItem>
+         <MenuItem onClick={handleClose}>Bundles</MenuItem>
+         <MenuItem onClick={handleClose}>Recently sold</MenuItem>
+         <MenuItem onClick={handleClose}>Recently received</MenuItem>
+         <MenuItem onClick={handleClose}>Endin soon</MenuItem>
+         <MenuItem onClick={handleClose}>Price low to high</MenuItem>
+         <MenuItem onClick={handleClose}>Price low to high</MenuItem>
+         <MenuItem onClick={handleClose}>Hightest last sale</MenuItem>
+         <MenuItem onClick={handleClose}>Oldest</MenuItem>
+       </Menu>
+     </div>
+     {/* <div className="d-flex justify-content-around  align-items-center">
+ 
+ <ButtonGroup variant="outlined" aria-label="outlined button group" className="bor_color" >
+   <Button>  < BsGrid3X3 className="fs-2 button_lan "/></Button>
+   <Button><BsGrid className="fs-2  button_lan "/></Button>
+   <Button><BsGrid1X2 className="fs-2 button_lan  "/></Button>
+ </ButtonGroup>
+     </div> */}
+           </Typography>
+         </Toolbar>
+       </AppBar>
+    <Box sx={{ display: "flex" }} className="" >
+      <CssBaseline />
+      
+     
+      <Drawer open={open}
 
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            className="d-flex justify-content-around"
-          >
-            <div className="ms-2">
-              <Button
-                className="  dashbord "
-                id="basic-button"
-                aria-controls={open1 ? "basic-menu" : undefined}
-                aria-haspopup="true"
-                aria-expanded={open1 ? "true" : undefined}
-                onClick={handleClick}
-              >
-                Sort by <RiArrowDropDownLine className="fs-2" />
-              </Button>
-
-              <Menu
-                id="basic-menu"
-                anchorEl={anchorEl}
-                open={open1}
-                onClose={handleClose}
-                MenuListProps={{
-                  "aria-labelledby": "basic-button",
-                }}
-              >
-                <MenuItem onClick={handleClose}>Recently listed</MenuItem>
-                <MenuItem onClick={handleClose}>Recently created</MenuItem>
-                <MenuItem onClick={handleClose}>Bundles</MenuItem>
-                <MenuItem onClick={handleClose}>Recently sold</MenuItem>
-                <MenuItem onClick={handleClose}>Recently received</MenuItem>
-                <MenuItem onClick={handleClose}>Endin soon</MenuItem>
-                <MenuItem onClick={handleClose}>Price low to high</MenuItem>
-                <MenuItem onClick={handleClose}>Price low to high</MenuItem>
-                <MenuItem onClick={handleClose}>Hightest last sale</MenuItem>
-                <MenuItem onClick={handleClose}>Oldest</MenuItem>
-              </Menu>
-            </div>
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Box sx={{ display: "flex" }} className="d-none d-md-flex">
-        <CssBaseline />
-
-        <Drawer
-          open={open}
-          className="drawer_appbar_z_analytics"
-          sx={{
+        className="drawer_appbar_z_analytics d-none d-lg-block"
+        sx={{
+          width: drawerWidth,
+          flexShrink: 0,
+          "& .MuiDrawer-paper": {
             width: drawerWidth,
-            flexShrink: 0,
-            "& .MuiDrawer-paper": {
-              width: drawerWidth,
-              boxSizing: "border-box",
-            },
-          }}
-          variant="persistent"
-          anchor="left"
-        >
-          <div className="drawer_appbar">
-            <Accordian_all_nft />
-          </div>
-        </Drawer>
-        <Main open={open}>
-          {/* <DrawerHeader /> */}
-          <Typography paragraph>
-            <Analytics_graph />
-          </Typography>
-        </Main>
-      </Box>
+            boxSizing: "border-box",
+          },
+        }}
+        variant="persistent"
+        anchor="left"
+        
+      >
+      
+   
+        <div className="drawer_appbar">
+          <Accordian_all_nft/>
+        </div>
+        
+      </Drawer>
+      <Main open={open} className="p-0">
+        <DrawerHeader />
+        <Typography paragraph >
+          <Analytics_graph />
+        </Typography>
+      </Main>
+    </Box>
     </>
   );
 }

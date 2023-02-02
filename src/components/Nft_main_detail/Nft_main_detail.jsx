@@ -183,7 +183,7 @@ function Nft_main_detail() {
 
       <div className="row">
         <div className="col-lg-12 col-sm-11">
-          <Accordion defaultActiveKey="" className="">
+          <Accordion defaultActiveKey="0" className="" alwaysOpen >
             <Accordion.Item eventKey="0">
               <Accordion.Header ><MdOutlineSort className="tag_ico me-2" /><span className="listing_sty">More From This Collection</span></Accordion.Header>
               <Accordion.Body className="">

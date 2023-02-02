@@ -146,7 +146,7 @@ function Profile_collection() {
                             </button>
                           </a>
                         </div>
-                        <div className="sc-29427738-0 sc-35f75ba4-1 dVNeWL hLooXR"></div>
+                        <div className="sc-29427738-0 sc-35f75ba4-1 dVNeWL hLooXR "></div>
                       </div>
                     </div>
                     <div className="sc-29427738-0 sc-630fc9ab-0 bOAEkR jSPhMX">
