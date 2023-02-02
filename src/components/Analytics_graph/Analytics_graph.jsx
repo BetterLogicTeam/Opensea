@@ -10,26 +10,35 @@ import pfaaaaaa from "../Assets/pfaaaaaa.avif";
 import la from "../Assets/la.avif";
 import laa from "../Assets/laa.avif";
 import laaa from "../Assets/laaa.avif";
+import Responsive_all_nft_explore from '../Responsive_all_nft_explore/Responsive_all_nft_explore';
+import Sort_canvas from '../Sort_canvas/Sort_canvas';
+import Analytics_table from "../Analytics_table/Analytics_table";
+
 function Analytics_graph() {
   return (
-    <div>
+    <div className="px-0">
       {/* first three boxes of listing sales etc */}
-      <div className="row">
-        <div className="col-lg-4 ">
+      <div className='d-flex justify-content-evenly my-2'>
+      <Responsive_all_nft_explore/>
+      <Sort_canvas/>
+      </div>
+      <div className="row ">
+     
+        <div className="col-lg-4 my-2 my-md-0">
           <div className="rrow_upward_Volume px-3 py-1 bbbooxxxx">
             <p className="Volume fs-6">Volume</p>
             <h4 className="">6.8 ETH</h4>
             <p className="rrow_upward  ">+127%</p>
           </div>
         </div>
-        <div className="col-lg-4 ">
+        <div className="col-lg-4 my-2 my-md-0">
           <div className="rrow_upward_Volume px-3 py-1 bbbooxxxx ">
             <p className="Volume fs-6">Sales</p>
             <h4 className="">54</h4>
             <p className="rrow_upward ">+5300%</p>
           </div>
         </div>
-        <div className="col-lg-4 ">
+        <div className="col-lg-4 my-2 my-md-0">
           <div className="rrow_upward_Volume px-3 py-1 bbbooxxxx">
             <p className="Volume fs-6">Floor price</p>
             <h4 className="">0.045 ETH</h4>
@@ -59,17 +68,17 @@ function Analytics_graph() {
             </div>
 
             <div className="row mt-3 hr_efft">
-              <div className="col-md-1">
+              <div className="col-md-2 col-3">
                 <img src={pfaa} className="w-100 rounded " alt="" />
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-6 gfggf">
                 <div className="pfa_tex">
                   <p>Bony Bro. #6 "You Can ( NOT ) Advance</p>
                   <span className="span_text_pfa">3 days to ago</span>
                 </div>
               </div>
 
-              <div className="col-md-3">
+              <div className="col-md-2 col-2">
                 <div className="pfa_tex">
                   <p>0.045 ETH</p>
                   <span className="span_text_pfa">At floor</span>
@@ -77,17 +86,17 @@ function Analytics_graph() {
               </div>
             </div>
             <div className="row mt-3 hr_efft">
-              <div className="col-md-1">
+              <div className="col-md-2 col-3">
                 <img src={pfa} className="w-100 rounded " alt="" />
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-6">
                 <div className="pfa_tex">
                   <p>Bony Bro. #6 "You Can ( NOT ) Advance</p>
                   <span className="span_text_pfa">3 days to ago</span>
                 </div>
               </div>
 
-              <div className="col-md-3">
+              <div className="col-md-3 col-3">
                 <div className="pfa_tex">
                   <p>0.045 ETH</p>
                   <span className="span_text_pfa">At floor</span>
@@ -95,17 +104,17 @@ function Analytics_graph() {
               </div>
             </div>
             <div className="row mt-3 hr_efft">
-              <div className="col-md-1">
+              <div className="col-md-2 col-3">
                 <img src={pfaaa} className="w-100 rounded " alt="" />
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-6">
                 <div className="pfa_tex">
                   <p>Bony Bro. #6 "You Can ( NOT ) Advance</p>
                   <span className="span_text_pfa">3 days to ago</span>
                 </div>
               </div>
 
-              <div className="col-md-3">
+              <div className="col-md-3 col-3">
                 <div className="pfa_tex">
                   <p>0.045 ETH</p>
                   <span className="span_text_pfa">At floor</span>
@@ -122,17 +131,17 @@ function Analytics_graph() {
           </div>
 
           <div className="row mt-3 hr_efft">
-            <div className="col-md-1">
+            <div className="col-md-2 col-3">
               <img src={pfaaaaaa} className="w-100 rounded " alt="" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-6">
               <div className="pfa_tex">
                 <p>Bony Bro. #6 "You Can ( NOT ) Advance</p>
                 <span className="span_text_pfa">3 days to ago</span>
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3 col-3">
               <div className="pfa_tex">
                 <p>0.045 ETH</p>
                 <span className="span_text_pfa">At floor</span>
@@ -140,17 +149,17 @@ function Analytics_graph() {
             </div>
           </div>
           <div className="row mt-3 hr_efft">
-            <div className="col-md-1">
+            <div className="col-md-2 col-3">
               <img src={pfaaaaa} className="w-100 rounded " alt="" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-6">
               <div className="pfa_tex">
                 <p>Bony Bro. #6 "You Can ( NOT ) Advance</p>
                 <span className="span_text_pfa">3 days to ago</span>
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3 col-3">
               <div className="pfa_tex">
                 <p>0.045 ETH</p>
                 <span className="span_text_pfa">At floor</span>
@@ -158,17 +167,17 @@ function Analytics_graph() {
             </div>
           </div>
           <div className="row mt-3 hr_efft">
-            <div className="col-md-1">
+            <div className="col-md-2  col-3">
               <img src={pfaa} className="w-100 rounded " alt="" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-6">
               <div className="pfa_tex">
                 <p>Bony Bro. #6 "You Can ( NOT ) Advance</p>
                 <span className="span_text_pfa">3 days to ago</span>
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3 col-3">
               <div className="pfa_tex">
                 <p>0.045 ETH</p>
                 <span className="span_text_pfa">At floor</span>
@@ -215,22 +224,24 @@ function Analytics_graph() {
             </div>
           </div>
         </div>
-
-        <div className="col-md-6 mt-3">
+<div className="col-md-6 col-12">
+  <Analytics_table/>
+</div>
+        {/* <div className="col-md-6 mt-3">
           <div className="border_rounder bbbooxxxx p-4">
             <div>
               <h3 className="listing_head">Owner </h3>
               <span className="span_text_pfa">Top 100</span>
             </div>
-
-            <div className="row mt-4">
-              <div className="col-md-6">
+<div className="table">
+            <div className=" mt-4 overFlow-scroll tr">
+              <div className="th">
                 <h6>Name</h6>
               </div>
 
-              <div className="col-md-2">Wallet</div>
-              <div className="col-md-2">owned</div>
-              <div className="col-md-2">%owned</div>
+              <div className="th">Wallet</div>
+              <div className="th">owned</div>
+              <div className="th">%owned</div>
             </div>
             <div className="row mt-4 hvr_efft">
               <div className="col-md-5">
@@ -254,7 +265,7 @@ function Analytics_graph() {
               <div className="col-md-2">
                 <span>174</span>
               </div>
-              <div className="col-md-2">65.17% </div>
+              <div className="col-md-2"> </div>
             </div>
             <div className="row mt-4 hvr_efft">
               <div className="col-md-5">
@@ -306,8 +317,8 @@ function Analytics_graph() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div> */}
+    </div></div>
   );
 }
 

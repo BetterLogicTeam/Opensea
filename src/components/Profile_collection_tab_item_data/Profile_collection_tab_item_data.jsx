@@ -291,15 +291,15 @@ function Profile_collection_tab_item_data() {
                         </Accordion>
                     </div>
 
-                    <div className="col-sm-6 col-lg-3">
+                    <div className="col-sm-6 col-lg-3 mt-3 mt-md-0">
                         <Profile_collection_card />
                     </div>
 
-                    <div className="col-sm-6 col-lg-3">
+                    <div className="col-sm-6 col-lg-3 mt-3 mt-md-0">
                         <Profile_collection_card />
                     </div>
 
-                    <div className="col-sm-6 col-lg-3">
+                    <div className="col-sm-6 col-lg-3 mt-3 mt-md-0">
                         <Profile_collection_card />
                     </div>
                 </div>

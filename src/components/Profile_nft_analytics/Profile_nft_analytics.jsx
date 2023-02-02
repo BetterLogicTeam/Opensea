@@ -103,7 +103,7 @@ export default function PersistentDrawerLeft() {
 
   return (
     <>
-     <AppBar className="appbar_line_analytics d-none  d-md-block">
+     <AppBar className="appbar_line_analytics d-none d-lg-block ">
          
          <Toolbar className="analytical d-flex justify-content-between">
            <IconButton
@@ -181,13 +181,13 @@ export default function PersistentDrawerLeft() {
            </Typography>
          </Toolbar>
        </AppBar>
-    <Box sx={{ display: "flex" }} className="d-none d-md-flex" >
+    <Box sx={{ display: "flex" }} className="" >
       <CssBaseline />
       
      
       <Drawer open={open}
 
-        className="drawer_appbar_z_analytics"
+        className="drawer_appbar_z_analytics d-none d-lg-block"
         sx={{
           width: drawerWidth,
           flexShrink: 0,
@@ -207,9 +207,9 @@ export default function PersistentDrawerLeft() {
         </div>
         
       </Drawer>
-      <Main open={open}>
-        {/* <DrawerHeader /> */}
-        <Typography paragraph>
+      <Main open={open} className="p-0">
+        <DrawerHeader />
+        <Typography paragraph >
           <Analytics_graph />
         </Typography>
       </Main>

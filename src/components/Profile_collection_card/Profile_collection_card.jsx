@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Profile_collection_card() {
   return (
-    <div>
+    <div className="">
         <Link to="/Nft_main_detail">
       <div
         className="sc-29427738-0 dVNeWL Asset--loaded"
@@ -76,7 +76,7 @@ function Profile_collection_card() {
                   >
                     <span
                       color="charcoal"
-                      className="sc-29427738-0 sc-d58c749b-2 eNYnCu heRZSz"
+                      className="sc-29427738-0 sc-d58c749b-2 eNYnCu heRZSz "
                     >
                       BurnassoCelebtratesFirstEdition-1
                     </span>
