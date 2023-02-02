@@ -22,11 +22,15 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import { Radio } from '@mui/material';
 import Profile_collection_tab_mob from '../Profile_collection_tab_mob/Profile_collection_tab_mob';
 import Profile_collection_tab_item_data from '../Profile_collection_tab_item_data/Profile_collection_tab_item_data';
-import Profile_nft_analytics from '../Profile_nft_analytics/Profile_nft_analytics';
+// import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
+import Drawer_profile_collection from "../Drawer_profile_collection/Drawer_profile_collection"
+import Profile_nft_activity from "../Profile_nft_activity/Profile_nft_activity"
+import Profile_nft_analytics from "../Profile_nft_analytics/Profile_nft_analytics"
+import Activity_nft_details from "../Profile_nft_activity/Activity_nft_details";
 
 
 function TabPanel(props) {
-    const { children, value, index, ...other } = props;
+    const { children, value, index, ...other } = props
 
     return (
         <div
@@ -71,28 +75,34 @@ function Profile_collection_tab() {
 
     return (
         <div>
-            <div className="taaabbs">
+            <div className="taaabbs spc_btm">
                 <Box sx={{ width: '100%' }}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-                            <Tab label="Item One" {...a11yProps(0)} />
+                            <Tab label="Items" {...a11yProps(0)} />
                             <Tab label="Analytics" {...a11yProps(1)} />
-                            <Tab label="Item Three" {...a11yProps(2)} />
+                            <Tab label="Activity" {...a11yProps(2)} />
                         </Tabs>
                     </Box>
-                    <TabPanel value={value} index={0}>
-                        <Profile_collection_tab_item_data />
+                    <TabPanel value={value} index={0} className="d-block">
+                        <div className="d-block d-md-none">
+                            <Profile_collection_tab_item_data />
+                        </div>
+                        <Drawer_profile_collection />
                     </TabPanel>
                     <TabPanel value={value} index={1} sx={{padding:"0px"}}>
                     <Profile_nft_analytics/>
                     </TabPanel>
                     <TabPanel value={value} index={2}>
-                    <Profile_collection_tab_item_data />
+                        <Profile_nft_activity/>
+                        <div className='d-block d-md-none'>
+                        <Activity_nft_details />
+                        </div>
                     </TabPanel>
                 </Box>
             </div>
 
-            
+
         </div>
     )
 }

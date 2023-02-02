@@ -8,6 +8,7 @@ import Activity_prop from '../Activity_prop/Activity_prop';
 import Activity_items from '../Activity_items/Activity_items';
 import { Link } from 'react-router-dom';
 import Activity_mob from '../Activity_mob/Activity_mob';
+import Profile_nft_activity from "../Profile_nft_activity/Profile_nft_activity"
 
 
 
@@ -19,6 +20,7 @@ function Activity() {
     return (
         <div className='Activity_main ps_fixed1'>
 
+{/* <Profile_nft_activity/> */}
 
             <div className="shaadoow">
                 <div className="fresnel-container fresnel-greaterThanOrEqual-lg sc-1242568d-1 dZzJwG">
@@ -359,6 +361,7 @@ function Activity() {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }

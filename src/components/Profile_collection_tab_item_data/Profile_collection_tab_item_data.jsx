@@ -77,7 +77,23 @@ function Profile_collection_tab_item_data() {
                                                             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                                                         </Dropdown.Menu>
                                                     </Dropdown>
-                                                  
+                                                    {/* <Accordion className="sc-37393a8-0 bfXCzr sc-9a485e76-0 ggtkBP sc-a3ec9f15-2 dVaSwQ">
+                                                        <Accordion.Item eventKey="0">
+                                                            <Accordion.Header className="acuure">Price low to high</Accordion.Header>
+                                                            <Accordion.Body className="acuure_bddy">
+                                                                <ul>
+                                                                    <li>Recently listed</li>
+                                                                    <li>Recently created</li>
+                                                                    <li>Recently sold</li>
+                                                                    <li>Highest last sale </li>
+                                                                    <li>Ending soon </li>
+                                                                </ul>
+                                                            </Accordion.Body>
+                                                        </Accordion.Item>
+                                                    </Accordion> */}
+                                                    {/* <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 kQKAhB jSPhMX kKyBpy fYgjHJ"> */}
+                                                    {/* <i aria-label="Show more" color="gray" cursor="pointer" value="keyboard_arrow_down" size="24" className="sc-a143597d-0 dYnUi material-icons"><IoIosArrowDown /></i> */}
+                                                    {/* </div> */}
                                                 </div>
                                             </div>
                                             <div className="fresnel-container fresnel-lessThan-lg ">
@@ -166,7 +182,6 @@ function Profile_collection_tab_item_data() {
                                         </p>
                                     </div>
 
-                                  
 
                                 </Accordion.Body>
                             </Accordion.Item>

@@ -67,6 +67,7 @@ import Profile_collection from './components/Profile_collection/Profile_collecti
 import Blocard from './components/Blog_slide/Blocard';
 import Profile_collection_tab_item_data from './components/Profile_collection_tab_item_data/Profile_collection_tab_item_data';
 import Nft_main_detail from './components/Nft_main_detail/Nft_main_detail';
+import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
 
 
 
@@ -117,11 +118,11 @@ function App() {
         <Route path="/activity" element={<Activity_mob/>} />
         <Route path="/Profile_collection" element={<Profile_collection/>} />
         <Route path="/Profile_collection_tab_item_data" element={<Profile_collection_tab_item_data/>} />
-
-
         </Routes>
         <Footer/>
       </BrowserRouter>
+      {/* <Drawer_profile_collection/> */}
+      {/* <Profile_collection_tab_item_data/> */}
 
       {/* <Full_new_letter/> */}
       {/* <Setting_page /> */}

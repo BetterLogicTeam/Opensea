@@ -41,6 +41,10 @@
     display: block;
     font-weight: 600;
   }
+.ps_fixed22{
+  padding-top: 50% !important ;
+}
+
   
   .explore-content a:hover {background-color: #ddd;}
   

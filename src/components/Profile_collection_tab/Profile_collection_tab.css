@@ -4,6 +4,11 @@
     margin-bottom: 20px;
 }
 
+.spc_btm{
+    /* padding-bottom: 2rem; */
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width:800px) {
     .accor_main{
         display: none !important;
