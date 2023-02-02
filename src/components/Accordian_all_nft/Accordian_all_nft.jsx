@@ -313,7 +313,6 @@ export default function SimpleAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      {/* <E_acordin_h/> */}
     </div>
   );
 }

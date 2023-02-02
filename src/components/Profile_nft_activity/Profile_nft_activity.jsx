@@ -130,41 +130,7 @@ export default function PersistentDrawerLeft() {
     {" "}
     <FilterListIcon />
   </IconButton>
-  {/* <Typography variant="h6" noWrap component="div" className="d-flex justify-content-around">
-    <div className="me-4">
-      <Button
-        className="  dashbord me-5"
-        id="basic-button"
-        aria-controls={open1 ? 'basic-menu' : undefined}
-        aria-haspopup="true"
-        aria-expanded={open1 ? 'true' : undefined}
-        onClick={handleClick}
-      >
-        Sort by  <RiArrowDropDownLine className="fs-2" />
-      </Button>
-      <Menu
-        id="basic-menu"
-        anchorEl={anchorEl}
-        open={open1}
-        onClose={handleClose}
-        MenuListProps={{
-          'aria-labelledby': 'basic-button',
-        }}
-      >
-        <MenuItem onClick={handleClose}>Recently listed</MenuItem>
-        <MenuItem onClick={handleClose}>Recently created</MenuItem>
-        <MenuItem onClick={handleClose}>Bundles</MenuItem>
-        <MenuItem onClick={handleClose}>Recently sold</MenuItem>
-        <MenuItem onClick={handleClose}>Recently received</MenuItem>
-        <MenuItem onClick={handleClose}>Endin soon</MenuItem>
-        <MenuItem onClick={handleClose}>Price low to high</MenuItem>
-        <MenuItem onClick={handleClose}>Price low to high</MenuItem>
-        <MenuItem onClick={handleClose}>Hightest last sale</MenuItem>
-        <MenuItem onClick={handleClose}>Oldest</MenuItem>
-      </Menu>
-    </div>
-
-  </Typography> */}
+  
 </Toolbar>
 </AppBar>
     
