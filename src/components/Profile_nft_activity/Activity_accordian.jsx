@@ -49,7 +49,7 @@ export default function SimpleAccordion() {
   };
   return (
     <div className="activty_acordian_dawer mt-5">
-      <Accordion disableGutters defaultExpanded className="px-2">
+      <Accordion disableGutters defaultExpanded className="px-2 pt-4">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className="fs-2" />}
           aria-controls="panel1a-content"

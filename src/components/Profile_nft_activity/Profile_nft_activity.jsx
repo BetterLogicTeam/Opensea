@@ -38,6 +38,7 @@ import Profile_collection_card from "../Profile_collection_card/Profile_collecti
 import Activity_accordian from "../Profile_nft_activity/Activity_accordian"
 import Activity_nft_details from "./Activity_nft_details";
 import "./Profile_nft_activity.css"
+import { HiOutlineSearch } from "react-icons/hi";
 
 const drawerWidth = 340;
 
@@ -120,6 +121,9 @@ export default function PersistentDrawerLeft() {
   >
     <FilterListIcon />
   </IconButton>
+
+
+
   <IconButton
     className="circle_icon"
     aria-label="open drawer"
@@ -130,7 +134,7 @@ export default function PersistentDrawerLeft() {
     {" "}
     <FilterListIcon />
   </IconButton>
-  
+
 </Toolbar>
 </AppBar>
     
@@ -157,6 +161,7 @@ export default function PersistentDrawerLeft() {
         </DrawerHeader> */}
 
         <div className="activirt_drawer_appbar ">
+          
           <Activity_accordian/>
         </div>
       </Drawer>

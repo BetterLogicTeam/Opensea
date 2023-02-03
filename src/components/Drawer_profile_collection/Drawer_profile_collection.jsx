@@ -35,6 +35,7 @@ import { BsGrid, BsGrid1X2, BsGrid3X3 } from "react-icons/bs";
 import { ButtonGroup } from "@mui/material";
 import Profile_collection_card from "../Profile_collection_card/Profile_collection_card";
 import Drawer_card_of_cards from "./Drawer_card_of_cards";
+import { HiOutlineSearch } from "react-icons/hi";
 const drawerWidth = 340;
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
@@ -126,10 +127,19 @@ export default function PersistentDrawerLeft() {
     {" "}
     <FilterListIcon />
   </IconButton>
+  
+  <div className="sc-29427738-0 ePjRuL">
+                                                    <div className="sc-37393a8-0 iFtgSt" aria-expanded="false">
+                                                        <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 dSVLeh jSPhMX kKyBpy fYgjHJ">
+                                                            <i color="gray" size="24" value="search" className="sc-a143597d-0 iyKxcj material-icons"><HiOutlineSearch /></i>
+                                                        </div>
+                                                        <input aria-invalid="false" aria-controls="CollectionTraitSearch--results" id="trait-selector-input" placeholder="Search by name or attribute" role="searchbox" value="" style={{ cursor: "text" }} />
+                                                    </div>
+                                                </div>
   <Typography variant="h6" noWrap component="div" className="d-flex justify-content-around">
     <div className="me-4">
       <Button
-        className="  dashbord me-5"
+        className="  dashbord me-5 ms-2"
         id="basic-button"
         aria-controls={open1 ? 'basic-menu' : undefined}
         aria-haspopup="true"

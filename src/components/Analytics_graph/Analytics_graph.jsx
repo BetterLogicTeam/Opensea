@@ -13,6 +13,7 @@ import laaa from "../Assets/laaa.avif";
 import Responsive_all_nft_explore from '../Responsive_all_nft_explore/Responsive_all_nft_explore';
 import Sort_canvas from '../Sort_canvas/Sort_canvas';
 import Analytics_table from "../Analytics_table/Analytics_table";
+import { Link } from "react-router-dom";
 
 function Analytics_graph() {
   return (
@@ -66,7 +67,7 @@ function Analytics_graph() {
                 </Form.Select>
               </div>
             </div>
-
+            <Link to="/Nft_main_detail" style={{textDecoration:"none"}}>
             <div className="row mt-3 hr_efft">
               <div className="col-md-2 col-3">
                 <img src={pfaa} className="w-100 rounded " alt="" />
@@ -84,7 +85,8 @@ function Analytics_graph() {
                   <span className="span_text_pfa">At floor</span>
                 </div>
               </div>
-            </div>
+            </div></Link>
+            <Link to="/Nft_main_detail" style={{textDecoration:"none"}}>
             <div className="row mt-3 hr_efft">
               <div className="col-md-2 col-3">
                 <img src={pfa} className="w-100 rounded " alt="" />
@@ -102,7 +104,7 @@ function Analytics_graph() {
                   <span className="span_text_pfa">At floor</span>
                 </div>
               </div>
-            </div>
+            </div></Link>
             <div className="row mt-3 hr_efft">
               <div className="col-md-2 col-3">
                 <img src={pfaaa} className="w-100 rounded " alt="" />
@@ -129,7 +131,7 @@ function Analytics_graph() {
               <h6 className="listing_head">Sales</h6>
             </div>
           </div>
-
+          <Link to="/Nft_main_detail" style={{textDecoration:"none"}}>
           <div className="row mt-3 hr_efft">
             <div className="col-md-2 col-3">
               <img src={pfaaaaaa} className="w-100 rounded " alt="" />
@@ -147,7 +149,8 @@ function Analytics_graph() {
                 <span className="span_text_pfa">At floor</span>
               </div>
             </div>
-          </div>
+          </div></Link>
+          <Link to="/Nft_main_detail" style={{textDecoration:"none"}}>
           <div className="row mt-3 hr_efft">
             <div className="col-md-2 col-3">
               <img src={pfaaaaa} className="w-100 rounded " alt="" />
@@ -165,7 +168,7 @@ function Analytics_graph() {
                 <span className="span_text_pfa">At floor</span>
               </div>
             </div>
-          </div>
+          </div></Link>
           <div className="row mt-3 hr_efft">
             <div className="col-md-2  col-3">
               <img src={pfaa} className="w-100 rounded " alt="" />
