@@ -67,6 +67,7 @@ import Profile_collection from './components/Profile_collection/Profile_collecti
 import Blocard from './components/Blog_slide/Blocard';
 import Profile_collection_tab_item_data from './components/Profile_collection_tab_item_data/Profile_collection_tab_item_data';
 import Nft_main_detail from './components/Nft_main_detail/Nft_main_detail';
+import Updated_card from './components/Updated_card/Updated_card';
 // import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
 
 
@@ -118,6 +119,7 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
+
      
 
     </div>

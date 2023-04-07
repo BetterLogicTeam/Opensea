@@ -13,6 +13,7 @@ import ninja2 from "../Assets/riDbUm07GjqPcnK3Ll7r7y4b6lHNNQS4AHtghn46WXmic0JnOG
 import ninja3 from "../Assets/0b8ea573-c2b0-431d-8538-4034ad57966a.avif"
 import ninja4 from "../Assets/4541c8d0-0ed1-4a25-a93d-8bb55dc76653.avif"
 import ninja5 from "../Assets/88bb0626-fabf-43e7-b3fa-99e2aeef8a46.avif"
+import Updated_card from "../Updated_card/Updated_card";
 
 function Ecsnft() {
   return (
@@ -21,9 +22,9 @@ function Ecsnft() {
       <div className="container-fluid p-3 p-md-4">
         <div className="row">
           <div className="col-lg-12">
-            <div className='my-4'><h4 className='text-start'>Notable collections</h4></div>
+            <div className='mt-4'><h4 className='text-start main_home_heading'>Notable collections</h4></div>
             <Swiper
-        slidesPerView={3}
+        slidesPerView={5}
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -38,7 +39,7 @@ function Ecsnft() {
               spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 20,
             },
           }}
@@ -72,6 +73,7 @@ function Ecsnft() {
                      </div>
 
                 </div>
+                {/* <Updated_card card_heading="AIORBIT" img_url_card={ninja}/> */}
            
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
@@ -99,6 +101,8 @@ function Ecsnft() {
                      </div>
 
                 </div>
+                {/* <Updated_card card_heading="AIORBIT" img_url_card={ninja1}/> */}
+
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
         <div className='main_box'>
@@ -213,7 +217,7 @@ function Ecsnft() {
           <div className="col-lg-12">
             <div className='text-start mb-4'><h4>Views spotlight</h4></div>
             <Swiper
-        slidesPerView={3}
+        slidesPerView={5}
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -228,7 +232,7 @@ function Ecsnft() {
               spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 20,
             },
           }}
@@ -400,17 +404,17 @@ function Ecsnft() {
 
         <div className="row mt-5">
           <div className="col-lg-12">
-            <div className='text-start mb-4'>
-               <h4>NFT 101</h4>
-               <d className="d-flex justify-content-between">
-                  <p className="text-muted">Get comfortable with the basics.</p>
+            <div className='text-start mb-1'>
+               <d className="d-flex justify-content-between align-items-center">
+               <h4 className="main_home_heading">NFT 101</h4>
+                  {/* <p className="text-muted">Get comfortable with the basics.</p> */}
                   <button className="btn btn-lg  btn-learn">Learn more</button>
                </d>
                </div>
            
       
       <Swiper
-        slidesPerView={4}
+        slidesPerView={5}
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -425,7 +429,7 @@ function Ecsnft() {
             spaceBetween: 30,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 20,
           },
         }}
