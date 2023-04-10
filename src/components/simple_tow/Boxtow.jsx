@@ -4,7 +4,7 @@ import "./Boxtow.css";
 function Boxtow(props) {
   return (
     <div>
-      <div className="container-fluid mt-4">
+      <div className="container-fluid mt-4 ">
         <div className="art hvr_boxt">
           <a href="" className="in_art">
             <div className="art_pic">

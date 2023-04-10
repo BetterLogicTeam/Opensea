@@ -28,11 +28,7 @@ function Simple_two_cards() {
     <Boxtow simpleimg={art3} simh2="Trading Cards"/>
     <Boxtow simpleimg={art4} simh2="Collectibles" className="upp"/>
     <Boxtow simpleimg={art5} simh2="Photography"/>
-    {/* <Boxtow simpleimg={art6} simh2="Utility"/> */}
-    {/* <Boxtow simpleimg={art7} simh2="Domain Names"/> */}
-    {/* <Boxtow simpleimg={art8} simh2="Sports"/> */}
-    {/* <Boxtow simpleimg={art9} simh2="Virtual Worlds"/> */}
-    {/* <Boxtow simpleimg={art9} simh2="Nawazish Worlds"/> */}
+  
       </div>
     </div>
 
