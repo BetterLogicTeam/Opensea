@@ -18,7 +18,7 @@ export default function Updated_card({img_url_card,card_heading}) {
               </span>
             </div>
 
-            <div className="px-3">
+            <div className="px-2 ">
               <div className=" text-start">
                 <p className=" caard_updated_heaing  pt-2 text-truncate ">{card_heading}</p>
 

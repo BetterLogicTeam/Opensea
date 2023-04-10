@@ -26,11 +26,16 @@ import art2 from "../Assets/R_nft2.png";
 import art3 from "../Assets/R_nft3.png";
 import art4 from "../Assets/collectibles.png";
 import art5 from "../Assets/photography-category.png";
+import tct from "../Assets/tct.avif";
+import tct1 from "../Assets/tct1.avif";
+import tct2 from "../Assets/tct2.avif";
 
 function Ecsnft() {
   return (
     <div>
       <div className="container-fluid p-3 p-md-4">
+        {/* row of noteable collection is starting from here  */}
+
         <div className="row">
           <div className="col-lg-12">
             <div className="mt-4">
@@ -121,6 +126,114 @@ function Ecsnft() {
           </div>
         </div>
 
+        {/* and it ends here  */}
+
+        {/* row of Top Collector Buys Today starts from here  */}
+        <div className="row mt-5">
+          <div className="col-lg-12">
+            <div className="mt-4">
+              <h4 className="text-start main_home_heading">
+                Top Collector Buys Today
+              </h4>
+            </div>
+            <Swiper
+              slidesPerView={5}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+                1440: {
+                  slidesPerView: 5,
+                  spaceBetween: 20,
+                },
+              }}
+              loop={true}
+              navigation={true}
+              modules={[Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide className="silde befr">
+                {/* this is the old card which was made two months age and now it is being changed  */}
+
+                {/* <div className='main_box'>
+                     <div className='fst_pic_uper'>
+                        <span className='frsts_pan'>
+                        <img src="./images/9dcc.avif" alt="" className='frst_pic'/>
+                        </span>
+                    </div>
+
+                     <div className='lower d-flex'>
+
+                        <div className='lower_pic_uper'>
+                           <span className='scnds_spn'>
+                              <img src="./images/dcc.avif" alt="" className='second_pic bg-white' />
+                           </span>
+                        </div>
+
+                        <div className='heading_uper'>
+                            <div className='undr_heading'>
+                                <div className='heading'>9dcc ITERATION-02 Proof of</div>
+                            </div>
+                        </div>
+            
+                     </div>
+
+                </div> */}
+
+                {/* the old card ends here in this section  */}
+
+                <Updated_card
+                  card_heading="LlamaPix Genesis"
+                  img_url_card={ninja5}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card card_heading="Nakamapes" img_url_card={tct} />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Otherside Vessels"
+                  img_url_card={ninja4}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="goblintown.wtf"
+                  img_url_card={tct1}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Otherdeed Expanded"
+                  img_url_card={ninja3}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Sappy Seals  "
+                  img_url_card={tct2}
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+        {/* it ends here  */}
+
+        {/* row of trending in art starts from here  */}
+
         <div className="row mt-5">
           <div className="col-lg-12">
             <div className="text-start mb-4">
@@ -194,6 +307,85 @@ function Ecsnft() {
             </Swiper>
           </div>
         </div>
+
+        {/* and it ends here  */}
+
+        {/* row of PFPs starts from here  */}
+        <div className="row mt-5">
+          <div className="col-lg-12">
+            <div className="mt-4">
+              <h4 className="text-start main_home_heading">Trending in PFPs</h4>
+            </div>
+            <Swiper
+              slidesPerView={5}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+                1440: {
+                  slidesPerView: 5,
+                  spaceBetween: 20,
+                },
+              }}
+              loop={true}
+              navigation={true}
+              modules={[Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Azuki"
+                  img_url_card={ninja5}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card card_heading="Bored Ape Yacht Club" img_url_card={tct} />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Meebits"
+                  img_url_card={ninja4}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Sappy Seals"
+                  img_url_card={tct1}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Nakamigos"
+                  img_url_card={ninja3}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Sappy Seals  "
+                  img_url_card={tct2}
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+
+        {/* and i ends here  */}
+
+        {/* row of trending in gaming starts from here  */}
+
         <div className="row mt-5">
           <div className="col-lg-12">
             <div className="text-start mb-4">
@@ -231,26 +423,123 @@ function Ecsnft() {
               className="mySwiper"
             >
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="MegaForce Sentinels" img_url_card={upd1} />
+                <Updated_card
+                  card_heading="MegaForce Sentinels"
+                  img_url_card={upd1}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
                 <Updated_card card_heading="HV-MTL" img_url_card={ninja4} />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Metroverse Genesis" img_url_card={upd} />
+                <Updated_card
+                  card_heading="Metroverse Genesis"
+                  img_url_card={upd}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Soulja Boy 3D Game NFT" img_url_card={upd4} />
+                <Updated_card
+                  card_heading="Soulja Boy 3D Game NFT"
+                  img_url_card={upd4}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Citizens of Bulliever Island" img_url_card={upd3} />
+                <Updated_card
+                  card_heading="Citizens of Bulliever Island"
+                  img_url_card={upd3}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Beep Boop Robot Dogs" img_url_card={upd2} />
+                <Updated_card
+                  card_heading="Beep Boop Robot Dogs"
+                  img_url_card={upd2}
+                />
               </SwiperSlide>
             </Swiper>
           </div>
         </div>
+
+        {/* and its end here  */}
+
+        {/* row of trending in memeber ship starts from here  */}
+
+        <div className="row mt-5">
+          <div className="col-lg-12">
+            <div className="mt-4">
+              <h4 className="text-start main_home_heading">
+                Trending in Memberships
+              </h4>
+            </div>
+            <Swiper
+              slidesPerView={5}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+                1440: {
+                  slidesPerView: 5,
+                  spaceBetween: 20,
+                },
+              }}
+              loop={true}
+              navigation={true}
+              modules={[Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Admit One"
+                  img_url_card={ninja5}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card card_heading="Exchange Pass" img_url_card={tct} />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="adidas Originals Into the Metaverse"
+                  img_url_card={ninja4}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Steady Stack Titans Official"
+                  img_url_card={tct1}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="Wumbo Pass"
+                  img_url_card={ninja3}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card
+                  card_heading="ConiunPass  "
+                  img_url_card={tct2}
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+
+        {/* and it ends here  */}
+
+        {/* row of trending in Photography   starts from here  */}
+
         <div className="row mt-5">
           <div className="col-lg-12">
             <div className="text-start mb-4">
@@ -288,27 +577,45 @@ function Ecsnft() {
               className="mySwiper"
             >
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="b/w by like-mike" img_url_card={ninja} />
+                <Updated_card
+                  card_heading="b/w by like-mike"
+                  img_url_card={ninja}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Editions x Guido" img_url_card={upd4} />
+                <Updated_card
+                  card_heading="Editions x Guido"
+                  img_url_card={upd4}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
                 <Updated_card card_heading="AIORBIT" img_url_card={upd1} />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Editions by Emanuele Ferrari" img_url_card={upd3} />
+                <Updated_card
+                  card_heading="Editions by Emanuele Ferrari"
+                  img_url_card={upd3}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Large collection v1" img_url_card={upd2} />
+                <Updated_card
+                  card_heading="Large collection v1"
+                  img_url_card={upd2}
+                />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Moongirls by Emanuele Ferrari " img_url_card={upd4} />
+                <Updated_card
+                  card_heading="Moongirls by Emanuele Ferrari "
+                  img_url_card={upd4}
+                />
               </SwiperSlide>
             </Swiper>
           </div>
         </div>
 
+        {/* it ends here  */}
+
+        {/* part of nft 101 is here  */}
         <div>
           <div className=" container-fluid mt-5 pt-5    mb-5 px-0">
             <div className="text-start txx ps-0 ps-md-3">
@@ -330,6 +637,8 @@ function Ecsnft() {
             </div>
           </div>
         </div>
+
+        {/* it ends here  */}
       </div>
     </div>
   );
