@@ -1,0 +1,22 @@
+.parko {
+  object-fit: cover !important;
+  width: 100% !important;
+}
+
+.for_position_main {
+  position: relative;
+  bottom: 33rem;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.minto{
+  border-radius: 10px;
+    background-color: rgba(45, 44, 44, 0.24) !important;
+    backdrop-filter: blur(20px) !important;
+    width: 50%;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    padding: 15px 0px !important;
+}
