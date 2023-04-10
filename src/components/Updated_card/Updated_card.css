@@ -1,0 +1,25 @@
+.caard_updated_heaing{
+    font-weight: 600 !important;
+    color: rgb(4, 17, 29) !important;
+    font-size: 20px !important;
+
+}
+
+.up_sub_h{
+    color: rgb(100, 109, 117);
+    font-weight: 600 !important;
+}
+.up_sub_hh{
+    color: rgb(4, 17, 29) !important;
+    font-weight: 600 !important;
+}
+
+.art_piccc{
+    height: 0px;
+    padding-bottom: 69.25% !important;
+    position: relative;
+    border-bottom: 1px solid rgb(229, 232, 235);
+    background-color: rgb(229, 232, 235);
+    border-radius: 10px;
+    cursor: pointer;
+}

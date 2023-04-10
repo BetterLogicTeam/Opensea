@@ -67,17 +67,15 @@ import Profile_collection from './components/Profile_collection/Profile_collecti
 import Blocard from './components/Blog_slide/Blocard';
 import Profile_collection_tab_item_data from './components/Profile_collection_tab_item_data/Profile_collection_tab_item_data';
 import Nft_main_detail from './components/Nft_main_detail/Nft_main_detail';
-import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
+import Updated_card from './components/Updated_card/Updated_card';
+// import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <R_blog_cards/> */}
-      {/* <Blocard/> */}
-      {/* <Blogslide/> */}
-      {/* <Nft_main_detail/> */}
+    
        <BrowserRouter>
         <Navtr/>
         <Resposive_Navbar/>
@@ -121,38 +119,8 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
-      {/* <Drawer_profile_collection/> */}
-      {/* <Profile_collection_tab_item_data/> */}
 
-      {/* <Full_new_letter/> */}
-      {/* <Setting_page /> */}
-
-      {/* <R_docs_full_page/> */}
-  
-    
-      {/* <Wallet_offcanvas/> */}
-      <>
-       {/* <Resrources_nft/> */}
-   
-      
-      
-      {/* 
-      
-      //
-      */}
-      </>
-      {/* <Resrources_nft/> */}
-      {/* <Resources_header/>
-      <Meet_opensea/>
-      <R_nft_card/> 
-      <R_web3/>
-      <R_blockchain/>
-      <R_watch/>
-      <R_insities/>
-      <R_bottom_links/>  */}  
-
-
-        {/* <E_acordin_h /> */}
+     
 
     </div>
   );

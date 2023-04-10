@@ -44,6 +44,14 @@
     cursor: pointer;
     color: rgb(32, 129, 226);
 }
+.hvr_boxt{
+    transition: all 0.25s ease-in-out;
+}
+
+.hvr_boxt:hover{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+    transform: translate(0px, -4px);
+}
 
 .artimg{
     position: absolute;
@@ -71,7 +79,7 @@
 
 .art_head{
     flex-direction: column;
-    padding: 10px;
+    padding: 18px;
     display: flex;
 }
 
