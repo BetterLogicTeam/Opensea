@@ -20,7 +20,7 @@ const handleShow = () => setShow(true);
 
     <div>
    
-         <Button  onClick={handleShow} className="me-2 offcanvas_header_btn">
+         <Button  onClick={handleShow} className="offcanvas_header_btn">
          <MdOutlineShoppingCart className='figi text-dark'/>
       </Button>
       <Offcanvas className='main_cart_ooff' show={show} onHide={handleClose} {...props}>

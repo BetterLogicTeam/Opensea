@@ -266,7 +266,6 @@
   color: black;
   font-size: 26px;
   font-weight: 400;
-  margin-top: 6px;
   padding: 19px 13px;
 }
 
@@ -276,10 +275,15 @@
   border: none !important;
   height: 41px;
   font-size: 28px !important;
+  display: block;
 }
 
-.sbar::placeholder{
+.sbar::placeholder {
   font-size: 23px !important;
+}
+
+.sbar:focus{
+  box-shadow: none !important;
 }
 
 .ps_fixed2 {
@@ -313,14 +317,17 @@
   width: 100%;
   padding: 14px 26px;
   border-radius: 18px;
+  display: flex !important;
+  align-items: center;
+  gap: 1rem !important;
 }
 
-.inside_serch{
+.inside_serch {
   font-size: 36px !important;
 }
 
 .sea_nav_search_upper {
-  min-width: 41%;
+  min-width: 41% !important;
 }
 
 ::placeholder {
@@ -330,7 +337,7 @@
 
 .for_bol {
   font-size: 31px;
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .ffr_ppic {
@@ -361,17 +368,25 @@
   background-color: transparent !important;
 }
 
-.cart{
+.cart {
   border: 2px solid rgba(159, 159, 159, 0.24);
   background-color: transparent;
   border-radius: 18px;
+  padding: 0px 10px;
 }
 
-.figi{
+.figi {
   font-size: 38px;
 }
 
 @media only screen and (max-width: 600px) {
+  .sbar {
+    display: none;
+  }
+
+  .main_ch_bar {
+    display: none !important;
+  }
   .forM {
     display: none !important;
   }
@@ -431,11 +446,97 @@
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 900px) {
-  .main_ch_bar {
-    width: 300px !important;
-  }
-
   .parner_img {
     width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .open {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+  }
+
+  .for_bol {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 5px !important;
+  }
+
+  .main_ch_bar {
+    border: 2px solid rgba(159, 159, 159, 0.24);
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    padding: 6px 15px;
+    border-radius: 18px;
+  }
+
+  .inside_serch {
+    font-size: 18px !important;
+  }
+
+  .sbar {
+    border-radius: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    height: 35px;
+    font-size: 17px !important;
+  }
+
+  .sbar::placeholder {
+    font-size: 15px !important;
+  }
+
+  .slg {
+    height: 26px;
+    min-width: 26px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 0px !important;
+  }
+
+  .sea_nav_search_upper {
+    min-width: 33% !important;
+  }
+
+  .offcanvas_header_btn {
+    /* background-color: transparent !important; */
+    /* outline: none !important; */
+    /* border: none !important; */
+    padding: 0px !important;
+  }
+
+  .new_wallet {
+    font-size: 26px !important;
+  }
+
+  .cwallt {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .account_mark {
+    font-size: 26px;
+  }
+
+  .accoutn {
+    padding: 2px 8px;
+    border-radius: 18px;
+  }
+
+  .figi {
+    font-size: 26px;
+  }
+
+  .cart {
+    border-radius: 14px;
+    padding: 0px 12px;
   }
 }

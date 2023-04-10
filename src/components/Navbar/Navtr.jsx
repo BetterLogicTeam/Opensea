@@ -64,7 +64,7 @@ function Navtr() {
                   transition: "1s",
                 }}
               >
-                <Container fluid className="d-flex py-2">
+                <Container fluid className=" py-2 real_main">
                   <Navbar.Brand href="#home">
                     <Link to="/" className="text-decoration-none">
                       <div className="main_logo">
@@ -105,7 +105,7 @@ function Navtr() {
                   <Nav className="m-0 sea_nav_search_upper">
                     <form
                       action="/action_page.php"
-                      className="d-none d-md-flex gap-3 main_ch_bar"
+                      className="main_ch_bar"
                     >
                       <div className="d-flex align-items-center">
                         <BiSearchAlt2 className="inside_serch " />
@@ -113,10 +113,10 @@ function Navtr() {
                       <Form.Control
                         type="search"
                         placeholder="Search items, colloections, and accounts"
-                        className="sbar d-none d-md-block forM"
+                        className="sbar forM"
                         aria-label="Search"
                       />
-                      <div className="slg forM ms-3">/</div>
+                      <div className="slg forM">/</div>
                     </form>
                   </Nav>
 
@@ -269,7 +269,7 @@ function Navtr() {
                   </li>
                 </div> */}
 
-                          <div className="cart d-flex align-items-center ms-4 px-2">
+                          <div className="cart d-flex align-items-center ms-4">
                             <li>
                               <div>
                                 <>
