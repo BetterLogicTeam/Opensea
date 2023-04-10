@@ -19,8 +19,8 @@ function Wallet_ofcanvas_nav({ name, ...props }) {
 const handleShow = () => setShow(true);
   return (
     <div>
-         <Button  onClick={handleShow} className="me-2 offcanvas_header_btn">
-         <MdOutlineAccountBalanceWallet className='fs-2 text-dark'/>
+         <Button  onClick={handleShow} className="offcanvas_header_btn">
+         <MdOutlineAccountBalanceWallet className='new_wallet'/>
       </Button>
       <Offcanvas className='' show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
