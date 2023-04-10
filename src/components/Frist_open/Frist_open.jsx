@@ -104,7 +104,29 @@ function Frist_open() {
           <Link to="/Profile_collection"><Frist_card img1={ninja3} h1="KPR" h2="Floor:0,24 ETH" /></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
-          <Link to="/Profile_collection"><Frist_card img1={ninja4} h1="KPR" h2="Floor:0,24 ETH" /></Link>
+          {/* <Link to="/Profile_collection"><Frist_card img1={ninja4} h1="KPR" h2="Floor:0,24 ETH" /></Link> */}
+          <Link to="/Profile_collection" className="text-decoration-none"><div className="uper">
+                        <video src="./images/banner.mp4" autoPlay loop playsinline muted className="aga_in parko"></video>
+                        <div className="row for_position_main text-white">
+                          <div className="for_wrt col-lg-11 col-md-9">
+                            {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
+                            <div className="in_between mt-4 text-start">
+                              <h3 className="fw-bolder lfm">inBetweeners x Dolce&Gabbana Drip<MdVerified className='ms-1' /></h3>
+                              <h6 className="fw-bold lfm">By&nbsp;ItsMeGianPiero<MdVerified className='ms-1' /></h6>
+                              <h6 className="fw-bold lfm">2,000 items. 0.88 ETH</h6>
+                            </div>
+                            <div className="row main_time_box mt-4 ">
+                              <div className="col-lg-4 col-md-2 time">
+                                <button className="btn btn-lg text-white minto">MINTING NOW</button>
+                              </div>
+                              <div className="col-lg-8 col-md-2 view gYb ">
+                                <div className="bell_1 me-3"><AiOutlineBell className='fs-4 ' /></div>
+                                <div className="bell px-4 py-3"><span className="fw-bold">View drop</span></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div></Link>
         </SwiperSlide>
         <SwiperSlide className='silde befr'>
           <Link to="/Profile_collection"><Frist_card img1={ninja5} h1="KPR" h2="Floor:0,24 ETH" /></Link>
