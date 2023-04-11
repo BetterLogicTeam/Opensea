@@ -17,6 +17,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Table from 'react-bootstrap/Table';
 import nft_main_pic_play from "../Accets/billio.webp"
 import Profile_collection_card from "../Profile_collection_card/Profile_collection_card";
+import { Link } from "react-router-dom";
 
 function Nft_main_detail() {
   return (
@@ -139,7 +140,7 @@ function Nft_main_detail() {
                 <div className="d-flex "><h3>0.094 ETH</h3> <p className="Current_price ps-2 mt-2">$151.57</p></div>
                 <div className="main_bttn_ad ">
                   <button className="btn btn-lg btn-primary w-100 py-3 cor_bt">Add to Cart</button>
-                  <button className="btn btn-lg text-dark border Add_to  w-100 py-3 cor_bt">Make offer</button>
+                  <Link to='/Open_sale' className="w-100"><button className="btn btn-lg text-dark border Add_to  w-100 py-3 cor_bt">Make offer</button></Link>
                 </div>
               </li>
 

@@ -68,6 +68,7 @@ import Blocard from './components/Blog_slide/Blocard';
 import Profile_collection_tab_item_data from './components/Profile_collection_tab_item_data/Profile_collection_tab_item_data';
 import Nft_main_detail from './components/Nft_main_detail/Nft_main_detail';
 import Updated_card from './components/Updated_card/Updated_card';
+import Open_sale from './components/Open_sale/Open_sale';
 // import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
 
 
@@ -75,6 +76,7 @@ import Updated_card from './components/Updated_card/Updated_card';
 function App() {
   return (
     <div className="App">
+      {/* <Open_sale/> */}
     
        <BrowserRouter>
         <Navtr/>
@@ -116,6 +118,7 @@ function App() {
         <Route path="/activity" element={<Activity_mob/>} />
         <Route path="/Profile_collection" element={<Profile_collection/>} />
         <Route path="/Profile_collection_tab_item_data" element={<Profile_collection_tab_item_data/>} />
+        <Route path="/Open_sale" element={<Open_sale/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
