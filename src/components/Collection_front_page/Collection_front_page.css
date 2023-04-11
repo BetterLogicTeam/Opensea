@@ -1,0 +1,47 @@
+.collection_main_heading_front{
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    letter-spacing: 0px !important;
+    color: rgb(4, 17, 29) !important;
+}
+
+
+.cfst{
+    color: rgb(4, 17, 29) !important;
+  font-weight: 400 !important;  
+}
+
+.cf_cc{
+    display: inline-flex;
+
+    align-items: center;
+    border-radius: 12px;
+    
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 17px 24px;
+    background-color: rgb(32, 129, 226);
+    border: 1px solid rgb(32, 129, 226);
+    color: rgb(255, 255, 255);
+}
+
+
+.collection_frontg_page_main{
+    min-height: 100vh !important;
+}
+
+.ps_fixedddd{
+    padding: 120px 0px 40px 0px !important;
+}
+
+
+
+@media only screen and (max-width:700px){
+
+    .ps_fixedddd{
+        padding-top: 20px !important;
+    }
+}

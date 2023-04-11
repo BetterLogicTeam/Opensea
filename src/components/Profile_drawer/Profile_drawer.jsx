@@ -18,7 +18,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-import "./Drawer_profile_collection.css";
+// import "./Drawer_profile_collection.css";
 // import "./Explore_all_nft.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
@@ -34,7 +34,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { BsGrid, BsGrid1X2, BsGrid3X3 } from "react-icons/bs";
 import { ButtonGroup } from "@mui/material";
 import Profile_collection_card from "../Profile_collection_card/Profile_collection_card";
-import Drawer_card_of_cards from "./Drawer_card_of_cards";
+// import Drawer_card_of_cards from "./Drawer_card_of_cards";
 import { HiOutlineSearch } from "react-icons/hi";
 import Profile_side_part from "../Profile_side_part/Profile_side_part";
 const drawerWidth = 340;
@@ -221,7 +221,7 @@ export default function PersistentDrawerLeft() {
           <DrawerHeader />
           <Typography paragraph>
             {/* <Collectibles_explore /> */}
-            {/* <Drawer_card_of_cards /> */}
+            {/* <Drawer_card_of_cards />     */}
             <Profile_side_part/>
           </Typography>
         </Main>

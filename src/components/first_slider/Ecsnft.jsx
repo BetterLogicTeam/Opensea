@@ -346,31 +346,22 @@ function Ecsnft() {
               className="mySwiper"
             >
               <SwiperSlide className="silde befr">
-                <Updated_card
-                  card_heading="Azuki"
-                  img_url_card={ninja5}
-                />
-              </SwiperSlide>
-              <SwiperSlide className="silde befr">
-                <Updated_card card_heading="Bored Ape Yacht Club" img_url_card={tct} />
+                <Updated_card card_heading="Azuki" img_url_card={ninja5} />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
                 <Updated_card
-                  card_heading="Meebits"
-                  img_url_card={ninja4}
+                  card_heading="Bored Ape Yacht Club"
+                  img_url_card={tct}
                 />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card
-                  card_heading="Sappy Seals"
-                  img_url_card={tct1}
-                />
+                <Updated_card card_heading="Meebits" img_url_card={ninja4} />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card
-                  card_heading="Nakamigos"
-                  img_url_card={ninja3}
-                />
+                <Updated_card card_heading="Sappy Seals" img_url_card={tct1} />
+              </SwiperSlide>
+              <SwiperSlide className="silde befr">
+                <Updated_card card_heading="Nakamigos" img_url_card={ninja3} />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
                 <Updated_card
@@ -500,10 +491,7 @@ function Ecsnft() {
               className="mySwiper"
             >
               <SwiperSlide className="silde befr">
-                <Updated_card
-                  card_heading="Admit One"
-                  img_url_card={ninja5}
-                />
+                <Updated_card card_heading="Admit One" img_url_card={ninja5} />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
                 <Updated_card card_heading="Exchange Pass" img_url_card={tct} />
@@ -521,16 +509,10 @@ function Ecsnft() {
                 />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card
-                  card_heading="Wumbo Pass"
-                  img_url_card={ninja3}
-                />
+                <Updated_card card_heading="Wumbo Pass" img_url_card={ninja3} />
               </SwiperSlide>
               <SwiperSlide className="silde befr">
-                <Updated_card
-                  card_heading="ConiunPass  "
-                  img_url_card={tct2}
-                />
+                <Updated_card card_heading="ConiunPass  " img_url_card={tct2} />
               </SwiperSlide>
             </Swiper>
           </div>
