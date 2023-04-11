@@ -1,11 +1,12 @@
 .parko {
   object-fit: cover !important;
   width: 100% !important;
+  position: relative !important;
 }
 
 .for_position_main {
-  position: relative;
-  bottom: 33rem;
+  position: absolute !important;
+  bottom: 50px;
   z-index: 5;
   display: flex;
   justify-content: center;
@@ -15,8 +16,20 @@
   border-radius: 10px;
     background-color: rgba(45, 44, 44, 0.24) !important;
     backdrop-filter: blur(20px) !important;
-    width: 50%;
-    font-size: 30px !important;
+    font-size: 19px !important;
     font-weight: 700 !important;
-    padding: 15px 0px !important;
+    /* padding: 0px 10px !important; */
+}
+
+
+@media only screen and (max-width:600px) {
+  .parko {
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 138vh !important;
+  }
+
+  .for_position_main{
+    display: none !important;
+  }
 }
