@@ -71,6 +71,7 @@ import Updated_card from './components/Updated_card/Updated_card';
 import Open_sale from './components/Open_sale/Open_sale';
 import Collection_front_page from './components/Collection_front_page/Collection_front_page';
 import Main_profile_part from './components/Main_profile_part/Main_profile_part';
+import Upload_part from './components/Upload_part/Upload_part';
 
 // import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
 
@@ -126,6 +127,7 @@ function App() {
         <Route path="/Open_sale" element={<Open_sale/>} />
         </Routes>
         <Footer/>
+        <Upload_part/>
       </BrowserRouter>
 
 

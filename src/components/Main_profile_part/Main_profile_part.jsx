@@ -33,6 +33,7 @@ import Profile_nft_analytics from "../Profile_nft_analytics/Profile_nft_analytic
 import Activity_nft_details from "../Profile_nft_activity/Activity_nft_details";
 import "./Main_profile_part.css"
 import Profile_side_part from '../Profile_side_part/Profile_side_part';
+import Upload_part from '../Upload_part/Upload_part';
 
 
 
@@ -85,179 +86,13 @@ function Main_profile_part() {
         setValue(newValue);
     };
   return (
-    <div>
+    <div className='ps_fixed'>
+    <Upload_part/>
 
-<div width="100%" className="sc-29427738-0 sc-630fc9ab-0 ctwQVs jSPhMX">
-        <div className="sc-a2bbba39-1 pak">
-          <img
-            sizes="100vw"
-            src="https://i.seadn.io/gae/z80nwXsabcTO6LsfjMFu7LNfKEnLwU1nEMeQMwWv3TfWcV1iqIQSHrpuXWwWEsyFZKjT-nexGOUvdY5yfWMUJYInSJQPK5oO7cDf3Q?auto=format&w=3840"
-            alt=""
-            style={{ objectFit: "cover" }}
-          />
-        </div>
-        <div className="sc-29427738-0 sc-e1213540-0 dVNeWL katee ktCeqg">
-          <div className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX">
-            <div className="sc-29427738-0 fTiUJh">
-              <div
-                display="inline-flex"
-                className="sc-29427738-0 sc-6d5b054-2 keQErz gzCMxz"
-              >
-                <button
-                  type="button"
-                  className="sc-b267fe84-0 sc-6d5b054-1 cRVARX iwPltr"
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      overflow: "hidden",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: "1",
-                      border: "0px",
-                      margin: "0px",
-                      padding: "0px",
-                      position: "absolute",
-                      inset: "0px",
-                    }}
-                  >
-                    <img
-                      alt="BurnassoPhotography"
-                      sizes="168px"
-                      srcset="https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=48 48w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=64 64w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=128 128w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=256 256w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=384 384w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=512 512w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=640 640w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=750 750w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=828 828w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=1080 1080w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=1200 1200w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=1920 1920w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=2048 2048w, https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=3840 3840w"
-                      src="https://i.seadn.io/gae/V46d1AsW_gC02bKVSv5WBAyZq3EyaW8qL-sx0ml1_3h9-zpWBHn1AC18fB-XVVC7wdMT-q4dsBA7xW0GSHClDC-RFu-fKR8NDMKRYg?auto=format&amp;w=3840"
-                      decoding="async"
-                      data-nimg="fill"
-                      className="sc-6d5b054-0 jhsaBJ"
-                      style={{
-                        position: "absolute",
-                        inset: "0px",
-                        boxSizing: "border-box",
-                        padding: "0px",
-                        border: "none",
-                        margin: "auto",
-                        display: "block",
-                        width: "0px",
-                        height: "0px",
-                        minWidth: "100%",
-                        maxWidth: "100%",
-                        minHeight: "100%",
-                        maxHeight: "100%",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </span>
-                </button>
-              </div>
-            </div>
-            <div className="sc-29427738-0 caTXlx">
-              <div className="fresnel-container fresnel-lessThan-sm "></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       <div className="container-fluid">
-        <div className="sc-29427738-0 sc-630fc9ab-0 sc-cda59426-0 dVNeWL jSPhMX clKHJV">
-          <div className="sc-29427738-0 sc-e1213540-0 dVNeWL ktCeqg">
-            <div
-              width="100%"
-              className="sc-29427738-0 sc-630fc9ab-0 cBQkIJ jSPhMX"
-            >
-              <div className="sc-29427738-0 iObdpu">
-                <div
-                  data-testid="phoenix-header"
-                  className="sc-29427738-0 sc-630fc9ab-0 sc-5bb7da0c-1 dJYDEb jSPhMX irjhco"
-                >
-                  <div className="fresnel-container fresnel-lessThan-sm "></div>
-                  <div className="fresnel-container fresnel-greaterThanOrEqual-sm ">
-                    <h1
-                      width="100%"
-                      className="sc-29427738-0 sc-bdnxRM dKfiYh iIKkrq"
-                    >
-                      Hamza Khan 
-                    </h1>
-                  </div>
-                </div>
-              </div>
-              <div className="sc-29427738-0 caTXlx">
-                <div className="fresnel-container fresnel-greaterThanOrEqual-sm ">
-                  <div className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX">
-                    <div className="fresnel-container fresnel-greaterThan-md ">
-                      <div className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX">
-                        <div className="sc-29427738-0 sc-630fc9ab-0 sc-35f75ba4-0 dVNeWL jSPhMX eFBUmw">
-                          <a
-                            className="sc-1f719d57-0 fKAlPV"
-                            href="https://www.twitter.com/Burnasso"
-                            rel="nofollow noopener"
-                            target="_blank"
-                          >
-                         
-                          </a>
-                        </div>
-                        <div className="sc-29427738-0 sc-35f75ba4-1 dVNeWL hLooXR "></div>
-                      </div>
-                    </div>
-                    <div className="sc-29427738-0 sc-630fc9ab-0 bOAEkR jSPhMX">
-                      <div className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX">
-                        <div className="fresnel-container fresnel-greaterThan-md ">
-                       
-                        </div>
-                    
-                      </div>
-                      <div
-                        className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX"
-                        aria-expanded="false"
-                      >
-                        <button
-                          aria-label="More dropdown"
-                          className="sc-29427738-0  sc-788bb508-0 nFISH bpmNDx sc-9a637e94-1 kSESLX"
-                          type="button"
-                        >
-                          <span className="sc-29427738-0 sc-d58c749b-2 sc-9a637e94-0 ILliQ cWTWPE enUGCb">
-                            <i
-                              value="more_horiz"
-                              size="24"
-                              className="sc-a143597d-0 sc-e3c2f05e-1 RovoC irqkfp material-icons"
-                              color="black"
-                            >
-                              <Tooltip title="Add" arrow placement="top">
-                                <Button className="toll jaasa"  style={{backgroundColor:"transparent",border:"none"}}>
-                                  <HiDotsHorizontal />
-                                </Button>
-                              </Tooltip>
-                            </i>
-                          </span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="sc-29427738-0 dVNeWL">
-          <div className="sc-29427738-0 sc-e1213540-0 kFtGow bPDgXz">
-            <div className="sc-29427738-0 sc-630fc9ab-0 dULEQL jSPhMX">
-              <div className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX">
-                <div className="sc-29427738-0 sc-630fc9ab-0 cyfgpf jSPhMX">
-                  <div className="fresnel-container fresnel-lessThan-md "></div>
-                  <div className="fresnel-container fresnel-greaterThanOrEqual-md ">
-                
-                  </div>
-                </div>
-                <div className="fresnel-container fresnel-greaterThanOrEqual-sm ">
-                  <div className="sc-29427738-0 sc-630fc9ab-0 dJYDEb jSPhMX"></div>
-                </div>
-              </div>
-              <div className="fresnel-container fresnel-lessThan-sm "></div>
-            </div>
-          </div>
-        </div>
+     
 
       
       <div>
