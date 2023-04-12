@@ -208,7 +208,7 @@ function Navtr() {
                                     show={modalShow}
                                     onHide={() => setModalShow(false)}
                                   />
-                                  <Link to='mai_profile'>
+                                  <Link to='mai_profile' className="text-decoration-none">
                                   <a href="#" className="border-bottom">
                                     <BsFillPersonFill className="oci_F fs-5 me-3" />{" "}
                                     Profile
@@ -222,10 +222,9 @@ function Navtr() {
                                     <MdVisibility className="oci_F fs-5 me-3" />
                                     Watch List
                                   </a>
-                                  <Link to='/collection_front_page'> 
+                                  <Link to='/collection_front_page' className="text-decoration-none"> 
                                   <a href="#" className="border-bottom">
                                    <BsGrid3X3 className="oci_F fs-5 me-3" />
-
                                     My Collections
                                   </a>
                                   </Link>
