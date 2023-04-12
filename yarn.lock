@@ -2931,10 +2931,10 @@
   "resolved" "https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz"
   "version" "5.2.0"
 
-"antd@^5.4.1":
-  "integrity" "sha512-10bZn2fj2ihhBSrwTzhnuFvhLdK1LTVs2GScqhEIDHh+s93Zl7dF27ZNSvth3BUoozoLFjifSVtBbU0dCsd5lw=="
-  "resolved" "https://registry.npmjs.org/antd/-/antd-5.4.1.tgz"
-  "version" "5.4.1"
+"antd@^5.4.2":
+  "integrity" "sha512-OxXZ7joFf6Um4zeXm07tyJ9WV6eMwUw1KUmewfM/BDceUFVtJVf7YbBTBfX3JTl+jOuSpMSb4naFhOCgVwtyFw=="
+  "resolved" "https://registry.npmjs.org/antd/-/antd-5.4.2.tgz"
+  "version" "5.4.2"
   dependencies:
     "@ant-design/colors" "^7.0.0"
     "@ant-design/cssinjs" "^1.7.1"
@@ -2964,7 +2964,7 @@
     "rc-motion" "^2.6.1"
     "rc-notification" "~5.0.0"
     "rc-pagination" "~3.3.1"
-    "rc-picker" "~3.5.0"
+    "rc-picker" "~3.6.1"
     "rc-progress" "~3.4.1"
     "rc-rate" "~2.10.0"
     "rc-resize-observer" "^1.2.0"
@@ -8257,10 +8257,10 @@
     "@babel/runtime" "^7.10.1"
     "classnames" "^2.2.1"
 
-"rc-picker@~3.5.0":
-  "integrity" "sha512-brSEtk7LExUe9N+ZQNHAUi8qE76gYMi5zOgClfclBEKfAwGIEtnFS2F/cmrK49EiNYlwwQFQ8F3WISKZwZ7gTw=="
-  "resolved" "https://registry.npmjs.org/rc-picker/-/rc-picker-3.5.2.tgz"
-  "version" "3.5.2"
+"rc-picker@~3.6.1":
+  "integrity" "sha512-acLNCi2WTNAuvTtcEzKp72mU15ni0sqrIKVlEcj04KgLZxhlVPMabCS+Sc8VuOCPJbOcW0XeOydbNnJbWTvzxg=="
+  "resolved" "https://registry.npmjs.org/rc-picker/-/rc-picker-3.6.2.tgz"
+  "version" "3.6.2"
   dependencies:
     "@babel/runtime" "^7.10.1"
     "@rc-component/trigger" "^1.5.0"
