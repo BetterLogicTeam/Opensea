@@ -50,6 +50,7 @@ function Frist_open() {
         <SwiperSlide className='silde befr'>
         <Link to="/Profile_collection" className="text-decoration-none"><div className="uper">
                         <video src="./images/banner.mp4" autoPlay loop playsinline muted className="aga_in parko"></video>
+                        <div className="cover">
                         <div className="row for_position_main text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
@@ -69,6 +70,7 @@ function Frist_open() {
                             </div>
                           </div>
                         </div>
+                        </div>
                       </div></Link>
           {/* <Link to="/Profile_collection"><Frist_card img1={ninja} h1="KPR" h2="Floor:0,24 ETH" /></Link> */}
         </SwiperSlide>
@@ -76,6 +78,7 @@ function Frist_open() {
           {/* <Link to="/Profile_collection"><Frist_card img1={ninja1} h1="KPR" h2="Floor:0,24 ETH" /></Link> */}
           <Link to="/Profile_collection" className="text-decoration-none"><div className="uper">
                         <video src="./images/Gemesis - Drop.mp4" autoPlay loop playsinline muted className="aga_in parko"></video>
+                        <div className="cover">
                         <div className="row for_position_main text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
@@ -94,6 +97,7 @@ function Frist_open() {
                               </div>
                             </div>
                           </div>
+                        </div>
                         </div>
                       </div></Link>
         </SwiperSlide>
@@ -101,6 +105,7 @@ function Frist_open() {
           {/* <Link to="/Profile_collection"><Frist_card img1={ninja2} h1="KPR" h2="Floor:0,24 ETH" /></Link> */}
           <Link to="/Profile_collection" className="text-decoration-none"><div className="uper">
                         <video src="./images/banner.mp4" autoPlay loop playsinline muted className="aga_in parko"></video>
+                        <div className="cover">
                         <div className="row for_position_main text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
@@ -119,6 +124,7 @@ function Frist_open() {
                               </div>
                             </div>
                           </div>
+                        </div>
                         </div>
                       </div></Link>
         </SwiperSlide>
@@ -126,6 +132,7 @@ function Frist_open() {
           {/* <Link to="/Profile_collection"><Frist_card img1={ninja3} h1="KPR" h2="Floor:0,24 ETH" /></Link> */}
           <Link to="/Profile_collection" className="text-decoration-none"><div className="uper">
                         <video src="./images/Gemesis - Drop.mp4" autoPlay loop playsinline muted className="aga_in parko"></video>
+                        <div className="cover">
                         <div className="row for_position_main text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
@@ -144,6 +151,7 @@ function Frist_open() {
                               </div>
                             </div>
                           </div>
+                        </div>
                         </div>
                       </div></Link>
         </SwiperSlide>
@@ -151,6 +159,7 @@ function Frist_open() {
           {/* <Link to="/Profile_collection"><Frist_card img1={ninja4} h1="KPR" h2="Floor:0,24 ETH" /></Link> */}
           <Link to="/Profile_collection" className="text-decoration-none"><div className="uper">
                         <video src="./images/banner.mp4" autoPlay loop playsinline muted className="aga_in parko"></video>
+                        <div className="cover">
                         <div className="row for_position_main text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
@@ -169,6 +178,7 @@ function Frist_open() {
                               </div>
                             </div>
                           </div>
+                        </div>
                         </div>
                       </div></Link>
         </SwiperSlide>
@@ -176,6 +186,7 @@ function Frist_open() {
           {/* <Link to="/Profile_collection"><Frist_card img1={ninja5} h1="KPR" h2="Floor:0,24 ETH" /></Link> */}
           <Link to="/Profile_collection" className="text-decoration-none"><div className="uper">
                         <video src="./images/Gemesis - Drop.mp4" autoPlay loop playsinline muted className="aga_in parko"></video>
+                        <div className="cover">
                         <div className="row for_position_main text-white">
                           <div className="for_wrt col-lg-11 col-md-9">
                             {/* <div className="pic_first text-start"><img src={collpic} alt="" className="cool_img" /></div> */}
@@ -195,13 +206,10 @@ function Frist_open() {
                             </div>
                           </div>
                         </div>
+                        </div>
                       </div></Link>
         </SwiperSlide>
-
       </Swiper>
-      
-      
-
     </div>
 
   )
