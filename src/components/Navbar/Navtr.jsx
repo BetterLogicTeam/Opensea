@@ -6,19 +6,7 @@ import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { RiAccountCircleLine } from "react-icons/ri";
-import { MdOutlineAccountBalanceWallet } from "react-icons/md";
-import { MdOutlineShoppingCart } from "react-icons/md";
-import pic1 from "../Assets/allnfts-light.svg";
-import pic2 from "../Assets/art-light.svg";
-import pic3 from "../Assets/collectibles-light.svg";
-import pic4 from "../Assets/domain-names-light.svg";
-import Button from "react-bootstrap/Button";
-import pic5 from "../Assets/music-light.svg";
-import pic6 from "../Assets/photography-category-light.svg";
-import pic7 from "../Assets/sports-light.svg";
-import pic8 from "../Assets/trading-cards-light.svg";
-import pic9 from "../Assets/utility-light.svg";
-import pic10 from "../Assets/virtual-worlds-light.svg";
+
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { MdVisibility } from "react-icons/md";
@@ -27,7 +15,6 @@ import { MdEdit } from "react-icons/md";
 import { IoMdSettings } from "react-icons/io";
 import { MdLanguage } from "react-icons/md";
 import { FaMoon } from "react-icons/fa";
-import { RiWallet3Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Profile_modal from "../Profile_modal/Profile_modal";
 import Wallet_offcanvas from "../Wallet_offcanvas/Wallet_offcanvas";
@@ -103,10 +90,7 @@ function Navtr() {
                   </div>
 
                   <Nav className="m-0 sea_nav_search_upper">
-                    <form
-                      action="/action_page.php"
-                      className="main_ch_bar"
-                    >
+                    <form action="/action_page.php" className="main_ch_bar">
                       <div className="d-flex align-items-center">
                         <BiSearchAlt2 className="inside_serch " />
                       </div>
@@ -124,57 +108,7 @@ function Navtr() {
                   <Navbar.Collapse id="responsive-navbar-nav" className="rit ">
                     <ul className="min_ul ">
                       <div className="m-0 p-0">
-                        <div className="in_edsr colomo">
-                          {/* <li className='explr_l'>
-                    <div className="explore">
-                    <Link to="/Explore_main"> <button className="dropbtn text-dark for_bol for_inhi">Explore</button></Link>
-                    <div className="explore-content text-start">
-                      <Link to="/ALL_explore"  className='border-bottom'><span><img src={pic1} alt="" className='ffr_ppic me-3'/></span> All NFTs</Link>
-                      <Link  to="/Art_hover" className='border-bottom'><span><img src={pic2} alt="" className='ffr_ppic me-3'/></span> Art</Link>
-                      <Link to="/Colloctibles_hover"  className='border-bottom'><span><img src={pic3} alt="" className='ffr_ppic me-3'/></span>Collectibles</Link>
-                      <Link to="/Domine_hover"  className='border-bottom'><span><img src={pic4} alt="" className='ffr_ppic me-3'/></span>Domain Names</Link>
-                      <Link to="/Music_hover"  className='border-bottom'><span><img src={pic5} alt="" className='ffr_ppic me-3'/></span>Music</Link>
-                      <Link to="/Photography_hover"  className='border-bottom'><span><img src={pic6} alt="" className='ffr_ppic me-3'/></span>Photography</Link>
-                      <Link to="/Sport_hover"  className='border-bottom'><span><img src={pic7} alt="" className='ffr_ppic me-3'/></span>Sports</Link>
-                      <Link to="/Trading_hover"  className='border-bottom'><span><img src={pic8} alt="" className='ffr_ppic me-3'/></span>Tranding Cards</Link>
-                      <Link to="/Utilityhover"  className='border-bottom'><span><img src={pic9} alt="" className='ffr_ppic me-3'/></span>Utility</Link>
-                      <Link to="/Virtual_hover"><span><img src={pic10} alt="" className='ffr_ppic me-3'/></span>Virtual World</Link>
-                   </div>
-                   </div>
-                </li> */}
-
-                          {/* <li>
-                <Nav.Link href="#pricing" className=' for_bol'><Link to="/Drop" className=' text-decoration-none text-dark'> Drops</Link></Nav.Link>
-                </li> */}
-                          {/* <li>
-                 <div className="stats">
-                   <button className="stats-dropbtn text-dark for_bol">Stats</button>
-                   <div className="stats-content text-start">
-                    <a href="#" className='border-bottom'>Rankings</a>
-                    <a href="/Activity" className='border-bottom'>Activity</a>
-                   </div>
-                  </div>
-                </li> */}
-
-                          {/* <li>
-                  <div className="resource">
-                  <Link to="/resources_main_page" className='text-decoration-none'>
-                     <button className="resource-dropbtn text-dark for_bol">Resources</button>
-                     </Link>
-                    
-                      <div className="resource-content text-start">
-                    <Link to='/resource_learn_page' className='text-start tdn '>    <a href="#" className='border-bottom'>Learn</a></Link>
-                    <Link to='/r_help_center' className='tdn'>    <a href="#" className='border-bottom tdn'>Help Center</a> </Link>
-                        <a href="#" className='border-bottom'>Platform Status</a>
-                       <Link to='/R_full_partner' className='tdn'> <a href="#" className='border-bottom'>Partners</a></Link>
-                        <Link to="/R_full_tax_page" className='text-decoration-none'>    <a href="#" className='border-bottom'>Taxes</a> </Link>
-                   <Link to='/R_blog_cards_full_page'  className='text-decoration-none tdn' >    <a href="#" className='border-bottom'>Blog</a></Link>
-                <Link to='/R_docs_full_page' className='tdn'>        <a href="#" className='border-bottom'>Docs</a></Link>
-                   <Link to='/newsletter' className='tdn'>    <a href="#"  className='border-bottom'>Newsletter</a> </Link> 
-                      </div>
-                  </div>
-                </li> */}
-                        </div>
+                        <div className="in_edsr colomo"></div>
                       </div>
 
                       {/* icon list */}
@@ -208,11 +142,14 @@ function Navtr() {
                                     show={modalShow}
                                     onHide={() => setModalShow(false)}
                                   />
-                                  <Link to='mai_profile' className="text-decoration-none">
-                                  <a href="#" className="border-bottom">
-                                    <BsFillPersonFill className="oci_F fs-5 me-3" />{" "}
-                                    Profile
-                                  </a>
+                                  <Link
+                                    to="mai_profile"
+                                    className="text-decoration-none"
+                                  >
+                                    <a href="#" className="border-bottom">
+                                      <BsFillPersonFill className="oci_F fs-5 me-3" />{" "}
+                                      Profile
+                                    </a>
                                   </Link>
                                   <a href="#" className="border-bottom">
                                     <MdOutlineFavoriteBorder className="oci_F fs-5 me-3" />
@@ -222,14 +159,16 @@ function Navtr() {
                                     <MdVisibility className="oci_F fs-5 me-3" />
                                     Watch List
                                   </a>
-                                  <Link to='/collection_front_page' className="text-decoration-none"> 
-                                  <a href="#" className="border-bottom">
-                                   <BsGrid3X3 className="oci_F fs-5 me-3" />
-                                    My Collections
-                                  </a>
+                                  <Link
+                                    to="/collection_front_page"
+                                    className="text-decoration-none"
+                                  >
+                                    <a href="#" className="border-bottom">
+                                      <BsGrid3X3 className="oci_F fs-5 me-3" />
+                                      My Collections
+                                    </a>
                                   </Link>
 
-                                  {/* <a href="#" className='border-bottom'>Partners</a> */}
                                   <Link
                                     to="/main_create_page"
                                     className="text-decoration-none tdn"
@@ -262,17 +201,6 @@ function Navtr() {
                               </div>
                             </li>
                           </div>
-
-                          {/* <div className='vilt'>
-                  <li>
-                    <div>
-                    <>                  {[ 'end' ].map((placement, idx) => (
-        <Wallet_ofcanvas_nav key={idx} placement={placement} name={placement} />
-      ))}</>
-   
-                    </div>
-                  </li>
-                </div> */}
 
                           <div className="cart d-flex align-items-center ms-4">
                             <li>

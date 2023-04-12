@@ -76,7 +76,6 @@ function Setting_page() {
                         Bio
                       </label>{" "}
                       <br />
-                      {/* <input type="text" id='username' className='seeting_right_input' /> */}
                       <textarea
                         name=""
                         id="bio"
@@ -163,7 +162,6 @@ function Setting_page() {
                   <div className="col-md-4">
                     <div className="d-flex align-items-center">
                       <h3 className="fs-5 fw-bold me-3">Profile Image</h3>
-                      {/* <AiFillInfoCircle></AiFillInfoCircle> */}
                       <div className="kakakaka me-2">
                   <span className="sdsdsds    ">
                   Recommanded 350px x 350px <br />

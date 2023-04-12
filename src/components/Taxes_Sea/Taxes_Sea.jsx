@@ -8,8 +8,7 @@ function Taxes_Sea() {
   return (
     <div className='piko text-center '>
         
-        {/* background-image: url(./Assets/background_img.png); */}
-        {/* background-image: url(../Asse) */}
+        
         <img src={logoo} alt=" oppo" className=' my-5 both' />
 
 <h1 className='mb-5'> <b>NFT taxes, simplified.</b> </h1>

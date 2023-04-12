@@ -5,7 +5,6 @@ import wl6 from "../Assets/wl6.png"
 import wl7 from "../Assets/wl7.png"
 import R_main_play from '../R_main_play/R_main_play'
 import { Swiper, SwiperSlide } from "swiper/react";
-// import React, { useRef, useState } from "react";
 import "swiper/css";
 import {Navigation} from "swiper";
 import "swiper/css/navigation";

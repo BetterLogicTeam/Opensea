@@ -49,7 +49,3 @@ function R_docs_img() {
 export default R_docs_img
 
 
-
-// <a href="https://wallet.coinbase.com" target="_blank">
-// 				<img src="https://files.readme.io/2cfa1ad-wallet-logomark.png" alt="best cryptomarketplace trusted by coinbase" />
-// 			</a>

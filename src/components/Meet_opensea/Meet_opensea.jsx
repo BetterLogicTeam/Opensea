@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Meet_opensea.css"
-import r_vido from "../Assets/r_vido.mp4"
 
 function Meet_opensea() {
   return (

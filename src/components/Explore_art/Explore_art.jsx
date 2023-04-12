@@ -1,5 +1,4 @@
 import React from "react";
-import back_art from "../Assets/art_back.avif";
 import "./Explore_art.css"
 import goof1 from "../Assets/wilde.avif";
 import goof2 from "../Assets/wilde_small.avif";

@@ -12,9 +12,6 @@ import Team from './Team';
 import gain from "../Assets/gianpiero-1.avif"
 import FAQ from "../Next_dg/FAQ"
 import Minnt from './Minnt';
-import collpic from "../Assets/collection-logo.avif"
-import { MdVerified } from 'react-icons/md';
-import { AiOutlineBell } from 'react-icons/ai';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;

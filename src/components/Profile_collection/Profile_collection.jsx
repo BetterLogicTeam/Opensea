@@ -584,5 +584,4 @@ function Profile_collection() {
 
 export default Profile_collection;
 
-// immerse yourself in the 📸 and let magic happen
-// it‘s inspiring and fascinating at the same time ✨
+  

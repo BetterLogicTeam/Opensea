@@ -352,7 +352,6 @@
 .account_mark {
   font-size: 50px;
   color: black;
-  /* border-left: 2px solid rgb(159, 158, 158); */
 }
 
 .cwallt {
@@ -507,9 +506,7 @@
   }
 
   .offcanvas_header_btn {
-    /* background-color: transparent !important; */
-    /* outline: none !important; */
-    /* border: none !important; */
+   
     padding: 0px !important;
   }
 

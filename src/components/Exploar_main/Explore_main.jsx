@@ -23,7 +23,6 @@ import goof14 from "../Assets/rext_small.avif"
 import Top_explore from '../Top_explore/Top_explore';
 import Art_explore from '../Art_explore/Art_explore';
 import Collectibles_explore from '../Collectibles_explore/Collectibles_explore';
-import Domain_explore from '../Domain_explore/Domain_explore';
 import Music_explore from '../Music_explore/Music_explore';
 import Photography_explore from '../Photography_explore/Photography_explore';
 import Sports_explore from '../Sports_explore/Sports_explore';

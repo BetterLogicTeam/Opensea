@@ -6,7 +6,6 @@ import "swiper/css";
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 
-import Frist_card from "../Frist_card/Frist_card";
 import ninja from "../Assets/ninja.avif";
 import ninja1 from "../Assets/da4525d7-9eb6-4e0b-9056-09aea4d1a33d.avif";
 import ninja2 from "../Assets/riDbUm07GjqPcnK3Ll7r7y4b6lHNNQS4AHtghn46WXmic0JnOG87XgaUWkTmb1iYS80oyaYfx6kDSCGd62wXH7Lp2REIwfeekwYVtWA.avif";

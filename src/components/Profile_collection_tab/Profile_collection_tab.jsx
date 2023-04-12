@@ -4,25 +4,9 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { IoFilterSharp } from 'react-icons/io5';
-import { HiOutlineSearch } from 'react-icons/hi';
-import { IoIosArrowDown } from 'react-icons/io';
-import { MdFormatListBulleted } from 'react-icons/md';
-import { MdGridOn } from 'react-icons/md';
-import { BsGrid1X2 } from 'react-icons/bs';
-import { RxViewGrid } from 'react-icons/rx';
-import Accordion from 'react-bootstrap/Accordion';
-import Checkbox from '@mui/material/Checkbox';
-import { Link } from 'react-router-dom';
-import Profile_collection_card from '../Profile_collection_card/Profile_collection_card';
+
 import "./Profile_collection_tab.css";
-import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import Dropdown from 'react-bootstrap/Dropdown';
-import { Radio } from '@mui/material';
-import Profile_collection_tab_mob from '../Profile_collection_tab_mob/Profile_collection_tab_mob';
 import Profile_collection_tab_item_data from '../Profile_collection_tab_item_data/Profile_collection_tab_item_data';
-// import Drawer_profile_collection from './components/Drawer_profile_collection/Drawer_profile_collection';
 import Drawer_profile_collection from "../Drawer_profile_collection/Drawer_profile_collection"
 import Profile_nft_activity from "../Profile_nft_activity/Profile_nft_activity"
 import Profile_nft_analytics from "../Profile_nft_analytics/Profile_nft_analytics"

@@ -1,12 +1,7 @@
 import React from 'react'
 import R_main_play from '../R_main_play/R_main_play'
-import R_nft1 from "../Assets/R_nft1.png"
-import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
-import { CardActionArea } from '@mui/material';
-import card from "../Assets/card.png"
+
 import { Swiper, SwiperSlide } from "swiper/react";
-// import React, { useRef, useState } from "react";
 import "swiper/css";
 import {Navigation} from "swiper";
 import "swiper/css/navigation";

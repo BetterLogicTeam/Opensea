@@ -7,7 +7,6 @@ import R_insities from '../R_insites/R_insities'
 import R_nft_card from '../R_nft_card/R_nft_card'
 import R_watch from '../R_watch/R_watch'
 import R_web3 from '../R_web3/R_web3'
-import Frist_open from '../Frist_open/Frist_open'
 
 
 function Resource_full_page() {

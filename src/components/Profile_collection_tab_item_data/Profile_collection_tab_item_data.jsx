@@ -1,7 +1,6 @@
 import React from 'react';
 import { IoFilterSharp } from 'react-icons/io5';
 import { HiOutlineSearch } from 'react-icons/hi';
-import { IoIosArrowDown } from 'react-icons/io';
 import { MdFormatListBulleted } from 'react-icons/md';
 import { MdGridOn } from 'react-icons/md';
 import { BsGrid1X2 } from 'react-icons/bs';
@@ -10,8 +9,6 @@ import Accordion from 'react-bootstrap/Accordion';
 import Checkbox from '@mui/material/Checkbox';
 import { Link } from 'react-router-dom';
 import Profile_collection_card from '../Profile_collection_card/Profile_collection_card';
-import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Radio } from '@mui/material';
 import Profile_collection_tab_mob from '../Profile_collection_tab_mob/Profile_collection_tab_mob';
@@ -77,23 +74,7 @@ function Profile_collection_tab_item_data() {
                                                             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                                                         </Dropdown.Menu>
                                                     </Dropdown>
-                                                    {/* <Accordion className="sc-37393a8-0 bfXCzr sc-9a485e76-0 ggtkBP sc-a3ec9f15-2 dVaSwQ">
-                                                        <Accordion.Item eventKey="0">
-                                                            <Accordion.Header className="acuure">Price low to high</Accordion.Header>
-                                                            <Accordion.Body className="acuure_bddy">
-                                                                <ul>
-                                                                    <li>Recently listed</li>
-                                                                    <li>Recently created</li>
-                                                                    <li>Recently sold</li>
-                                                                    <li>Highest last sale </li>
-                                                                    <li>Ending soon </li>
-                                                                </ul>
-                                                            </Accordion.Body>
-                                                        </Accordion.Item>
-                                                    </Accordion> */}
-                                                    {/* <div className="sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 kQKAhB jSPhMX kKyBpy fYgjHJ"> */}
-                                                    {/* <i aria-label="Show more" color="gray" cursor="pointer" value="keyboard_arrow_down" size="24" className="sc-a143597d-0 dYnUi material-icons"><IoIosArrowDown /></i> */}
-                                                    {/* </div> */}
+                                                    
                                                 </div>
                                             </div>
                                             <div className="fresnel-container fresnel-lessThan-lg ">

@@ -4,14 +4,10 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-// import Table_col from '../Table_col/Table_col';
 import Icon_bar_respon from '../Icon_bar_respon/Icon_bar_respon';
 import Icon_bar from '../Icon_bar/Icon_bar'
 import { RiArrowDropDownLine } from 'react-icons/ri';
-// import Responsive_table from '../Responsive_table/Responsive_table';
-// import "./Tab.css"
-// import Top_table from '../Top_table/Top_table';
-// import Resposive_table_top from '../Resposive_table_top/Resposive_table_top';
+
 import Veiw_all from '../Veiw_all/Veiw_all';
 import Veiw_card_res from '../Veiw_card_res/Veiw_card_res';
 import "./View_tab.css"

@@ -1,7 +1,6 @@
 import React from 'react'
 import web3 from "../Assets/web3.png"
 import { Swiper, SwiperSlide } from "swiper/react";
-// import React, { useRef, useState } from "react";
 import "swiper/css";
 import {Navigation} from "swiper";
 import "swiper/css/navigation";

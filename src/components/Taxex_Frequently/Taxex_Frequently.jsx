@@ -13,9 +13,7 @@ function Taxex_Frequently() {
             <div className="col-md-9 col-sm-10">
 
    <h1 className='mb-5 text-center'><b>Frequently asked questions</b></h1>      
-{/* <p className='my-5'>For more FAQs visit our partnership page in ourhelp center
 
-<a class="px-2 none" href="" rel="" target="">help center</a> </p>  */}
 
       <Accordion>
         <AccordionSummary

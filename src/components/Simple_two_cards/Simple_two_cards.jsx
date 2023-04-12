@@ -2,15 +2,11 @@ import React from 'react'
 import "./stylelish.css"
 import Boxtow from "../simple_tow/Boxtow"
 import art from "../Assets/art.png"
-// import art from "../Assets/art.png"
 import art2 from "../Assets/music.png"
 import art3 from "../Assets/trading-cards.png"
 import art4 from "../Assets/collectibles.png"
 import art5 from "../Assets/photography-category.png"
-import art6 from "../Assets/utility.png"
-import art7 from "../Assets/domain-names.png"
-import art8 from "../Assets/sports.png"
-import art9 from "../Assets/virtual-worlds.png"
+
 function Simple_two_cards() {
   return (
     

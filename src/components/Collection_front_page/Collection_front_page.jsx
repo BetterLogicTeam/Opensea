@@ -2,7 +2,6 @@ import React from 'react'
 import "./Collection_front_page.css"
 import Updated_card from '../Updated_card/Updated_card'
 import tct1 from "../Assets/tct1.avif";
-import tct2 from "../Assets/tct2.avif"; 
 
 export default function Collection_front_page() {
   return (
